@@ -1,0 +1,1339 @@
+row_id,og_id,car_brand,car_name,engine,total_speed_kmh,fuel_type,cc_capacity,kwh_capacity,_idx,price_min,price_max,horsepower_min,horsepower_max,torque_nm_min,torque_nm_max,0_100_kmh_performance_secs_min,0_100_kmh_performance_secs_max,seats_min,seats_max,region,country,price_tier
+0-0,0,Ferrari,SF90 STRADALE,v8,340,hybrid,3990.0,,0,1100000.0,1100000.0,963.0,963.0,800.0,800.0,2.5,2.5,2,2,Europe,Italy,Supercar
+1-0,1,Rolls Royce,PHANTOM,V12,250,petrol,6749.0,,0,460000.0,460000.0,563.0,563.0,900.0,900.0,5.3,5.3,5,5,Europe,United Kingdom,Supercar
+2-0,2,Ford,KA+,1.2L Petrol,165,petrol,1200.0,,0,-15000.0,12000.0,70.0,70.0,100.0,100.0,10.5,10.5,5,5,North America,United States,Budget
+2-1,2,Ford,KA+,1.2L Petrol,165,petrol,1200.0,,1,-15000.0,12000.0,85.0,85.0,140.0,140.0,10.5,10.5,5,5,North America,United States,Budget
+3-0,3,Mercedes, GT 63 S,v8,250,petrol,3982.0,,0,161000.0,161000.0,630.0,630.0,900.0,900.0,3.2,3.2,4,4,Europe,Germany,Luxury
+4-0,4,Audi,AUDI R8 Gt,V10,320,petrol,5204.0,,0,253290.0,253290.0,602.0,602.0,560.0,560.0,3.6,3.6,2,2,Europe,Germany,Supercar
+5-0,5,Bmw,Mclaren 720s,v8,341,petrol,3994.0,,0,499000.0,499000.0,710.0,710.0,770.0,770.0,2.9,2.9,2,2,Europe,Germany,Supercar
+6-0,6,Aston Martin,VANTAGE F1,v8,314,petrol,3982.0,,0,193440.0,193440.0,656.0,656.0,685.0,685.0,3.6,3.6,2,2,Europe,United Kingdom,Luxury
+7-0,7,Bentley,Continental GT Azure,v8,318,petrol,3996.0,,0,311000.0,311000.0,550.0,550.0,900.0,900.0,4.0,4.0,4,4,Europe,United Kingdom,Supercar
+8-0,8,Lamborghini,VENENO ROADSTER,V12,356,petrol,6498.0,,0,4500000.0,4500000.0,750.0,750.0,690.0,690.0,2.9,2.9,2,2,Europe,Italy,Supercar
+9-0,9,Ferrari,F8 TRIBUTO,v8,340,petrol,3900.0,,0,280000.0,280000.0,710.0,710.0,770.0,770.0,2.9,2.9,2,2,Europe,Italy,Supercar
+10-0,10,Ferrari,812 GTS,V12,340,petrol,6496.0,,0,350000.0,350000.0,789.0,789.0,718.0,718.0,2.9,2.9,2,2,Europe,Italy,Supercar
+11-0,11,Ferrari,PORTOFINO,v8,320,petrol,3900.0,,0,210000.0,210000.0,592.0,592.0,760.0,760.0,3.2,3.2,4,4,Europe,Italy,Luxury
+12-0,12,Ferrari,ROMA,v8,320,petrol,3900.0,,0,230000.0,230000.0,612.0,612.0,760.0,760.0,3.4,3.4,4,4,Europe,Italy,Luxury
+13-0,13,Ferrari,MONZA SP2,V12,340,petrol,6496.0,,0,1700000.0,1700000.0,789.0,789.0,719.0,719.0,2.9,2.9,2,2,Europe,Italy,Supercar
+14-0,14,Ferrari,F8 SPIDER,v8,340,petrol,3900.0,,0,280000.0,280000.0,710.0,710.0,770.0,770.0,2.9,2.9,2,2,Europe,Italy,Supercar
+15-0,15,Ferrari,PORTOFINO M,v8,320,petrol,3900.0,,0,220000.0,220000.0,612.0,612.0,760.0,760.0,3.2,3.2,4,4,Europe,Italy,Luxury
+16-0,16,Ferrari,ROMA SPIDER,v8,320,petrol,3900.0,,0,240000.0,240000.0,612.0,612.0,760.0,760.0,3.4,3.4,4,4,Europe,Italy,Luxury
+17-0,17,Toyota,GR SUPRA,i4,250,petrol,2998.0,,0,53900.0,53900.0,382.0,382.0,500.0,500.0,4.1,4.1,2,2,Asia,Japan,Premium
+18-0,18,Toyota,TOYOTA 86,BOXER-4,226,petrol,1998.0,,0,27000.0,27000.0,205.0,205.0,205.0,205.0,6.4,6.4,4,4,Asia,Japan,Midrange
+19-0,19,Toyota,TOYOTA  GR86,BOXER-4,226,petrol,2387.0,,0,30000.0,30000.0,228.0,228.0,250.0,250.0,5.6,5.6,4,4,Asia,Japan,Midrange
+20-0,20,Toyota,TOYOTA LAND CRUISER,v8,220,diesel,5663.0,,0,85000.0,85000.0,381.0,381.0,500.0,500.0,6.7,6.7,7,7,Asia,Japan,Premium
+21-0,21,Toyota,TOYOTA SEQUOIA,v8,200,petrol,5663.0,,0,50000.0,50000.0,381.0,381.0,651.0,651.0,6.9,6.9,7,7,Asia,Japan,Midrange
+22-0,22,Nissan,GT-R,v6,315,petrol,3799.0,,0,113000.0,113000.0,600.0,600.0,637.0,637.0,2.9,2.9,4,4,Asia,Japan,Luxury
+23-0,23,Nissan,370Z,v6,250,petrol,3696.0,,0,30000.0,30000.0,332.0,332.0,366.0,366.0,4.7,4.7,2,2,Asia,Japan,Midrange
+24-0,24,Nissan,Z PROTO,v6,290,petrol,2998.0,,0,40000.0,40000.0,400.0,400.0,475.0,475.0,4.1,4.1,2,2,Asia,Japan,Midrange
+25-0,25,Nissan,ALTIMA,i4,225,petrol,2488.0,,0,25000.0,25000.0,188.0,188.0,380.0,380.0,7.3,7.3,5,5,Asia,Japan,Budget
+26-0,26,Nissan,MAXIMA,v6,240,petrol,3498.0,,0,35000.0,35000.0,300.0,300.0,354.0,354.0,5.8,5.8,5,5,Asia,Japan,Midrange
+27-0,27,Nissan,SENTRA,i4,200,petrol,1998.0,,0,20000.0,20000.0,149.0,149.0,240.0,240.0,8.2,8.2,5,5,Asia,Japan,Budget
+28-0,28,Nissan,ROGUE,i4,200,petrol,2488.0,,0,28000.0,28000.0,201.0,201.0,270.0,270.0,7.5,7.5,5,5,Asia,Japan,Midrange
+29-0,29,Nissan,PATHFINDER,v6,225,petrol,3498.0,,0,35000.0,35000.0,284.0,284.0,351.0,351.0,6.5,6.5,7,7,Asia,Japan,Midrange
+30-0,30,Nissan,FRONTIER,v6,180,petrol,3799.0,,0,30000.0,30000.0,310.0,310.0,381.0,381.0,6.8,6.8,5,5,Asia,Japan,Midrange
+31-0,31,Nissan,TITAN,v8,200,petrol,5598.0,,0,40000.0,40000.0,400.0,400.0,560.0,560.0,5.9,5.9,5,5,Asia,Japan,Midrange
+32-0,32,Aston Martin,VALKYRIE,V12,402,hybrid,6496.0,,0,3200000.0,3200000.0,1160.0,1160.0,900.0,900.0,2.5,2.5,2,2,Europe,United Kingdom,Supercar
+33-0,33,Aston Martin,VALHALLA,v8,362,hybrid,3996.0,,0,1100000.0,1100000.0,1000.0,1000.0,1000.0,1000.0,2.5,2.5,2,2,Europe,United Kingdom,Supercar
+34-0,34,Aston Martin,DBS SUPERLEGGERA,V12,340,petrol,5204.0,,0,316000.0,316000.0,715.0,715.0,900.0,900.0,3.4,3.4,2,2,Europe,United Kingdom,Supercar
+35-0,35,Aston Martin,DB11,V12,322,petrol,5204.0,,0,208000.0,208000.0,600.0,600.0,700.0,700.0,3.9,3.9,4,4,Europe,United Kingdom,Luxury
+36-0,36,Aston Martin,VANTAGE ,v8,313,petrol,3996.0,,0,142000.0,142000.0,503.0,503.0,685.0,685.0,3.6,3.6,2,2,Europe,United Kingdom,Luxury
+37-0,37,Aston Martin,DBX,v8,291,petrol,3996.0,,0,189000.0,189000.0,542.0,542.0,700.0,700.0,4.5,4.5,5,5,Europe,United Kingdom,Luxury
+38-0,38,Aston Martin,RAPIDE AMR,V12,328,petrol,5935.0,,0,240000.0,240000.0,580.0,580.0,630.0,630.0,4.2,4.2,4,4,Europe,United Kingdom,Luxury
+39-0,39,Aston Martin,VANQUISH,V12,324,petrol,5935.0,,0,294000.0,294000.0,580.0,580.0,630.0,630.0,3.6,3.6,2,2,Europe,United Kingdom,Supercar
+40-0,40,Aston Martin,LAGONDA TARAF,V12,314,petrol,5935.0,,0,1100000.0,1100000.0,540.0,540.0,630.0,630.0,4.2,4.2,4,4,Europe,United Kingdom,Supercar
+41-0,41,Aston Martin,VICTOR,V12,320,petrol,5204.0,,0,1300000.0,1300000.0,836.0,836.0,821.0,821.0,2.8,2.8,2,2,Europe,United Kingdom,Supercar
+42-0,42,Lamborghini,SIAN,V12,350,hybrid,6498.0,,0,2800000.0,2800000.0,819.0,819.0,720.0,720.0,2.8,2.8,2,2,Europe,Italy,Supercar
+43-0,43,Lamborghini,AVENTADOR SVJ,V12,350,petrol,6498.0,,0,518000.0,518000.0,759.0,759.0,720.0,720.0,2.8,2.8,2,2,Europe,Italy,Supercar
+44-0,44,Lamborghini,HURACAN PERFORMANTE,V10,325,petrol,5204.0,,0,274000.0,274000.0,640.0,640.0,600.0,600.0,2.9,2.9,2,2,Europe,Italy,Supercar
+45-0,45,Lamborghini,HURACAN EVO,V10,325,petrol,5204.0,,0,261000.0,261000.0,640.0,640.0,600.0,600.0,2.9,2.9,2,2,Europe,Italy,Supercar
+46-0,46,Lamborghini,AVENTADOR SV,V12,350,petrol,6498.0,,0,493000.0,493000.0,740.0,740.0,690.0,690.0,2.8,2.8,2,2,Europe,Italy,Supercar
+47-0,47,Lamborghini,URUS ,v8,305,petrol,3996.0,,0,211000.0,211000.0,641.0,641.0,850.0,850.0,3.6,3.6,5,5,Europe,Italy,Luxury
+48-0,48,Lamborghini,HURACAN SPYDER,V10,325,petrol,5204.0,,0,287000.0,287000.0,610.0,610.0,600.0,600.0,3.4,3.4,2,2,Europe,Italy,Supercar
+49-0,49,Lamborghini,AVENTADOR ROADSTER,V12,350,petrol,6498.0,,0,445000.0,445000.0,700.0,700.0,690.0,690.0,3.0,3.0,2,2,Europe,Italy,Supercar
+50-0,50,Lamborghini,HURACAN  PERFORMANTE SPYDER,V10,325,petrol,5204.0,,0,308000.0,308000.0,640.0,640.0,600.0,600.0,3.1,3.1,2,2,Europe,Italy,Supercar
+51-0,51,Lamborghini,AVENTADOR S,V12,350,petrol,6498.0,,0,421000.0,421000.0,740.0,740.0,690.0,690.0,2.9,2.9,2,2,Europe,Italy,Supercar
+52-0,52,Lamborghini,HURACAN EVO SPYDER,V10,325,petrol,5204.0,,0,287000.0,287000.0,640.0,640.0,600.0,600.0,3.1,3.1,2,2,Europe,Italy,Supercar
+53-0,53,Lamborghini,URUS PERFORMANTE,v8,305,petrol,3996.0,,0,242000.0,242000.0,641.0,641.0,850.0,850.0,3.3,3.3,5,5,Europe,Italy,Luxury
+54-0,54,Lamborghini,AVENTADOR ULTIMAE,V12,355,petrol,6498.0,,0,545000.0,545000.0,769.0,769.0,720.0,720.0,2.8,2.8,2,2,Europe,Italy,Supercar
+55-0,55,Lamborghini,HURACAN EVO RWD,V10,325,petrol,5204.0,,0,258000.0,258000.0,610.0,610.0,560.0,560.0,3.3,3.3,2,2,Europe,Italy,Supercar
+56-0,56,Lamborghini,AVENTADOR SVJ ROADSTER,V12,350,petrol,6498.0,,0,573000.0,573000.0,759.0,759.0,720.0,720.0,2.9,2.9,2,2,Europe,Italy,Supercar
+57-0,57,Lamborghini,URUS S,v8,305,petrol,3996.0,,0,263000.0,263000.0,671.0,671.0,850.0,850.0,3.3,3.3,5,5,Europe,Italy,Supercar
+58-0,58,Lamborghini,HURACAN STO,V10,325,petrol,5204.0,,0,327000.0,327000.0,640.0,640.0,565.0,565.0,3.0,3.0,2,2,Europe,Italy,Supercar
+59-0,59,Lamborghini,AVENTADOR LP 780-4 ULTIMATE,V12,355,petrol,6498.0,,0,545000.0,545000.0,769.0,769.0,720.0,720.0,2.8,2.8,2,2,Europe,Italy,Supercar
+60-0,60,Lamborghini,HURACAN EVO RWD SPYDER,V10,325,petrol,5204.0,,0,273000.0,273000.0,610.0,610.0,600.0,600.0,3.3,3.3,2,2,Europe,Italy,Supercar
+61-0,61,Lamborghini,AVENTADOR SVJ XAGO,V12,350,petrol,6498.0,,0,603000.0,603000.0,759.0,759.0,720.0,720.0,2.9,2.9,2,2,Europe,Italy,Supercar
+62-0,62,Lamborghini,URUS GRAPHITE CAPSULE,v8,305,petrol,3998.0,,0,253000.0,253000.0,641.0,641.0,850.0,850.0,3.3,3.3,5,5,Europe,Italy,Supercar
+63-0,63,Lamborghini,HURACAN STO EVO,V10,325,petrol,5204.0,,0,342000.0,342000.0,640.0,640.0,565.0,565.0,3.0,3.0,2,2,Europe,Italy,Supercar
+64-0,64,Lamborghini,AVENTADOR LP 780-4 ULTIMATE ROADSTER,V12,355,petrol,6498.0,,0,573000.0,573000.0,769.0,769.0,720.0,720.0,2.8,2.8,2,2,Europe,Italy,Supercar
+65-0,65,Rolls Royce,GHOST,V12,250,petrol,6592.0,,0,332000.0,332000.0,591.0,591.0,850.0,850.0,4.8,4.8,5,5,Europe,United Kingdom,Supercar
+66-0,66,Rolls Royce,WRAITH,V12,250,petrol,6592.0,,0,330000.0,330000.0,624.0,624.0,870.0,870.0,4.4,4.4,4,4,Europe,United Kingdom,Supercar
+67-0,67,Rolls Royce,DAWN,V12,250,petrol,6592.0,,0,360000.0,360000.0,624.0,624.0,870.0,870.0,4.9,4.9,4,4,Europe,United Kingdom,Supercar
+68-0,68,Rolls Royce,CULLINAN,V12,250,petrol,6749.0,,0,325000.0,325000.0,563.0,563.0,850.0,850.0,5.2,5.2,5,5,Europe,United Kingdom,Supercar
+69-0,69,Rolls Royce,PHANTOM EXTENDED,V12,250,petrol,6749.0,,0,500000.0,500000.0,563.0,563.0,900.0,900.0,5.3,5.3,5,5,Europe,United Kingdom,Supercar
+70-0,70,Rolls Royce,GHOST EXTENDED,V12,250,petrol,6592.0,,0,370000.0,370000.0,591.0,591.0,850.0,850.0,4.8,4.8,5,5,Europe,United Kingdom,Supercar
+71-0,71,Rolls Royce,WRAITH BLACK BADGE,V12,250,petrol,6592.0,,0,360000.0,360000.0,624.0,624.0,870.0,870.0,4.3,4.3,4,4,Europe,United Kingdom,Supercar
+72-0,72,Rolls Royce,DAWN BLACK BADGE,V12,250,petrol,6592.0,,0,390000.0,390000.0,624.0,624.0,870.0,870.0,4.8,4.8,4,4,Europe,United Kingdom,Supercar
+73-0,73,Rolls Royce,CULLINAN BLACK BADGE,V12,250,petrol,6749.0,,0,350000.0,350000.0,563.0,563.0,850.0,850.0,5.1,5.1,5,5,Europe,United Kingdom,Supercar
+74-0,74,Rolls Royce,PHANTOM COUPE,V12,250,petrol,6749.0,,0,450000.0,450000.0,563.0,563.0,870.0,870.0,5.3,5.3,4,4,Europe,United Kingdom,Supercar
+75-0,75,Rolls Royce,GHOST COUPE,V12,250,petrol,6592.0,,0,340000.0,340000.0,591.0,591.0,850.0,850.0,4.8,4.8,4,4,Europe,United Kingdom,Supercar
+76-0,76,Rolls Royce,WRAITH COUPE,V12,250,petrol,6592.0,,0,330000.0,330000.0,624.0,624.0,870.0,870.0,4.4,4.4,4,4,Europe,United Kingdom,Supercar
+77-0,77,Rolls Royce,DAWN CONVERTIBLE,V12,250,petrol,6592.0,,0,380000.0,380000.0,624.0,624.0,870.0,870.0,4.9,4.9,4,4,Europe,United Kingdom,Supercar
+78-0,78,Rolls Royce,CULLINAN SUV,V12,250,petrol,6749.0,,0,320000.0,320000.0,563.0,563.0,850.0,850.0,5.2,5.2,5,5,Europe,United Kingdom,Supercar
+79-0,79,Mercedes,BENZ S-CLASS S 580,v8,250,petrol,3982.0,,0,116000.0,116000.0,496.0,496.0,700.0,700.0,4.4,4.4,5,5,Europe,Germany,Luxury
+80-0,80,Mercedes,BENZ E-CLASS E 63 S,v8,250,petrol,3982.0,,0,104000.0,104000.0,603.0,603.0,850.0,850.0,3.4,3.4,5,5,Europe,Germany,Luxury
+81-0,81,Mercedes,BENZ CLA 45 AMG,i4,250,petrol,1991.0,,0,53000.0,53000.0,382.0,382.0,500.0,500.0,4.1,4.1,5,5,Europe,Germany,Premium
+82-0,82,Mercedes,BENZ GLE 63 S,v8,250,petrol,3982.0,,0,113000.0,113000.0,603.0,603.0,850.0,850.0,4.2,4.2,5,5,Europe,Germany,Luxury
+83-0,83,Mercedes,BENZ S-CLASS S 500,v6,250,petrol,2996.0,,0,109000.0,109000.0,429.0,429.0,700.0,700.0,4.9,4.9,5,5,Europe,Germany,Luxury
+84-0,84,Mercedes,BENZ E-CLASS E 450 ,v6,250,petrol,2996.0,,0,62000.0,62000.0,362.0,362.0,500.0,500.0,5.2,5.2,5,5,Europe,Germany,Premium
+85-0,85,Mercedes,BENZ CLS 450,v6,250,petrol,2996.0,,0,70000.0,70000.0,362.0,362.0,500.0,500.0,5.2,5.2,5,5,Europe,Germany,Premium
+86-0,86,Mercedes,BENZ GT 53,v6,250,petrol,2996.0,,0,99000.0,99000.0,429.0,429.0,700.0,700.0,4.5,4.5,5,5,Europe,Germany,Premium
+87-0,87,Mercedes,BENZ GLE 450,v6,250,petrol,2996.0,,0,63000.0,63000.0,362.0,362.0,500.0,500.0,5.5,5.5,5,5,Europe,Germany,Premium
+88-0,88,Mercedes,BENZ A-CLASS A 45 S,i4,250,petrol,1991.0,,0,53000.0,53000.0,416.0,416.0,500.0,500.0,3.9,3.9,5,5,Europe,Germany,Premium
+89-0,89,Mercedes,BENZ C-CLASS C 43,v6,250,petrol,2996.0,,0,52000.0,52000.0,402.0,402.0,520.0,520.0,4.7,4.7,5,5,Europe,Germany,Premium
+90-0,90,Mercedes,BENZ E-CLASS E 350,i4,250,petrol,1991.0,,0,49000.0,49000.0,255.0,255.0,500.0,500.0,5.7,5.7,5,5,Europe,Germany,Midrange
+91-0,91,Mercedes,BENZ GLE 350 ,i4,250,petrol,1991.0,,0,53000.0,53000.0,255.0,255.0,500.0,500.0,6.1,6.1,5,5,Europe,Germany,Premium
+92-0,92,Mercedes,BENZ GLC 43,v6,250,petrol,2996.0,,0,54000.0,54000.0,402.0,402.0,520.0,520.0,4.7,4.7,5,5,Europe,Germany,Premium
+93-0,93,Mercedes,BENZ GLA 45,i4,250,petrol,1991.0,,0,48000.0,48000.0,382.0,382.0,500.0,500.0,4.3,4.3,5,5,Europe,Germany,Midrange
+94-0,94,Mercedes,BENZ GLC 350 ,i4,250,petrol,1991.0,,0,46000.0,46000.0,255.0,255.0,500.0,500.0,6.1,6.1,5,5,Europe,Germany,Midrange
+95-0,95,Mercedes,BENZ GLE 53,v6,250,petrol,2996.0,,0,71000.0,71000.0,429.0,429.0,620.0,620.0,5.2,5.2,5,5,Europe,Germany,Premium
+96-0,96,Mercedes,BENZ S-CLASS S 350,i4,250,petrol,1991.0,,0,90000.0,90000.0,255.0,255.0,500.0,500.0,6.5,6.5,5,5,Europe,Germany,Premium
+98-0,98,Mercedes,BENZ MAYBACH S 680,V12,250,petrol,5980.0,,0,200000.0,200000.0,630.0,630.0,1000.0,1000.0,4.7,4.7,5,5,Europe,Germany,Luxury
+99-0,99,Bmw,M5 CS,v8,305,petrol,4395.0,,0,142000.0,142000.0,627.0,627.0,750.0,750.0,3.0,3.0,5,5,Europe,Germany,Luxury
+100-0,100,Bmw,M4 GTS,i6,305,petrol,2993.0,,0,133000.0,133000.0,493.0,493.0,600.0,600.0,3.7,3.7,4,4,Europe,Germany,Luxury
+101-0,101,Bmw,M3 COMPETITION,i6,285,petrol,2993.0,,0,76000.0,76000.0,503.0,503.0,650.0,650.0,3.5,3.5,5,5,Europe,Germany,Premium
+102-0,102,Bmw,M2 CS,i6,280,petrol,2993.0,,0,83000.0,83000.0,444.0,444.0,550.0,550.0,4.0,4.0,4,4,Europe,Germany,Premium
+103-0,103,Bmw,X5 M COMPETITION,v8,285,petrol,4935.0,,0,114000.0,114000.0,523.0,523.0,750.0,750.0,4.1,4.1,5,5,Europe,Germany,Luxury
+104-0,104,Bmw,X3 M COMPETITION,i6,285,petrol,2993.0,,0,69000.0,69000.0,503.0,503.0,650.0,650.0,4.1,4.1,5,5,Europe,Germany,Premium
+105-0,105,Bmw,M8 GRAN COUPE,v8,305,petrol,4395.0,,0,146000.0,146000.0,523.0,523.0,750.0,750.0,3.3,3.3,5,5,Europe,Germany,Luxury
+106-0,106,Bmw,M850i DRIVE COUPE,v8,285,petrol,4935.0,,0,108000.0,108000.0,523.0,523.0,750.0,750.0,3.7,3.7,4,4,Europe,Germany,Luxury
+107-0,107,Rolls Royce,DAWN BLACK BADGE VOLANTE,V12,250,petrol,6592.0,,0,398000.0,398000.0,563.0,563.0,840.0,840.0,4.8,4.8,4,4,Europe,United Kingdom,Supercar
+108-0,108,Rolls Royce,CULLINAN BLACK BADGE SUV,V12,250,petrol,6749.0,,0,381000.0,381000.0,563.0,563.0,850.0,850.0,5.1,5.1,5,5,Europe,United Kingdom,Supercar
+109-0,109,Rolls Royce,PHATOM TRANQUILITY,V12,250,petrol,6749.0,,0,475000.0,475000.0,563.0,563.0,900.0,900.0,5.3,5.3,5,5,Europe,United Kingdom,Supercar
+110-0,110,Rolls Royce,GHOST ZENITH,V12,250,petrol,6749.0,,0,335000.0,335000.0,563.0,563.0,900.0,900.0,4.9,4.9,5,5,Europe,United Kingdom,Supercar
+111-0,111,Rolls Royce,WRAITH EAGLE VIII,V12,250,petrol,6592.0,,0,349000.0,349000.0,623.0,623.0,800.0,800.0,4.5,4.5,4,4,Europe,United Kingdom,Supercar
+112-0,112,Rolls Royce,PHATOM ORCHID,V12,250,petrol,6749.0,,0,495000.0,495000.0,563.0,563.0,900.0,900.0,5.3,5.3,5,5,Europe,United Kingdom,Supercar
+113-0,113,Rolls Royce,GHOST AZURE,V12,250,petrol,6749.0,,0,355000.0,355000.0,563.0,563.0,900.0,900.0,4.9,4.9,5,5,Europe,United Kingdom,Supercar
+114-0,114,Rolls Royce,WRAITH KRYPTOS,V12,250,petrol,6592.0,,0,369000.0,369000.0,623.0,623.0,800.0,800.0,4.5,4.5,4,4,Europe,United Kingdom,Supercar
+115-0,115,Rolls Royce,DAWN SILVER BULLET,V12,250,petrol,6592.0,,0,418000.0,418000.0,563.0,563.0,840.0,840.0,4.8,4.8,4,4,Europe,United Kingdom,Supercar
+116-0,116,Rolls Royce,CULLINAN FUX ORANGE,V12,250,petrol,6749.0,,0,401000.0,401000.0,563.0,563.0,850.0,850.0,5.1,5.1,5,5,Europe,United Kingdom,Supercar
+117-0,117,Rolls Royce,PHANTOM CELESTIAL,V12,250,petrol,6749.0,,0,515000.0,515000.0,563.0,563.0,900.0,900.0,5.3,5.3,5,5,Europe,United Kingdom,Supercar
+118-0,118,Rolls Royce,GHOST MYSORE,V12,250,petrol,6749.0,,0,375000.0,375000.0,563.0,563.0,900.0,900.0,4.9,4.9,5,5,Europe,United Kingdom,Supercar
+119-0,119,Rolls Royce,WRAITH LUMINARY,V12,250,petrol,6592.0,,0,389000.0,389000.0,623.0,623.0,800.0,800.0,4.5,4.5,4,4,Europe,United Kingdom,Supercar
+120-0,120,Rolls Royce,DAWN BLACK BADGE ADAMAS,V12,250,petrol,6592.0,,0,439000.0,439000.0,563.0,563.0,840.0,840.0,4.8,4.8,4,4,Europe,United Kingdom,Supercar
+121-0,121,Rolls Royce,CULLINAN RED DIAMOND,V12,250,petrol,6749.0,,0,421000.0,421000.0,563.0,563.0,850.0,850.0,5.1,5.1,5,5,Europe,United Kingdom,Supercar
+122-0,122,Audi,R8 V10 PLUS,V10,330,petrol,5204.0,,0,194000.0,194000.0,610.0,610.0,560.0,560.0,3.2,3.2,2,2,Europe,Germany,Luxury
+123-0,123,Audi,RS7 SPORTBACK,v8,305,petrol,3993.0,,0,114000.0,114000.0,591.0,591.0,800.0,800.0,3.6,3.6,5,5,Europe,Germany,Luxury
+124-0,124,Audi,S8,v8,305,petrol,3993.0,,0,101000.0,101000.0,563.0,563.0,800.0,800.0,4.3,4.3,5,5,Europe,Germany,Luxury
+125-0,125,Audi,RS6 AVANT,v8,305,petrol,3993.0,,0,109000.0,109000.0,591.0,591.0,800.0,800.0,3.6,3.6,5,5,Europe,Germany,Luxury
+126-0,126,Audi,S7 SPORTBACK,v8,305,petrol,3993.0,,0,96000.0,96000.0,563.0,563.0,650.0,650.0,4.3,4.3,5,5,Europe,Germany,Premium
+127-0,127,Audi,A8,v6,250,petrol,2995.0,,0,86000.0,86000.0,335.0,335.0,600.0,600.0,5.7,5.7,5,5,Europe,Germany,Premium
+128-0,128,Audi,S5 COUPE,v6,250,petrol,2995.0,,0,64000.0,64000.0,349.0,349.0,500.0,500.0,4.8,4.8,4,4,Europe,Germany,Premium
+129-0,129,Audi,SQ5,v6,250,petrol,2995.0,,0,62000.0,62000.0,349.0,349.0,500.0,500.0,5.4,5.4,5,5,Europe,Germany,Premium
+130-0,130,Audi,S4 SEDAN,v6,250,petrol,2995.0,,0,59000.0,59000.0,349.0,349.0,500.0,500.0,4.7,4.7,5,5,Europe,Germany,Premium
+131-0,131,Audi,S3 SEDAN,i4,250,petrol,1984.0,,0,52000.0,52000.0,306.0,306.0,400.0,400.0,4.8,4.8,5,5,Europe,Germany,Premium
+132-0,132,Audi,Q7,v6,250,petrol,2995.0,,0,60000.0,60000.0,335.0,335.0,600.0,600.0,6.3,6.3,7,7,Europe,Germany,Premium
+133-0,133,Audi,Q5,i4,240,petrol,1984.0,,0,43000.0,43000.0,248.0,248.0,500.0,500.0,6.3,6.3,5,5,Europe,Germany,Midrange
+134-0,134,Audi,A7,v6,250,petrol,2995.0,,0,68000.0,68000.0,335.0,335.0,600.0,600.0,5.7,5.7,5,5,Europe,Germany,Premium
+135-0,135,Audi,A6,v6,250,petrol,2995.0,,0,58000.0,58000.0,335.0,335.0,600.0,600.0,5.7,5.7,5,5,Europe,Germany,Premium
+136-0,136,Audi,A5 COUPE,i4,240,petrol,1984.0,,0,45000.0,45000.0,248.0,248.0,500.0,500.0,6.3,6.3,4,4,Europe,Germany,Midrange
+137-0,137,Audi,A4,i4,240,petrol,1984.0,,0,39000.0,39000.0,248.0,248.0,400.0,400.0,6.5,6.5,5,5,Europe,Germany,Midrange
+138-0,138,Audi,Q3,i4,230,petrol,1984.0,,0,35000.0,35000.0,248.0,248.0,400.0,400.0,7.3,7.3,5,5,Europe,Germany,Midrange
+139-0,139,Audi,E-TRON,ELECTRIC,200,electric,,95.0,0,75000.0,75000.0,402.0,402.0,664.0,664.0,5.5,5.5,5,5,Europe,Germany,Premium
+140-0,140,Audi,E-TRON SPORTBACK,ELECTRIC,200,electric,,95.0,0,78000.0,78000.0,402.0,402.0,664.0,664.0,5.5,5.5,5,5,Europe,Germany,Premium
+141-0,141,Audi,TT COUPE,i4,250,petrol,1984.0,,0,49000.0,49000.0,248.0,248.0,400.0,400.0,5.3,5.3,2,2,Europe,Germany,Midrange
+142-0,142,Bmw,I8 ROADSTER,ELECTRIC MOTOR,250,hybrid,,11.6,0,165000.0,165000.0,369.0,369.0,570.0,570.0,4.4,4.4,2,2,Europe,Germany,Luxury
+143-0,143,Bmw,330i,i4,250,petrol,1998.0,,0,45000.0,45000.0,255.0,255.0,400.0,400.0,5.6,5.6,5,5,Europe,Germany,Midrange
+144-0,144,Bmw,M340i XDRIVE,i6,250,petrol,2998.0,,0,57000.0,57000.0,382.0,382.0,500.0,500.0,4.1,4.1,5,5,Europe,Germany,Premium
+145-0,145,Bmw,430i COUPE,i4,250,petrol,1998.0,,0,48000.0,48000.0,255.0,255.0,400.0,400.0,5.8,5.8,4,4,Europe,Germany,Midrange
+146-0,146,Bmw,M4 COMPETITION,i6,290,petrol,2993.0,,0,81000.0,81000.0,503.0,503.0,650.0,650.0,3.8,3.8,4,4,Europe,Germany,Premium
+147-0,147,Bmw,530i,i4,250,petrol,1998.0,,0,57000.0,57000.0,248.0,248.0,400.0,400.0,5.9,5.9,5,5,Europe,Germany,Premium
+148-0,148,Bmw,M550i XDRIVE,v8,250,petrol,4395.0,,0,78000.0,78000.0,523.0,523.0,650.0,650.0,3.6,3.6,5,5,Europe,Germany,Premium
+149-0,149,Bmw,118i,i3,213,petrol,1499.0,,0,32000.0,32000.0,136.0,136.0,220.0,220.0,8.5,8.5,5,5,Europe,Germany,Midrange
+150-0,150,Bmw,128ti,i4,250,petrol,1998.0,,0,42000.0,42000.0,261.0,261.0,400.0,400.0,6.1,6.1,5,5,Europe,Germany,Midrange
+151-0,151,Bmw,M135i XDRIVE,i4,250,petrol,1998.0,,0,30000.0,30000.0,302.0,302.0,450.0,450.0,4.8,4.8,5,5,Europe,Germany,Midrange
+152-0,152,Bmw,116D,i3,200,diesel,1496.0,,0,30000.0,30000.0,116.0,116.0,280.0,280.0,10.3,10.3,5,5,Europe,Germany,Midrange
+153-0,153,Bmw,120D XDRIVE,i4,230,diesel,1995.0,,0,38000.0,38000.0,190.0,190.0,400.0,400.0,6.9,6.9,5,5,Europe,Germany,Midrange
+154-0,154,Bmw,116i,i3,200,petrol,1499.0,,0,28000.0,28000.0,109.0,109.0,200.0,200.0,10.9,10.9,5,5,Europe,Germany,Midrange
+155-0,155,Bmw,118D,i4,216,diesel,1995.0,,0,34000.0,34000.0,150.0,150.0,380.0,380.0,8.4,8.4,5,5,Europe,Germany,Midrange
+156-0,156,Bmw,120i,i4,230,petrol,1998.0,,0,37000.0,37000.0,178.0,178.0,300.0,300.0,7.1,7.1,5,5,Europe,Germany,Midrange
+157-0,157,Bmw,125i,i4,240,petrol,1998.0,,0,42000.0,42000.0,224.0,224.0,400.0,400.0,6.1,6.1,5,5,Europe,Germany,Midrange
+158-0,158,Bmw,114D,i3,185,diesel,1496.0,,0,27000.0,27000.0,95.0,95.0,270.0,270.0,12.2,12.2,5,5,Europe,Germany,Midrange
+159-0,159,Bmw,114i,i4,195,petrol,1598.0,,0,26000.0,26000.0,102.0,102.0,200.0,200.0,11.2,11.2,5,5,Europe,Germany,Midrange
+160-0,160,Bmw,125D,i4,240,diesel,1995.0,,0,44000.0,44000.0,224.0,224.0,400.0,400.0,6.3,6.3,5,5,Europe,Germany,Midrange
+161-0,161,Bmw,118i XDRIVE,i3,211,petrol,1499.0,,0,34000.0,34000.0,136.0,136.0,250.0,250.0,8.9,8.9,5,5,Europe,Germany,Midrange
+162-0,162,Bmw,116D EFFICIENTDYNAMICS,i3,200,diesel,1496.0,,0,30000.0,30000.0,116.0,116.0,270.0,270.0,10.9,10.9,5,5,Europe,Germany,Midrange
+163-0,163,Bmw,118i SPORTLINE,i3,213,petrol,1499.0,,0,35000.0,35000.0,136.0,136.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+164-0,164,Bmw,118i M SPORT,i3,213,petrol,1499.0,,0,37000.0,37000.0,136.0,136.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+165-0,165,Bmw,120i M SPORT,i4,230,petrol,1998.0,,0,39000.0,39000.0,178.0,178.0,300.0,300.0,7.1,7.1,5,5,Europe,Germany,Midrange
+166-0,166,Bmw,116i EFFICIENTDYNAMICS,i4,195,petrol,1598.0,,0,29000.0,29000.0,109.0,109.0,200.0,200.0,10.9,10.9,5,5,Europe,Germany,Midrange
+167-0,167,Bmw,116D ADVANTAGE,i3,200,diesel,1496.0,,0,31000.0,31000.0,116.0,116.0,270.0,270.0,10.5,10.5,5,5,Europe,Germany,Midrange
+168-0,168,Bmw,120D EFFICIENTDYNAMICS,i4,225,diesel,1995.0,,0,39000.0,39000.0,163.0,163.0,400.0,400.0,7.7,7.7,5,5,Europe,Germany,Midrange
+169-0,169,Bmw,118i SHADOW LINE,i3,213,petrol,1499.0,,0,36000.0,36000.0,136.0,136.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+170-0,170,Bmw,118D SPORT LINE,i4,216,diesel,1995.0,,0,36000.0,36000.0,150.0,150.0,380.0,380.0,8.4,8.4,5,5,Europe,Germany,Midrange
+171-0,171,Bmw,120i XDRIVE,i4,230,petrol,1998.0,,0,40000.0,40000.0,178.0,178.0,300.0,300.0,7.2,7.2,5,5,Europe,Germany,Midrange
+172-0,172,Bmw,114D SPORT LINE,i3,185,diesel,1496.0,,0,28000.0,28000.0,95.0,95.0,270.0,270.0,12.2,12.2,5,5,Europe,Germany,Midrange
+173-0,173,Bmw,118i URBAN LINE,i3,213,petrol,1499.0,,0,35000.0,35000.0,136.0,136.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+174-0,174,Volvo,XC90,i6,200,petrol,1969.0,,0,60000.0,60000.0,247.0,247.0,400.0,400.0,6.5,6.5,7,7,Europe,Sweden,Premium
+174-1,174,Volvo,XC90,i6,200,diesel,1969.0,,1,60000.0,60000.0,247.0,247.0,400.0,400.0,6.5,6.5,7,7,Europe,Sweden,Premium
+175-0,175,Volvo,XC60,i6,220,petrol,1969.0,,0,55000.0,55000.0,247.0,247.0,400.0,400.0,6.4,6.4,5,5,Europe,Sweden,Premium
+175-1,175,Volvo,XC60,i6,220,diesel,1969.0,,1,55000.0,55000.0,247.0,247.0,400.0,400.0,6.4,6.4,5,5,Europe,Sweden,Premium
+176-0,176,Volvo,S90,i6,250,petrol,1969.0,,0,60000.0,60000.0,295.0,295.0,400.0,400.0,5.9,5.9,5,5,Europe,Sweden,Premium
+176-1,176,Volvo,S90,i6,250,diesel,1969.0,,1,60000.0,60000.0,295.0,295.0,400.0,400.0,5.9,5.9,5,5,Europe,Sweden,Premium
+177-0,177,Kia,SPORTAGE LX,i4,200,petrol,2480.0,,0,27000.0,27000.0,187.0,187.0,250.0,250.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+178-0,178,Kia,SPORTAGE EX,i4,200,petrol,2480.0,,0,30000.0,30000.0,187.0,187.0,250.0,250.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+179-0,179,Kia,SPORTAGE GT-LINE,i4,200,petrol,2480.0,,0,32000.0,32000.0,187.0,187.0,350.0,350.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+180-0,180,Kia,SPORTAGE SX TURBO,i4,210,petrol,1998.0,,0,36000.0,36000.0,240.0,240.0,400.0,400.0,6.7,6.7,5,5,Asia,South Korea,Midrange
+181-0,181,Kia,SPORTAGE NIGHTFALL EDITION,i4,200,petrol,2480.0,,0,33000.0,33000.0,187.0,187.0,350.0,350.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+182-0,182,Honda,CIVIC TYPE R,i4,272,petrol,1996.0,,0,44000.0,44000.0,315.0,315.0,400.0,400.0,5.7,5.7,5,5,Asia,Japan,Midrange
+183-0,183,Kia,SPORTAGE PHEV,i4 + ELECTRIC,180,hybrid,1600.0,13.8,0,41000.0,41000.0,261.0,261.0,350.0,350.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+184-0,184,Kia,SPORTAGE 2024(BASE MODEL),i4,200,petrol,2480.0,,0,26000.0,26000.0,187.0,187.0,250.0,250.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+185-0,185,Kia,SPORTAGE 2024(TOP TRIM),i4,210,petrol,1998.0,,0,38000.0,38000.0,240.0,240.0,400.0,400.0,6.7,6.7,5,5,Asia,South Korea,Midrange
+186-0,186,Kia,SPORTAGE 2024(BASE AWD),i4,200,petrol,2480.0,,0,29000.0,29000.0,187.0,187.0,250.0,250.0,8.3,8.3,5,5,Asia,South Korea,Midrange
+186-1,186,Kia,SPORTAGE 2024(BASE AWD),i4,200,petrol,2480.0,,1,29000.0,29000.0,187.0,187.0,250.0,250.0,8.3,8.3,5,5,Asia,South Korea,Midrange
+187-0,187,Kia,SPORTAGE X-LINE,i4,200,petrol,2480.0,,0,32500.0,32500.0,187.0,187.0,350.0,350.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+188-0,188,Kia,SPORTAGE 2024(S TRIM),i4,200,petrol,2480.0,,0,28000.0,28000.0,187.0,187.0,250.0,250.0,8.2,8.2,5,5,Asia,South Korea,Midrange
+189-0,189,Honda,ACCORD,i4,201,petrol,1498.0,,0,29400.0,29400.0,192.0,192.0,370.0,370.0,7.1,7.1,5,5,Asia,Japan,Midrange
+190-0,190,Kia,SPORTAGE 2024(HYBRID AWD),i4 + ELECTRIC,180,hybrid,1600.0,1.49,0,37000.0,37000.0,227.0,227.0,350.0,350.0,8.0,8.0,5,5,Asia,South Korea,Midrange
+191-0,191,Kia,SPORTAGE 2024(PLUG-IN HYBRID AWD),i4 + ELECTRIC,180,hybrid,1598.0,13.8,0,42000.0,42000.0,261.0,261.0,350.0,350.0,7.9,7.9,5,5,Asia,South Korea,Midrange
+192-0,192,Kia,SPORTAGE 2024(X-PRO),i4,200,petrol,2480.0,,0,36000.0,36000.0,187.0,187.0,400.0,400.0,8.1,8.1,5,5,Asia,South Korea,Midrange
+193-0,193,Kia,SPORTAGE 2024(X-PRO PRESTIGE),i4,200,petrol,2480.0,,0,38000.0,38000.0,187.0,187.0,400.0,400.0,8.1,8.1,5,5,Asia,South Korea,Midrange
+194-0,194,Kia,SPORTAGE 2024(SX TURBO AWD),i4,210,petrol,1998.0,,0,40000.0,40000.0,240.0,240.0,400.0,400.0,6.5,6.5,5,5,Asia,South Korea,Midrange
+194-1,194,Kia,SPORTAGE 2024(SX TURBO AWD),i4,210,petrol,1998.0,,1,40000.0,40000.0,240.0,240.0,400.0,400.0,6.5,6.5,5,5,Asia,South Korea,Midrange
+195-0,195,Kia,SPORTAGE 2024(BASE FWD),i4,200,petrol,2480.0,,0,26500.0,26500.0,187.0,187.0,250.0,250.0,8.5,8.5,5,5,Asia,South Korea,Midrange
+196-0,196,Honda,CR-V,i4,186,petrol,1498.0,,0,30000.0,30000.0,190.0,190.0,400.0,400.0,8.2,8.2,5,5,Asia,Japan,Midrange
+196-1,196,Honda,CR-V,i4,186,hybrid,1498.0,,1,30000.0,30000.0,190.0,190.0,400.0,400.0,8.2,8.2,5,5,Asia,Japan,Midrange
+197-0,197,Honda,PILOT,v6,209,petrol,3471.0,,0,40000.0,40000.0,285.0,285.0,360.0,360.0,6.3,6.3,8,8,Asia,Japan,Midrange
+198-0,198,Honda,CIVIC HATCHBACK,i4,220,petrol,1498.0,,0,26350.0,26350.0,180.0,180.0,300.0,300.0,6.8,6.8,5,5,Asia,Japan,Midrange
+199-0,199,Toyota,CAMRY,v6,220,petrol,3500.0,,0,27000.0,27000.0,301.0,301.0,250.0,250.0,6.0,6.0,5,5,Asia,Japan,Midrange
+199-1,199,Toyota,CAMRY,v6,220,hybrid,3500.0,,1,27000.0,27000.0,301.0,301.0,250.0,250.0,6.0,6.0,5,5,Asia,Japan,Midrange
+200-0,200,Toyota,COROLLA,i4,180,petrol,1798.0,,0,22500.0,22500.0,139.0,139.0,200.0,200.0,9.4,9.4,5,5,Asia,Japan,Budget
+200-1,200,Toyota,COROLLA,i4,180,hybrid,1798.0,,1,22500.0,22500.0,139.0,139.0,200.0,200.0,9.4,9.4,5,5,Asia,Japan,Budget
+201-0,201,Toyota,PRIUS,i4,180,hybrid,1798.0,,0,26700.0,26700.0,121.0,121.0,142.0,142.0,10.5,10.5,5,5,Asia,Japan,Midrange
+202-0,202,Toyota,RAV4,i4,200,petrol,2494.0,,0,27100.0,27100.0,203.0,203.0,400.0,400.0,8.1,8.1,5,5,Asia,Japan,Midrange
+202-1,202,Toyota,RAV4,i4,200,hybrid,2494.0,,1,27100.0,27100.0,203.0,203.0,400.0,400.0,8.1,8.1,5,5,Asia,Japan,Midrange
+203-0,203,Toyota,HIGHLANDER,v6,220,petrol,3456.0,,0,38400.0,38400.0,295.0,295.0,370.0,370.0,7.2,7.2,7,7,Asia,Japan,Midrange
+203-1,203,Toyota,HIGHLANDER,v6,220,hybrid,3456.0,,1,38400.0,38400.0,295.0,295.0,370.0,370.0,7.2,7.2,7,7,Asia,Japan,Midrange
+204-0,204,Toyota,4RUNNER ,v6,200,petrol,3956.0,,0,37400.0,37400.0,270.0,270.0,400.0,400.0,7.5,7.5,5,5,Asia,Japan,Midrange
+205-0,205,Toyota,TACOMA,i4,180,petrol,2694.0,,0,26400.0,26400.0,159.0,159.0,400.0,400.0,9.5,9.5,5,5,Asia,Japan,Midrange
+206-0,206,Toyota,TUNDRA,v8,220,petrol,5663.0,,0,39900.0,39900.0,381.0,381.0,650.0,650.0,6.7,6.7,5,5,Asia,Japan,Midrange
+207-0,207,Toyota,AVALON,v6,220,petrol,3456.0,,0,41400.0,41400.0,301.0,301.0,400.0,400.0,6.9,6.9,5,5,Asia,Japan,Midrange
+209-0,209,Toyota,SIENNA,v6,190,petrol,2494.0,,0,44150.0,44150.0,245.0,245.0,360.0,360.0,8.0,8.0,7,7,Asia,Japan,Midrange
+209-1,209,Toyota,SIENNA,v6,190,hybrid,2494.0,,1,44150.0,44150.0,245.0,245.0,360.0,360.0,8.0,8.0,7,7,Asia,Japan,Midrange
+210-0,210,Toyota,VENZA,i4,200,hybrid,2494.0,,0,33400.0,33400.0,219.0,219.0,400.0,400.0,7.5,7.5,5,5,Asia,Japan,Midrange
+211-0,211,Toyota,HIGHLANDER HYBRID,v6,220,hybrid,3456.0,,0,40400.0,40400.0,240.0,240.0,350.0,350.0,8.2,8.2,7,7,Asia,Japan,Midrange
+212-0,212,Toyota,LAND CRUISER PRADO,v6,200,petrol,3956.0,,0,49400.0,49400.0,282.0,282.0,450.0,450.0,7.2,7.2,7,7,Asia,Japan,Midrange
+212-1,212,Toyota,LAND CRUISER PRADO,v6,200,diesel,3956.0,,1,49400.0,49400.0,282.0,282.0,450.0,450.0,7.2,7.2,7,7,Asia,Japan,Midrange
+213-0,213,Toyota,TUNDRA HYBRID,v6,220,hybrid,3456.0,,0,43400.0,43400.0,344.0,344.0,650.0,650.0,6.2,6.2,5,5,Asia,Japan,Midrange
+214-0,214,Toyota,YARIS,i4,180,petrol,1496.0,,0,18400.0,18400.0,106.0,106.0,150.0,150.0,11.2,11.2,5,5,Asia,Japan,Budget
+215-0,215,Toyota,C-HR,i4,200,petrol,1986.0,,0,24400.0,24400.0,144.0,144.0,250.0,250.0,10.2,10.2,5,5,Asia,Japan,Budget
+215-1,215,Toyota,C-HR,i4,200,hybrid,1986.0,,1,24400.0,24400.0,144.0,144.0,250.0,250.0,10.2,10.2,5,5,Asia,Japan,Budget
+216-0,216,Toyota,BZ4X,ELECTRIC,200,electric,,64.8,0,43400.0,43400.0,218.0,218.0,330.0,330.0,7.5,7.5,5,5,Asia,Japan,Midrange
+216-1,216,Toyota,BZ4X,ELECTRIC,200,electric,,72.8,1,43400.0,43400.0,218.0,218.0,330.0,330.0,7.5,7.5,5,5,Asia,Japan,Midrange
+217-0,217,Toyota,CROWN,HYBRID,200,hybrid,2494.0,,0,38400.0,38400.0,236.0,236.0,400.0,400.0,7.6,7.6,5,5,Asia,Japan,Midrange
+218-0,218,Toyota,MR2,i4,200,petrol,1986.0,,0,29000.0,29000.0,168.0,168.0,400.0,400.0,6.9,6.9,2,2,Asia,Japan,Midrange
+219-0,219,Toyota,CELICA,i4,200,petrol,1986.0,,0,25000.0,25000.0,140.0,140.0,250.0,250.0,8.5,8.5,5,5,Asia,Japan,Budget
+220-0,220,Honda,CITY,i4,180,petrol,1497.0,,0,15400.0,15400.0,119.0,119.0,145.0,145.0,10.2,10.2,5,5,Asia,Japan,Budget
+220-1,220,Honda,CITY,i4,180,hybrid,1497.0,,1,15400.0,15400.0,119.0,119.0,145.0,145.0,10.2,10.2,5,5,Asia,Japan,Budget
+221-0,221,Honda,CIVIC,i4,200,petrol,1996.0,,0,20400.0,20400.0,158.0,158.0,400.0,400.0,8.5,8.5,5,5,Asia,Japan,Budget
+222-0,222,Hyundai,I10,"1.2L,4-CYLINDER inline-4(i4)",160,petrol,1197.0,,0,12400.0,12400.0,87.0,87.0,120.0,120.0,12.2,12.2,5,5,Asia,South Korea,Budget
+223-0,223,Hyundai,I20,"1.4L,4-CYLINDER inline-4(i4)",180,petrol,1396.0,,0,15400.0,15400.0,99.0,99.0,250.0,250.0,10.5,10.5,5,5,Asia,South Korea,Budget
+223-1,223,Hyundai,I20,"1.4L,4-CYLINDER inline-4(i4)",180,hybrid,1396.0,,1,15400.0,15400.0,99.0,99.0,250.0,250.0,10.5,10.5,5,5,Asia,South Korea,Budget
+224-0,224,Hyundai,ELANTRA,"2.0L,4-CYLINDER inline-4(i4)",200,petrol,1999.0,,0,18400.0,18400.0,147.0,147.0,250.0,250.0,9.5,9.5,5,5,Asia,South Korea,Budget
+224-1,224,Hyundai,ELANTRA,"2.0L,4-CYLINDER inline-4(i4)",200,hybrid,1999.0,,1,18400.0,18400.0,147.0,147.0,250.0,250.0,9.5,9.5,5,5,Asia,South Korea,Budget
+225-0,225,Mahindra,XUV500,"2.2L,4-CYLINDER inline-4(i4)",180,diesel,2179.0,,0,18400.0,18400.0,155.0,155.0,400.0,400.0,10.5,10.5,7,7,Asia,India,Budget
+226-0,226,Mahindra,SCORPIO,"2.2L,4-CYLINDER inline-4(i4)",160,diesel,2179.0,,0,16400.0,16400.0,140.0,140.0,280.0,280.0,11.2,11.2,7,7,Asia,India,Budget
+227-0,227,Mahindra,THAR,"2.0L,4-CYLINDER inline-4(i4)",180,petrol,1997.0,,0,20400.0,20400.0,150.0,150.0,320.0,320.0,10.5,10.5,4,4,Asia,India,Budget
+227-1,227,Mahindra,THAR,"2.0L,4-CYLINDER inline-4(i4)",180,diesel,1997.0,,1,20400.0,20400.0,150.0,150.0,320.0,320.0,10.5,10.5,4,4,Asia,India,Budget
+228-0,228,Maruti Suzuki,SWIFT,"1.2L,4-CYLINDER inline-4(i4)",160,petrol,1197.0,,0,10400.0,10400.0,83.0,83.0,113.0,113.0,12.2,12.2,5,5,Asia,India,Budget
+229-0,229,Maruti Suzuki,DZIRE,"1.2L,4-CYLINDER inline-4(i4)",160,petrol,1197.0,,0,11400.0,11400.0,83.0,83.0,113.0,113.0,12.2,12.2,5,5,Asia,India,Budget
+229-1,229,Maruti Suzuki,DZIRE,"1.2L,4-CYLINDER inline-4(i4)",160,diesel,1197.0,,1,11400.0,11400.0,83.0,83.0,113.0,113.0,12.2,12.2,5,5,Asia,India,Budget
+230-0,230,Maruti Suzuki,BREZZA,"1.5L,4-CYLINDER INLINE(i4)",180,petrol,1462.0,,0,14400.0,14400.0,103.0,103.0,200.0,200.0,11.5,11.5,5,5,Asia,India,Budget
+231-0,231,Toyota,PRIUS PRIME,"2.0L,4-CYLINDER WITH HYBRID SYSTEM",180,hybrid,1998.0,,0,31100.0,31100.0,220.0,220.0,220.0,220.0,6.7,6.7,5,5,Asia,Japan,Midrange
+232-0,232,Toyota,GR COROLLA,1.6L TURBOCHARGED inline-3,230,petrol,1618.0,,0,36995.0,36995.0,300.0,300.0,370.0,370.0,5.0,5.0,5,5,Asia,Japan,Midrange
+233-0,233,Toyota,LAND CRUISER 300,"3.3L v6,TWIN TURBO DIESEL",210,petrol,3346.0,,0,58500.0,58500.0,305.0,305.0,650.0,650.0,6.8,6.8,7,7,Asia,Japan,Premium
+233-1,233,Toyota,LAND CRUISER 300,"3.3L v6,TWIN TURBO DIESEL",210,diesel,3346.0,,1,58500.0,58500.0,305.0,305.0,650.0,650.0,6.8,6.8,7,7,Asia,Japan,Premium
+234-0,234,Toyota,TUNDRA I-FORCE MAX,"3.5L v6,HYBRID TWIN-TURBO",180,hybrid,3445.0,,0,56000.0,56000.0,437.0,437.0,750.0,750.0,6.2,6.2,5,5,Asia,Japan,Premium
+235-0,235,Toyota,COROLLA HATCHBACK XSE,2.0L inline-4,190,petrol,1987.0,,0,25390.0,25390.0,169.0,169.0,250.0,250.0,8.2,8.2,5,5,Asia,Japan,Midrange
+237-0,237,Toyota,HILUX GR SPORT,2.8L TURBO DIESEL,170,petrol,2755.0,,0,50000.0,50000.0,224.0,224.0,500.0,500.0,10.0,10.0,5,5,Asia,Japan,Midrange
+237-1,237,Toyota,HILUX GR SPORT,2.8L TURBO DIESEL,170,diesel,2755.0,,1,50000.0,50000.0,224.0,224.0,500.0,500.0,10.0,10.0,5,5,Asia,Japan,Midrange
+238-0,238,Toyota,ALPHARD EXECUTIVE LOUNGE,"2.5L inline-4,HYBRID",180,petrol,,,0,60000.0,60000.0,296.0,296.0,400.0,400.0,8.5,8.5,7,7,Asia,Japan,Premium
+238-1,238,Toyota,ALPHARD EXECUTIVE LOUNGE,3.5L v6,180,petrol,,,1,60000.0,60000.0,296.0,296.0,400.0,400.0,8.5,8.5,7,7,Asia,Japan,Premium
+239-0,239,Toyota,FORTUNER GR SPORT,2.8L TURBO DIESEL,175,diesel,2755.0,,0,55000.0,55000.0,204.0,204.0,500.0,500.0,10.5,10.5,7,7,Asia,Japan,Premium
+239-1,239,Toyota,FORTUNER GR SPORT,2.8L TURBO DIESEL,175,petrol,2755.0,,1,55000.0,55000.0,204.0,204.0,500.0,500.0,10.5,10.5,7,7,Asia,Japan,Premium
+240-0,240,Toyota,INNOVA HYCROSS,2.0L HYBRID,165,hybrid,1987.0,,0,40000.0,40000.0,184.0,184.0,250.0,250.0,9.5,9.5,7,7,Asia,Japan,Midrange
+242-0,242,Toyota,URBAN CRUISER TAISOR,1.5L HYBRID,170,petrol,1490.0,,0,25000.0,25000.0,114.0,114.0,130.0,130.0,11.0,11.0,5,5,Asia,Japan,Budget
+243-0,243,Toyota,AYGO X,1.0L inline-3,160,petrol,998.0,,0,18000.0,18000.0,71.0,71.0,93.0,93.0,14.8,14.8,4,4,Asia,Japan,Budget
+244-0,244,Toyota,HILUX REVO ROCCO,2.8L TURBO DIESEL,175,diesel,2755.0,,0,50000.0,50000.0,204.0,204.0,500.0,500.0,10.0,10.0,5,5,Asia,Japan,Midrange
+245-0,245,Toyota,PROACE VERSO ELECTRIC,ELECTRIC MOTOR,130,electric,,75.0,0,55000.0,55000.0,136.0,136.0,280.0,280.0,13.5,13.5,7,7,Asia,Japan,Premium
+246-0,246,Toyota,CENTURY SUV,"3.5L v6,PLUG IN HYBRID",200,petrol,3456.0,,0,170000.0,170000.0,406.0,406.0,500.0,500.0,6.0,6.0,5,5,Asia,Japan,Luxury
+247-0,247,Toyota,COROLLA SEDAN HYBRID,1.8L HYBRID,180,hybrid,1798.0,,0,24000.0,24000.0,134.0,134.0,300.0,300.0,10.0,10.0,5,5,Asia,Japan,Budget
+248-0,248,Toyota,BZ3,ELECTRIC MOTOR,160,electric,,65.0,0,35000.0,35000.0,241.0,241.0,340.0,340.0,7.5,7.5,5,5,Asia,Japan,Midrange
+249-0,249,Toyota,GR YARIS,1.6L TURBOCHARGED inline-3,230,petrol,1618.0,,0,45000.0,45000.0,268.0,268.0,390.0,390.0,5.5,5.5,4,4,Asia,Japan,Midrange
+250-0,250,Hyundai,SANTA FE,1.6L PETROL + PLUG IN HYBRID SYSTEM,180,petrol,1600.0,,0,50000.0,50000.0,253.0,253.0,420.0,420.0,9.3,9.3,7,7,Asia,South Korea,Midrange
+250-1,250,Hyundai,SANTA FE,1.6L PETROL + PLUG IN HYBRID SYSTEM,180,hybrid,1600.0,,1,50000.0,50000.0,253.0,253.0,420.0,420.0,9.3,9.3,7,7,Asia,South Korea,Midrange
+251-0,251,Hyundai,IONIQ 5,ELECTRIC MOTOR,185,electric,,72.6,0,41000.0,41000.0,225.0,225.0,350.0,350.0,7.4,7.4,5,5,Asia,South Korea,Midrange
+252-0,252,Hyundai,Santa Cruz,2.5L Turbocharged inline-4,215,petrol,2500.0,,0,40799.0,40799.0,281.0,281.0,400.0,400.0,6.5,6.5,5,5,Asia,South Korea,Midrange
+253-0,253,Hyundai,Kona,1.6L PETROL,185,petrol,1591.0,,0,20500.0,20500.0,147.0,147.0,400.0,400.0,10.5,10.5,5,5,Asia,South Korea,Budget
+253-1,253,Hyundai,Kona,1.6L PETROL,185,electric,1591.0,,1,20500.0,20500.0,147.0,147.0,400.0,400.0,10.5,10.5,5,5,Asia,South Korea,Budget
+254-0,254,Hyundai,Elantra,2.0L inline-4,210,petrol,2000.0,,0,19950.0,19950.0,147.0,147.0,250.0,250.0,8.3,8.3,5,5,Asia,South Korea,Budget
+254-1,254,Hyundai,Elantra,2.0L inline-4,210,hybrid,2000.0,,1,19950.0,19950.0,147.0,147.0,250.0,250.0,8.3,8.3,5,5,Asia,South Korea,Budget
+256-0,256,Hyundai,IONIQ 6,Electric Motor,185,electric,,53.6,0,41450.0,41450.0,320.0,320.0,350.0,350.0,5.2,5.2,5,5,Asia,South Korea,Midrange
+256-1,256,Hyundai,IONIQ 6,Electric Motor,185,electric,,77.4,1,41450.0,41450.0,320.0,320.0,350.0,350.0,5.2,5.2,5,5,Asia,South Korea,Midrange
+257-0,257,Hyundai,Tucson,2.5L inline-4,180,petrol,2500.0,,0,30500.0,30500.0,187.0,187.0,400.0,400.0,6.1,6.1,5,5,Asia,South Korea,Midrange
+257-1,257,Hyundai,Tucson,2.5L inline-4,180,hybrid,2500.0,,1,30500.0,30500.0,187.0,187.0,400.0,400.0,6.1,6.1,5,5,Asia,South Korea,Midrange
+258-0,258,Hyundai,Palisade,3.8L v6,240,petrol,3800.0,,0,52000.0,52000.0,291.0,291.0,355.0,355.0,6.3,6.3,7,7,Asia,South Korea,Premium
+259-0,259,Hyundai,Sonata,2.5L inline-4,240,petrol,2500.0,,0,25000.0,25000.0,191.0,191.0,250.0,250.0,8.0,8.0,5,5,Asia,South Korea,Budget
+259-1,259,Hyundai,Sonata,2.5L inline-4,240,hybrid,2500.0,,1,25000.0,25000.0,191.0,191.0,250.0,250.0,8.0,8.0,5,5,Asia,South Korea,Budget
+260-0,260,Hyundai,Accent,1.6L inline-4,180,petrol,1600.0,,0,15000.0,15000.0,120.0,120.0,151.0,151.0,9.8,9.8,5,5,Asia,South Korea,Budget
+261-0,261,Hyundai,Venue,1.6L inline-4,180,petrol,1600.0,,0,18000.0,18000.0,121.0,121.0,240.0,240.0,9.5,9.5,5,5,Asia,South Korea,Budget
+262-0,262,Hyundai,KONA Electric,Electric Motor,200,electric,,39.2,0,40000.0,40000.0,200.0,200.0,395.0,395.0,6.1,6.1,5,5,Asia,South Korea,Midrange
+263-0,263,Hyundai,Veloster,2.0L inline-4,220,petrol,2000.0,,0,25000.0,25000.0,275.0,275.0,264.0,264.0,6.0,6.0,4,4,Asia,South Korea,Budget
+265-0,265,Hyundai,Ioniq,1.6L inline-4,160,hybrid,1600.0,,0,18000.0,18000.0,139.0,139.0,295.0,295.0,8.5,8.5,5,5,Asia,South Korea,Budget
+265-1,265,Hyundai,Ioniq,1.6L inline-4,160,electric,1600.0,,1,18000.0,18000.0,139.0,139.0,295.0,295.0,8.5,8.5,5,5,Asia,South Korea,Budget
+266-0,266,Hyundai,Genesis,3.8L v6,240,petrol,3800.0,,0,52000.0,52000.0,291.0,291.0,400.0,400.0,6.3,6.3,5,5,Asia,South Korea,Premium
+267-0,267,Hyundai,Azera,3.3L v6,240,petrol,3300.0,,0,55000.0,55000.0,278.0,278.0,250.0,250.0,6.5,6.5,5,5,Asia,South Korea,Premium
+268-0,268,Hyundai,Equus,3.3L v6,240,petrol,3300.0,,0,55000.0,55000.0,278.0,278.0,400.0,400.0,6.5,6.5,5,5,Asia,South Korea,Premium
+269-0,269,Hyundai,Tiburon,2.0L inline-4,200,petrol,2000.0,,0,19000.0,19000.0,160.0,160.0,320.0,320.0,8.2,8.2,4,4,Asia,South Korea,Budget
+270-0,270,Hyundai,Elantra GT,1.6L Turbo GDI 4-cylinder,200,petrol,2000.0,,0,22000.0,22000.0,160.0,160.0,320.0,320.0,8.3,8.3,5,5,Asia,South Korea,Budget
+271-0,271,Volkswagen,Golf,1.5L Turbo i4,210,petrol,1498.0,40.0,0,23000.0,23000.0,110.0,110.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Budget
+271-1,271,Volkswagen,Golf,Electric,210,petrol,1498.0,58.0,1,23000.0,23000.0,320.0,320.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Budget
+272-0,272,Volkswagen,Passat,2.0L Turbo i4,210,petrol,1984.0,,0,25000.0,25000.0,150.0,150.0,250.0,250.0,7.8,7.8,5,5,Europe,Germany,Budget
+272-1,272,Volkswagen,Passat,2.0L Turbo i4,210,petrol,1984.0,,1,25000.0,25000.0,280.0,280.0,250.0,250.0,7.8,7.8,5,5,Europe,Germany,Budget
+273-0,273,Volkswagen,Tiguan,2.0L Turbo i4,209,petrol,1984.0,,0,28505.0,28505.0,150.0,150.0,300.0,300.0,8.5,8.5,7,7,Europe,Germany,Midrange
+273-1,273,Volkswagen,Tiguan,2.0L Turbo i4,209,hybrid,1984.0,,1,28505.0,28505.0,230.0,230.0,300.0,300.0,8.5,8.5,7,7,Europe,Germany,Midrange
+274-0,274,Volkswagen,Jetta,1.5L Turbo i4,210,petrol,1498.0,,0,21995.0,21995.0,150.0,150.0,250.0,250.0,7.7,7.7,5,5,Europe,Germany,Budget
+274-1,274,Volkswagen,Jetta,1.5L Turbo i4,210,petrol,1498.0,,1,21995.0,21995.0,228.0,228.0,250.0,250.0,7.7,7.7,5,5,Europe,Germany,Budget
+275-0,275,Volkswagen,Polo,1.0L Turbo i3,190,petrol,999.0,,0,18000.0,18000.0,80.0,80.0,175.0,175.0,9.5,9.5,5,5,Europe,Germany,Budget
+275-1,275,Volkswagen,Polo,1.6L Diesel,190,petrol,1598.0,,1,18000.0,18000.0,200.0,200.0,175.0,175.0,9.5,9.5,5,5,Europe,Germany,Budget
+276-0,276,Volkswagen,Arteon,2.0L Turbo i4,250,petrol,1984.0,,0,46000.0,46000.0,150.0,150.0,350.0,350.0,5.6,5.6,5,5,Europe,Germany,Midrange
+276-1,276,Volkswagen,Arteon,2.0L Turbo i4,250,petrol,1984.0,,1,46000.0,46000.0,280.0,280.0,350.0,350.0,5.6,5.6,5,5,Europe,Germany,Midrange
+277-0,277,Volkswagen,ID.4,Electric,160,electric,,77.0,0,39735.0,39735.0,201.0,201.0,310.0,310.0,7.8,7.8,5,5,Europe,Germany,Midrange
+277-1,277,Volkswagen,ID.4,Electric,160,electric,,77.0,1,39735.0,39735.0,302.0,302.0,310.0,310.0,7.8,7.8,5,5,Europe,Germany,Midrange
+278-0,278,Volkswagen,Up!,Electric,160,petrol,,32.3,0,15000.0,15000.0,82.0,82.0,95.0,95.0,13.0,13.0,4,4,Europe,Germany,Budget
+279-0,279,Volkswagen,Touareg,3.0L v6 Turbo Diesel,235,petrol,2967.0,,0,55000.0,55000.0,231.0,231.0,600.0,600.0,5.9,5.9,5,5,Europe,Germany,Premium
+279-1,279,Volkswagen,Touareg,4.0L v8,235,diesel,3956.0,,1,55000.0,55000.0,500.0,500.0,600.0,600.0,5.9,5.9,5,5,Europe,Germany,Premium
+280-0,280,Volkswagen,Scirocco,2.0L Turbo i4,233,petrol,1984.0,,0,35000.0,35000.0,125.0,125.0,350.0,350.0,6.0,6.0,4,4,Europe,Germany,Midrange
+280-1,280,Volkswagen,Scirocco,2.0L Turbo i4,233,petrol,1984.0,,1,35000.0,35000.0,280.0,280.0,350.0,350.0,6.0,6.0,4,4,Europe,Germany,Midrange
+281-0,281,Volkswagen,Beetle,2.0L Turbo i4,205,petrol,1984.0,,0,20000.0,20000.0,105.0,105.0,240.0,240.0,7.0,7.0,4,4,Europe,Germany,Budget
+281-1,281,Volkswagen,Beetle,2.0L Turbo i4,205,petrol,1984.0,,1,20000.0,20000.0,210.0,210.0,240.0,240.0,7.0,7.0,4,4,Europe,Germany,Budget
+282-0,282,Volkswagen,Amarok,3.0L v6 Turbo Diesel,180,diesel,2967.0,,0,40000.0,40000.0,163.0,163.0,550.0,550.0,7.9,7.9,5,5,Europe,Germany,Midrange
+282-1,282,Volkswagen,Amarok,3.0L v6 Turbo Diesel,180,diesel,2967.0,,1,40000.0,40000.0,258.0,258.0,550.0,550.0,7.9,7.9,5,5,Europe,Germany,Midrange
+283-0,283,Volkswagen,T-Roc,2.0L Turbo i4,205,petrol,1984.0,,0,30000.0,30000.0,115.0,115.0,320.0,320.0,7.2,7.2,5,5,Europe,Germany,Midrange
+283-1,283,Volkswagen,T-Roc,2.0L Turbo i4,205,petrol,1984.0,,1,30000.0,30000.0,300.0,300.0,320.0,320.0,7.2,7.2,5,5,Europe,Germany,Midrange
+284-0,284,Volkswagen,Sharan,2.0L Turbo i4,200,petrol,1984.0,,0,33000.0,33000.0,150.0,150.0,280.0,280.0,9.3,9.3,7,7,Europe,Germany,Midrange
+284-1,284,Volkswagen,Sharan,2.0L Turbo i4,200,diesel,1984.0,,1,33000.0,33000.0,220.0,220.0,280.0,280.0,9.3,9.3,7,7,Europe,Germany,Midrange
+285-0,285,Volkswagen,Caddy,1.5L Turbo i4,185,petrol,1498.0,,0,28000.0,28000.0,102.0,102.0,250.0,250.0,10.5,10.5,7,7,Europe,Germany,Midrange
+285-1,285,Volkswagen,Caddy,1.5L Turbo i4,185,diesel,1498.0,,1,28000.0,28000.0,150.0,150.0,250.0,250.0,10.5,10.5,7,7,Europe,Germany,Midrange
+286-0,286,Nissan,NV1500,4.0L v6,160,petrol,3954.0,,0,33000.0,33000.0,261.0,261.0,385.0,385.0,9.5,9.5,12,12,Asia,Japan,Midrange
+287-0,287,Volkswagen,Taigo,1.5L Turbo i4,183,petrol,1498.0,,0,24000.0,24000.0,95.0,95.0,200.0,200.0,10.0,10.0,5,5,Europe,Germany,Budget
+287-1,287,Volkswagen,Taigo,1.5L Turbo i4,183,petrol,1498.0,,1,24000.0,24000.0,150.0,150.0,200.0,200.0,10.0,10.0,5,5,Europe,Germany,Budget
+288-0,288,Volkswagen,California,2.0L Turbo i4,180,diesel,1984.0,,0,70000.0,70000.0,150.0,150.0,340.0,340.0,13.0,13.0,7,7,Europe,Germany,Premium
+288-1,288,Volkswagen,California,2.0L Turbo i4,180,diesel,1984.0,,1,70000.0,70000.0,204.0,204.0,340.0,340.0,13.0,13.0,7,7,Europe,Germany,Premium
+289-0,289,Volkswagen,ID.3,Electric,160,electric,,58.0,0,35000.0,35000.0,204.0,204.0,310.0,310.0,7.3,7.3,5,5,Europe,Germany,Midrange
+289-1,289,Volkswagen,ID.3,Electric,160,electric,,77.0,1,35000.0,35000.0,204.0,204.0,310.0,310.0,7.3,7.3,5,5,Europe,Germany,Midrange
+290-0,290,Volkswagen,ID. Buzz,Electric,145,electric,,77.0,0,59995.0,59995.0,204.0,204.0,310.0,310.0,10.2,10.2,7,7,Europe,Germany,Premium
+291-0,291,Volkswagen,Golf GTI,2.0L Turbo i4,250,petrol,1984.0,,0,31965.0,31965.0,245.0,245.0,350.0,350.0,5.9,5.9,5,5,Europe,Germany,Midrange
+292-0,292,Volkswagen,Golf R,2.0L Turbo i4,250,petrol,1984.0,,0,44640.0,44640.0,315.0,315.0,420.0,420.0,4.6,4.6,5,5,Europe,Germany,Midrange
+293-0,293,Volkswagen,Passat Alltrack,2.0L Turbo Diesel i4,220,diesel,1968.0,,0,36000.0,36000.0,190.0,190.0,400.0,400.0,7.8,7.8,5,5,Europe,Germany,Midrange
+293-1,293,Volkswagen,Passat Alltrack,2.0L Turbo Diesel i4,220,diesel,1968.0,,1,36000.0,36000.0,240.0,240.0,400.0,400.0,7.8,7.8,5,5,Europe,Germany,Midrange
+294-0,294,Volkswagen,Polo GTI,2.0L Turbo i4,238,petrol,1984.0,,0,28000.0,28000.0,204.0,204.0,320.0,320.0,6.7,6.7,5,5,Europe,Germany,Midrange
+295-0,295,Volkswagen,Up! GTI,1.0L Turbo i3,196,petrol,999.0,,0,20000.0,20000.0,115.0,115.0,200.0,200.0,8.8,8.8,4,4,Europe,Germany,Budget
+296-0,296,Volkswagen,T-Cross,1.0L Turbo i3,200,petrol,999.0,,0,25000.0,25000.0,95.0,95.0,250.0,250.0,10.2,10.2,5,5,Europe,Germany,Budget
+296-1,296,Volkswagen,T-Cross,1.5L Turbo i4,200,petrol,1498.0,,1,25000.0,25000.0,150.0,150.0,250.0,250.0,10.2,10.2,5,5,Europe,Germany,Budget
+297-0,297,Volkswagen,ID.5,Electric,180,electric,,77.0,0,45000.0,45000.0,174.0,174.0,310.0,310.0,8.4,8.4,5,5,Europe,Germany,Midrange
+297-1,297,Volkswagen,ID.5,Electric,180,electric,,77.0,1,45000.0,45000.0,299.0,299.0,310.0,310.0,8.4,8.4,5,5,Europe,Germany,Midrange
+298-0,298,Volkswagen,ID. Buzz Cargo,Electric,145,electric,,77.0,0,55000.0,55000.0,204.0,204.0,310.0,310.0,10.2,10.2,3,3,Europe,Germany,Premium
+299-0,299,Volkswagen,Touareg R,Plug-in Hybrid v6,250,hybrid,2995.0,,0,70000.0,70000.0,462.0,462.0,700.0,700.0,5.1,5.1,5,5,Europe,Germany,Premium
+300-0,300,Volkswagen,Multivan,Plug-in Hybrid,190,petrol,1395.0,,0,50000.0,50000.0,150.0,150.0,350.0,350.0,9.4,9.4,7,7,Europe,Germany,Midrange
+300-1,300,Volkswagen,Multivan,Diesel i4,190,hybrid,1968.0,,1,50000.0,50000.0,218.0,218.0,350.0,350.0,9.4,9.4,7,7,Europe,Germany,Midrange
+301-0,301,Volkswagen,Polo BlueMotion,1.2L Diesel i3,190,diesel,1199.0,,0,22000.0,22000.0,75.0,75.0,250.0,250.0,10.5,10.5,5,5,Europe,Germany,Budget
+301-1,301,Volkswagen,Polo BlueMotion,1.2L Diesel i3,190,diesel,1199.0,,1,22000.0,22000.0,95.0,95.0,250.0,250.0,10.5,10.5,5,5,Europe,Germany,Budget
+302-0,302,Volkswagen,Golf Sportsvan,1.5L Turbo i4,210,petrol,1498.0,,0,30000.0,30000.0,130.0,130.0,250.0,250.0,8.9,8.9,5,5,Europe,Germany,Midrange
+302-1,302,Volkswagen,Golf Sportsvan,1.5L Turbo i4,210,petrol,1498.0,,1,30000.0,30000.0,150.0,150.0,250.0,250.0,8.9,8.9,5,5,Europe,Germany,Midrange
+303-0,303,Volkswagen,Golf Alltrack,2.0L Turbo Diesel i4,210,petrol,1968.0,,0,35000.0,35000.0,147.0,147.0,350.0,350.0,7.1,7.1,5,5,Europe,Germany,Midrange
+303-1,303,Volkswagen,Golf Alltrack,2.0L Turbo Diesel i4,210,petrol,1968.0,,1,35000.0,35000.0,200.0,200.0,350.0,350.0,7.1,7.1,5,5,Europe,Germany,Midrange
+304-0,304,Volkswagen,Scirocco R,2.0L Turbo i4,250,petrol,1984.0,,0,40000.0,40000.0,280.0,280.0,350.0,350.0,5.5,5.5,4,4,Europe,Germany,Midrange
+305-0,305,Volkswagen,Tiguan Allspace,2.0L Turbo i4,215,petrol,1984.0,,0,35000.0,35000.0,184.0,184.0,320.0,320.0,7.6,7.6,7,7,Europe,Germany,Midrange
+305-1,305,Volkswagen,Tiguan Allspace,2.0L Turbo i4,215,petrol,1984.0,,1,35000.0,35000.0,230.0,230.0,320.0,320.0,7.6,7.6,7,7,Europe,Germany,Midrange
+306-0,306,Volkswagen,Arteon 4MOTION,2.0L Turbo i4,250,petrol,1984.0,,0,48000.0,48000.0,190.0,190.0,350.0,350.0,5.6,5.6,5,5,Europe,Germany,Midrange
+306-1,306,Volkswagen,Arteon 4MOTION,2.0L Turbo i4,250,petrol,1984.0,,1,48000.0,48000.0,320.0,320.0,350.0,350.0,5.6,5.6,5,5,Europe,Germany,Midrange
+307-0,307,Volkswagen,ID.4 GTX,Electric AWD,180,electric,,77.0,0,50000.0,50000.0,299.0,299.0,460.0,460.0,6.2,6.2,5,5,Europe,Germany,Midrange
+308-0,308,Volkswagen,ID.3 Pro,Electric,160,electric,,58.0,0,35000.0,35000.0,204.0,204.0,310.0,310.0,7.3,7.3,5,5,Europe,Germany,Midrange
+309-0,309,Volkswagen,Golf Variant,1.5L Turbo i4,220,petrol,1498.0,,0,32000.0,32000.0,130.0,130.0,320.0,320.0,7.5,7.5,5,5,Europe,Germany,Midrange
+309-1,309,Volkswagen,Golf Variant,2.0L Diesel i4,220,petrol,1968.0,,1,32000.0,32000.0,150.0,150.0,320.0,320.0,7.5,7.5,5,5,Europe,Germany,Midrange
+310-0,310,Volkswagen,Crafter,2.0L Turbo Diesel i4,160,diesel,1968.0,,0,40000.0,40000.0,102.0,102.0,410.0,410.0,13.0,13.0,3,3,Europe,Germany,Midrange
+310-1,310,Volkswagen,Crafter,2.0L Turbo Diesel i4,160,diesel,1968.0,,1,40000.0,40000.0,177.0,177.0,410.0,410.0,13.0,13.0,3,3,Europe,Germany,Midrange
+311-0,311,Volkswagen,Lupo,1.4L i3 Gas,170,petrol,1390.0,,0,15000.0,15000.0,60.0,60.0,120.0,120.0,14.3,14.3,4,4,Europe,Germany,Budget
+311-1,311,Volkswagen,Lupo,1.2L Diesel i3,170,petrol,1199.0,,1,15000.0,15000.0,75.0,75.0,120.0,120.0,14.3,14.3,4,4,Europe,Germany,Budget
+312-0,312,Volkswagen,Corrado,2.9L VR6,235,petrol,2861.0,,0,25000.0,25000.0,190.0,190.0,245.0,245.0,6.4,6.4,4,4,Europe,Germany,Budget
+313-0,313,Volkswagen,Phaeton,3.0L v6 Diesel,250,petrol,2967.0,,0,85000.0,85000.0,240.0,240.0,560.0,560.0,6.1,6.1,5,5,Europe,Germany,Premium
+313-1,313,Volkswagen,Phaeton,6.0L W12 Gas,250,petrol,5998.0,,1,85000.0,85000.0,450.0,450.0,560.0,560.0,6.1,6.1,5,5,Europe,Germany,Premium
+314-0,314,Volkswagen,Golf Cabriolet,1.2L i4 Turbo,217,petrol,1197.0,,0,30000.0,30000.0,105.0,105.0,200.0,200.0,8.4,8.4,4,4,Europe,Germany,Midrange
+314-1,314,Volkswagen,Golf Cabriolet,2.0L i4 Turbo,217,petrol,1984.0,,1,30000.0,30000.0,210.0,210.0,200.0,200.0,8.4,8.4,4,4,Europe,Germany,Midrange
+315-0,315,Volkswagen,Santana,1.5L i4 Gas,190,petrol,1498.0,,0,15000.0,15000.0,110.0,110.0,145.0,145.0,12.9,12.9,5,5,Europe,Germany,Budget
+316-0,316,Volkswagen,Polo Vivo,1.4L i4 Gas,170,petrol,1390.0,,0,14000.0,14000.0,85.0,85.0,132.0,132.0,10.8,10.8,5,5,Europe,Germany,Budget
+316-1,316,Volkswagen,Polo Vivo,1.6L i4 Gas,170,petrol,1598.0,,1,14000.0,14000.0,105.0,105.0,132.0,132.0,10.8,10.8,5,5,Europe,Germany,Budget
+317-0,317,Volkswagen,Karmann Ghia,1.2L i4 Gas,138,petrol,1192.0,,0,25000.0,25000.0,34.0,34.0,106.0,106.0,23.0,23.0,2,2,Europe,Germany,Budget
+317-1,317,Volkswagen,Karmann Ghia,1.2L i4 Gas,138,petrol,1192.0,,1,25000.0,25000.0,60.0,60.0,106.0,106.0,23.0,23.0,2,2,Europe,Germany,Budget
+318-0,318,Volkswagen,Fox,1.2L i4 Gas,148,petrol,1198.0,,0,12000.0,12000.0,55.0,55.0,93.0,93.0,17.5,17.5,5,5,Europe,Germany,Budget
+318-1,318,Volkswagen,Fox,1.4L i4 Gas,148,petrol,1390.0,,1,12000.0,12000.0,75.0,75.0,93.0,93.0,17.5,17.5,5,5,Europe,Germany,Budget
+319-0,319,Volkswagen,Vento,1.6L i4 Gas,186,petrol,1598.0,,0,18000.0,18000.0,105.0,105.0,153.0,153.0,11.7,11.7,5,5,Europe,Germany,Budget
+319-1,319,Volkswagen,Vento,Diesel,186,petrol,1598.0,,1,18000.0,18000.0,110.0,110.0,153.0,153.0,11.7,11.7,5,5,Europe,Germany,Budget
+320-0,320,Volkswagen,Golf Electric,Electric,140,electric,,35.8,0,33000.0,33000.0,136.0,136.0,290.0,290.0,10.4,10.4,5,5,Europe,Germany,Midrange
+321-0,321,Volkswagen,Bora,1.6L i4 Gas,200,petrol,1598.0,,0,20000.0,20000.0,100.0,100.0,220.0,220.0,9.4,9.4,5,5,Europe,Germany,Budget
+321-1,321,Volkswagen,Bora,1.9L i4 Diesel,200,petrol,1896.0,,1,20000.0,20000.0,150.0,150.0,220.0,220.0,9.4,9.4,5,5,Europe,Germany,Budget
+322-0,322,Volkswagen,Teramont,2.0L i4 Turbo,190,petrol,1984.0,,0,32000.0,32000.0,235.0,235.0,350.0,350.0,8.6,8.6,7,7,Europe,Germany,Midrange
+322-1,322,Volkswagen,Teramont,3.6L v6 Gas,190,petrol,3597.0,,1,32000.0,32000.0,276.0,276.0,350.0,350.0,8.6,8.6,7,7,Europe,Germany,Midrange
+323-0,323,Volkswagen,Taos,1.5L i4 Turbo,193,petrol,1498.0,,0,24000.0,24000.0,158.0,158.0,250.0,250.0,8.4,8.4,5,5,Europe,Germany,Budget
+324-0,324,Volkswagen,Up! Cabriolet,1.0L i3 Turbo,160,petrol,999.0,,0,18000.0,18000.0,82.0,82.0,95.0,95.0,12.4,12.4,4,4,Europe,Germany,Budget
+324-1,324,Volkswagen,Up! Cabriolet,1.0L i3 Turbo,160,petrol,999.0,,1,18000.0,18000.0,115.0,115.0,95.0,95.0,12.4,12.4,4,4,Europe,Germany,Budget
+325-0,325,Volkswagen,T-Roc Cabriolet,1.0L i3 Turbo,205,petrol,999.0,,0,35000.0,35000.0,115.0,115.0,250.0,250.0,9.6,9.6,4,4,Europe,Germany,Midrange
+325-1,325,Volkswagen,T-Roc Cabriolet,1.5L i4 Turbo,205,petrol,1498.0,,1,35000.0,35000.0,150.0,150.0,250.0,250.0,9.6,9.6,4,4,Europe,Germany,Midrange
+326-0,326,Volkswagen,Passat CC,2.0L i4 Turbo,240,petrol,1984.0,,0,40000.0,40000.0,200.0,200.0,280.0,280.0,7.3,7.3,5,5,Europe,Germany,Midrange
+326-1,326,Volkswagen,Passat CC,2.0L i4 Turbo,240,petrol,1984.0,,1,40000.0,40000.0,280.0,280.0,280.0,280.0,7.3,7.3,5,5,Europe,Germany,Midrange
+327-0,327,Volkswagen,Transporter,2.0L i4 Turbo Diesel,180,diesel,1968.0,,0,35000.0,35000.0,102.0,102.0,340.0,340.0,12.2,12.2,9,9,Europe,Germany,Midrange
+327-1,327,Volkswagen,Transporter,2.0L i4 Turbo Diesel,180,diesel,1968.0,,1,35000.0,35000.0,204.0,204.0,340.0,340.0,12.2,12.2,9,9,Europe,Germany,Midrange
+328-0,328,Volkswagen,Amarok V6,3.0L v6 Turbo Diesel,191,diesel,2967.0,,0,45000.0,45000.0,204.0,204.0,580.0,580.0,7.9,7.9,5,5,Europe,Germany,Midrange
+328-1,328,Volkswagen,Amarok V6,3.0L v6 Turbo Diesel,191,diesel,2967.0,,1,45000.0,45000.0,258.0,258.0,580.0,580.0,7.9,7.9,5,5,Europe,Germany,Midrange
+329-0,329,Volkswagen,ID.2,Electric,160,electric,,50.0,0,25000.0,25000.0,170.0,170.0,220.0,220.0,8.0,8.0,5,5,Europe,Germany,Budget
+330-0,330,Volkswagen,Polo TDI,1.4L i4 Diesel,190,diesel,1390.0,,0,20000.0,20000.0,75.0,75.0,250.0,250.0,9.9,9.9,5,5,Europe,Germany,Budget
+330-1,330,Volkswagen,Polo TDI,1.6L Diesel,190,diesel,1598.0,,1,20000.0,20000.0,105.0,105.0,250.0,250.0,9.9,9.9,5,5,Europe,Germany,Budget
+331-0,331,Volkswagen,Golf GTE,Plug-in Hybrid (1.4L i4 Turbo),222,hybrid,1395.0,,0,40000.0,40000.0,204.0,204.0,350.0,350.0,7.6,7.6,5,5,Europe,Germany,Midrange
+332-0,332,Volkswagen,Touareg V8,4.0L v8 Turbo Diesel,250,petrol,3956.0,,0,70000.0,70000.0,421.0,421.0,770.0,770.0,4.9,4.9,5,5,Europe,Germany,Premium
+333-0,333,Volkswagen,Beetle Dune,1.4L i4 Turbo,200,petrol,1395.0,,0,30000.0,30000.0,150.0,150.0,250.0,250.0,7.5,7.5,4,4,Europe,Germany,Midrange
+334-0,334,Volkswagen,Passat B8,1.5L i4 Turbo,210,petrol,1498.0,,0,28000.0,28000.0,150.0,150.0,250.0,250.0,8.7,8.7,5,5,Europe,Germany,Midrange
+334-1,334,Volkswagen,Passat B8,2.0L Diesel,210,petrol,1968.0,,1,28000.0,28000.0,280.0,280.0,250.0,250.0,8.7,8.7,5,5,Europe,Germany,Midrange
+335-0,335,Volkswagen,ID.4 Pro S,Electric,180,electric,,77.0,0,45000.0,45000.0,201.0,201.0,310.0,310.0,7.8,7.8,5,5,Europe,Germany,Midrange
+337-0,337,Volkswagen,Golf Country,1.8L i4 Gas,165,petrol,1781.0,,0,25000.0,25000.0,98.0,98.0,170.0,170.0,12.0,12.0,5,5,Europe,Germany,Budget
+338-0,338,Volkswagen,Jetta GLI,2.0L i4 Turbo,250,petrol,1984.0,,0,31000.0,31000.0,228.0,228.0,350.0,350.0,6.5,6.5,5,5,Europe,Germany,Midrange
+339-0,339,Volkswagen,Arteon Shooting Brake,2.0L i4 Turbo,250,petrol,1984.0,,0,50000.0,50000.0,150.0,150.0,420.0,420.0,5.6,5.6,5,5,Europe,Germany,Midrange
+339-1,339,Volkswagen,Arteon Shooting Brake,2.0L i4 Turbo,250,petrol,1984.0,,1,50000.0,50000.0,320.0,320.0,420.0,420.0,5.6,5.6,5,5,Europe,Germany,Midrange
+340-0,340,Volkswagen,T-Cross R-Line,1.0L i3 Turbo,200,petrol,999.0,,0,27000.0,27000.0,115.0,115.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+340-1,340,Volkswagen,T-Cross R-Line,1.5L i4 Turbo,200,petrol,1498.0,,1,27000.0,27000.0,150.0,150.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+341-0,341,Volkswagen,Golf R32,3.2L VR6,250,petrol,3189.0,,0,40000.0,40000.0,240.0,240.0,320.0,320.0,6.2,6.2,5,5,Europe,Germany,Midrange
+342-0,342,Volkswagen,Passat B7,1.6L Diesel,220,petrol,1598.0,,0,26000.0,26000.0,120.0,120.0,280.0,280.0,8.5,8.5,5,5,Europe,Germany,Midrange
+342-1,342,Volkswagen,Passat B7,2.0L i4 Turbo,220,petrol,1984.0,,1,26000.0,26000.0,240.0,240.0,280.0,280.0,8.5,8.5,5,5,Europe,Germany,Midrange
+343-0,343,Volkswagen,Scirocco 16V,1.8L i4 Gas,220,petrol,1781.0,,0,35000.0,35000.0,137.0,137.0,230.0,230.0,7.1,7.1,4,4,Europe,Germany,Midrange
+344-0,344,Volkswagen,Polo BlueMotion,1.2L Diesel i3,190,diesel,1199.0,,0,20000.0,20000.0,75.0,75.0,210.0,210.0,10.5,10.5,5,5,Europe,Germany,Budget
+344-1,344,Volkswagen,Polo BlueMotion,1.2L Diesel i3,190,diesel,1199.0,,1,20000.0,20000.0,95.0,95.0,210.0,210.0,10.5,10.5,5,5,Europe,Germany,Budget
+345-0,345,Volkswagen,Golf Variant GTD,2.0L Diesel i4,230,diesel,1968.0,,0,38000.0,38000.0,184.0,184.0,380.0,380.0,7.5,7.5,5,5,Europe,Germany,Midrange
+346-0,346,Volkswagen,Polo GTI R5,1.6L Turbocharged Rally Engine,200,petrol,1598.0,,0,45000.0,45000.0,272.0,272.0,400.0,400.0,4.1,4.1,5,5,Europe,Germany,Midrange
+347-0,347,Volkswagen,ID. Buzz Pro,Electric,145,electric,,77.0,0,60000.0,60000.0,204.0,204.0,310.0,310.0,10.2,10.2,7,7,Europe,Germany,Premium
+348-0,348,Volkswagen,Jetta Hybrid,1.4L i4 Turbo + Electric Motor,210,hybrid,1395.0,,0,28000.0,28000.0,170.0,170.0,250.0,250.0,8.6,8.6,5,5,Europe,Germany,Midrange
+349-0,349,Volkswagen,Golf Variant Alltrack,2.0L Diesel i4,220,petrol,1968.0,,0,35000.0,35000.0,150.0,150.0,320.0,320.0,7.8,7.8,5,5,Europe,Germany,Midrange
+349-1,349,Volkswagen,Golf Variant Alltrack,2.0L Diesel i4,220,petrol,1968.0,,1,35000.0,35000.0,200.0,200.0,320.0,320.0,7.8,7.8,5,5,Europe,Germany,Midrange
+350-0,350,Volkswagen,Volkswagen XL1,Plug-in Hybrid (0.8L i2 Diesel),160,hybrid,800.0,,0,150000.0,150000.0,68.0,68.0,140.0,140.0,11.9,11.9,2,2,Europe,Germany,Luxury
+351-0,351,Volkswagen,Golf TDI,2.0L Diesel i4,220,diesel,1968.0,,0,28000.0,28000.0,150.0,150.0,350.0,350.0,8.0,8.0,5,5,Europe,Germany,Midrange
+351-1,351,Volkswagen,Golf TDI,2.0L Diesel i4,220,diesel,1968.0,,1,28000.0,28000.0,184.0,184.0,350.0,350.0,8.0,8.0,5,5,Europe,Germany,Midrange
+352-0,352,Volkswagen,Passat Variant,1.5L i4 Turbo,220,petrol,1498.0,,0,30000.0,30000.0,150.0,150.0,280.0,280.0,8.5,8.5,5,5,Europe,Germany,Midrange
+352-1,352,Volkswagen,Passat Variant,2.0L Diesel,220,petrol,1968.0,,1,30000.0,30000.0,240.0,240.0,280.0,280.0,8.5,8.5,5,5,Europe,Germany,Midrange
+353-0,353,Volkswagen,Polo GTI Clubsport,2.0L i4 Turbo,240,petrol,1984.0,,0,30000.0,30000.0,300.0,300.0,320.0,320.0,6.7,6.7,5,5,Europe,Germany,Midrange
+355-0,355,Volkswagen,ID.3 GTX,Electric,180,electric,,77.0,0,45000.0,45000.0,299.0,299.0,310.0,310.0,6.2,6.2,5,5,Europe,Germany,Midrange
+356-0,356,Volkswagen,Arteon R-Line,2.0L i4 Turbo,250,petrol,1984.0,,0,50000.0,50000.0,190.0,190.0,420.0,420.0,5.6,5.6,5,5,Europe,Germany,Midrange
+356-1,356,Volkswagen,Arteon R-Line,2.0L i4 Turbo,250,petrol,1984.0,,1,50000.0,50000.0,280.0,280.0,420.0,420.0,5.6,5.6,5,5,Europe,Germany,Midrange
+357-0,357,Volkswagen,Golf TGI,1.5L i4 CNG,220,petrol,1498.0,,0,30000.0,30000.0,130.0,130.0,200.0,200.0,8.8,8.8,5,5,Europe,Germany,Midrange
+358-0,358,Volkswagen,Scirocco GTS,2.0L i4 Turbo,246,petrol,1984.0,,0,35000.0,35000.0,220.0,220.0,350.0,350.0,6.5,6.5,4,4,Europe,Germany,Midrange
+359-0,359,Volkswagen,Caddy Maxi,2.0L Diesel i4,180,diesel,1968.0,,0,25000.0,25000.0,122.0,122.0,250.0,250.0,12.0,12.0,7,7,Europe,Germany,Budget
+359-1,359,Volkswagen,Caddy Maxi,2.0L Diesel i4,180,diesel,1968.0,,1,25000.0,25000.0,150.0,150.0,250.0,250.0,12.0,12.0,7,7,Europe,Germany,Budget
+360-0,360,Volkswagen,Volkswagen Lupo 3L,1.2L Diesel i3,165,diesel,1199.0,,0,20000.0,20000.0,61.0,61.0,140.0,140.0,14.5,14.5,4,4,Europe,Germany,Budget
+361-0,361,Volkswagen,Polo Beats,1.0L i3 Turbo,187,petrol,999.0,,0,22000.0,22000.0,95.0,95.0,175.0,175.0,9.5,9.5,5,5,Europe,Germany,Budget
+362-0,362,Volkswagen,Passat Hybrid,1.4L i4 Turbo + Electric Motor,210,hybrid,1395.0,,0,32000.0,32000.0,215.0,215.0,330.0,330.0,7.4,7.4,5,5,Europe,Germany,Midrange
+363-0,363,Volkswagen,Golf TCR,2.0L i4 Turbo,250,petrol,1984.0,,0,40000.0,40000.0,290.0,290.0,370.0,370.0,5.6,5.6,5,5,Europe,Germany,Midrange
+364-0,364,Volkswagen,Tiguan R-Line,2.0L i4 Turbo,250,petrol,1984.0,,0,45000.0,45000.0,190.0,190.0,420.0,420.0,4.9,4.9,5,5,Europe,Germany,Midrange
+364-1,364,Volkswagen,Tiguan R-Line,2.0L i4 Turbo,250,petrol,1984.0,,1,45000.0,45000.0,230.0,230.0,420.0,420.0,4.9,4.9,5,5,Europe,Germany,Midrange
+365-0,365,Volkswagen,Sharan Business,2.0L Diesel i4,200,diesel,1968.0,,0,35000.0,35000.0,150.0,150.0,350.0,350.0,8.3,8.3,7,7,Europe,Germany,Midrange
+365-1,365,Volkswagen,Sharan Business,2.0L Diesel i4,200,diesel,1968.0,,1,35000.0,35000.0,184.0,184.0,350.0,350.0,8.3,8.3,7,7,Europe,Germany,Midrange
+366-0,366,Volkswagen,ID. Buzz Cargo Pro,Electric,145,electric,,77.0,0,55000.0,55000.0,204.0,204.0,310.0,310.0,10.2,10.2,2,2,Europe,Germany,Premium
+367-0,367,Volkswagen,Arteon 280 TSI,2.0L i4 Turbo,250,petrol,1984.0,,0,50000.0,50000.0,280.0,280.0,350.0,350.0,5.6,5.6,5,5,Europe,Germany,Midrange
+368-0,368,Volkswagen,Jetta GLI 35th,2.0L i4 Turbo,250,petrol,1984.0,,0,31000.0,31000.0,228.0,228.0,350.0,350.0,6.5,6.5,5,5,Europe,Germany,Midrange
+369-0,369,Volkswagen,Beetle Final Edition,2.0L i4 Turbo,205,petrol,1984.0,,0,25000.0,25000.0,174.0,174.0,250.0,250.0,7.0,7.0,4,4,Europe,Germany,Budget
+370-0,370,Volkswagen,Golf Variant TDI,2.0L Diesel i4,220,diesel,1968.0,,0,30000.0,30000.0,150.0,150.0,350.0,350.0,7.8,7.8,5,5,Europe,Germany,Midrange
+370-1,370,Volkswagen,Golf Variant TDI,2.0L Diesel i4,220,diesel,1968.0,,1,30000.0,30000.0,184.0,184.0,350.0,350.0,7.8,7.8,5,5,Europe,Germany,Midrange
+371-0,371,Volkswagen,Golf 4MOTION,2.0L Diesel i4,250,petrol,1968.0,,0,40000.0,40000.0,150.0,150.0,400.0,400.0,4.9,4.9,5,5,Europe,Germany,Midrange
+371-1,371,Volkswagen,Golf 4MOTION,2.0L Diesel i4,250,petrol,1968.0,,1,40000.0,40000.0,184.0,184.0,400.0,400.0,4.9,4.9,5,5,Europe,Germany,Midrange
+372-0,372,Volkswagen,Jetta SportWagen,1.4L i4 Turbo,200,petrol,1395.0,,0,27000.0,27000.0,147.0,147.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+372-1,372,Volkswagen,Jetta SportWagen,2.0L Diesel i4,200,petrol,1968.0,,1,27000.0,27000.0,150.0,150.0,250.0,250.0,8.5,8.5,5,5,Europe,Germany,Midrange
+373-0,373,Volkswagen,Polo GTI Plus,2.0L i4 Turbo,237,petrol,1984.0,,0,30000.0,30000.0,207.0,207.0,320.0,320.0,6.7,6.7,5,5,Europe,Germany,Midrange
+374-0,374,Volkswagen,Touareg V6,3.0L v6 Turbo Diesel,235,petrol,2967.0,,0,60000.0,60000.0,231.0,231.0,450.0,450.0,7.5,7.5,5,5,Europe,Germany,Premium
+374-1,374,Volkswagen,Touareg V6,Gasoline,235,petrol,2967.0,,1,60000.0,60000.0,340.0,340.0,450.0,450.0,7.5,7.5,5,5,Europe,Germany,Premium
+375-0,375,Volkswagen,Tiguan eHybrid,1.4L i4 Turbo + Electric Motor,200,hybrid,1395.0,,0,42000.0,42000.0,245.0,245.0,400.0,400.0,7.5,7.5,5,5,Europe,Germany,Midrange
+376-0,376,Volkswagen,Up! e-up!,Electric,130,electric,,32.3,0,23000.0,23000.0,83.0,83.0,210.0,210.0,11.9,11.9,4,4,Europe,Germany,Budget
+377-0,377,Volkswagen,Amarok V8,4.0L v8 Turbo Diesel,210,diesel,3996.0,,0,70000.0,70000.0,310.0,310.0,580.0,580.0,7.4,7.4,5,5,Europe,Germany,Premium
+377-1,377,Volkswagen,Amarok V8,4.0L v8 Turbo Diesel,210,diesel,3996.0,,1,70000.0,70000.0,340.0,340.0,580.0,580.0,7.4,7.4,5,5,Europe,Germany,Premium
+378-0,378,Volkswagen,Golf R Cabriolet,2.0L i4 Turbo,250,petrol,1984.0,,0,45000.0,45000.0,265.0,265.0,380.0,380.0,5.9,5.9,4,4,Europe,Germany,Midrange
+379-0,379,Volkswagen,Passat Alltrack TDI,2.0L Diesel i4,220,diesel,1968.0,,0,40000.0,40000.0,190.0,190.0,400.0,400.0,8.0,8.0,5,5,Europe,Germany,Midrange
+380-0,380,Volkswagen,ID. Buzz Cargo EV,Electric,145,electric,,77.0,0,55000.0,55000.0,204.0,204.0,310.0,310.0,10.2,10.2,2,2,Europe,Germany,Premium
+381-0,381,Nissan,Versa,1.6L inline-4,180,petrol,1598.0,,0,16700.0,16700.0,122.0,122.0,154.0,154.0,10.4,10.4,5,5,Asia,Japan,Budget
+382-0,382,Nissan,Micra,1.0L Turbocharged inline-3,175,petrol,999.0,,0,15500.0,15500.0,100.0,100.0,160.0,160.0,10.8,10.8,5,5,Asia,Japan,Budget
+383-0,383,Nissan,Patrol Platinum,5.6L v8,210,petrol,5552.0,,0,77000.0,77000.0,400.0,400.0,560.0,560.0,7.3,7.3,7,7,Asia,Japan,Premium
+384-0,384,Nissan,Qashqai,1.3L Turbocharged inline-4,195,petrol,1332.0,,0,26000.0,26000.0,156.0,156.0,260.0,260.0,8.9,8.9,5,5,Asia,Japan,Midrange
+385-0,385,Nissan,Murano,3.5L v6,210,petrol,3498.0,,0,39000.0,39000.0,260.0,260.0,325.0,325.0,7.5,7.5,5,5,Asia,Japan,Midrange
+386-0,386,Nissan,Maxima Platinum,3.5L v6,220,petrol,3498.0,,0,45000.0,45000.0,300.0,300.0,353.0,353.0,6.2,6.2,5,5,Asia,Japan,Midrange
+387-0,387,Nissan,Armada,5.6L v8,210,petrol,5552.0,,0,51000.0,51000.0,400.0,400.0,560.0,560.0,6.5,6.5,8,8,Asia,Japan,Premium
+388-0,388,Nissan,Kicks,1.6L inline-4,180,petrol,1598.0,,0,20000.0,20000.0,122.0,122.0,154.0,154.0,10.7,10.7,5,5,Asia,Japan,Budget
+389-0,389,Nissan,X-Trail,1.5L Turbocharged inline-3,200,hybrid,1498.0,,0,29000.0,29000.0,201.0,201.0,305.0,305.0,8.0,8.0,5,5,Asia,Japan,Midrange
+390-0,390,Nissan,Z (Fairlady Z),3.0L Twin-Turbo v6,250,petrol,2997.0,,0,40000.0,40000.0,400.0,400.0,475.0,475.0,4.5,4.5,2,2,Asia,Japan,Midrange
+391-0,391,Nissan,Almera,1.0L Turbocharged inline-3,185,petrol,999.0,,0,14500.0,14500.0,100.0,100.0,160.0,160.0,10.7,10.7,5,5,Asia,Japan,Budget
+392-0,392,Nissan,Sylphy,1.8L inline-4,190,petrol,1798.0,,0,18000.0,18000.0,137.0,137.0,174.0,174.0,9.6,9.6,5,5,Asia,Japan,Budget
+393-0,393,Nissan,Note,1.2L inline-3 Hybrid,170,hybrid,1198.0,,0,16000.0,16000.0,109.0,109.0,150.0,150.0,11.5,11.5,5,5,Asia,Japan,Budget
+394-0,394,Nissan,Sunny,1.6L inline-4,180,petrol,1598.0,,0,15000.0,15000.0,118.0,118.0,156.0,156.0,11.0,11.0,5,5,Asia,Japan,Budget
+395-0,395,Nissan,Cube,1.8L inline-4,175,petrol,1798.0,,0,14500.0,14500.0,122.0,122.0,171.0,171.0,10.6,10.6,5,5,Asia,Japan,Budget
+396-0,396,Nissan,Juke,1.0L Turbocharged inline-3,180,petrol,999.0,,0,25000.0,25000.0,117.0,117.0,180.0,180.0,10.4,10.4,5,5,Asia,Japan,Budget
+397-0,397,Nissan,Terrano,1.5L inline-4 Diesel,168,diesel,1461.0,,0,15500.0,15500.0,110.0,110.0,248.0,248.0,13.5,13.5,5,5,Asia,Japan,Budget
+398-0,398,Nissan,Magnite,1.0L Turbocharged inline-3,160,petrol,999.0,,0,12000.0,12000.0,100.0,100.0,160.0,160.0,13.0,13.0,5,5,Asia,Japan,Budget
+399-0,399,Nissan,Xterra,4.0L v6,200,petrol,3954.0,,0,35000.0,35000.0,261.0,261.0,381.0,381.0,7.8,7.8,7,7,Asia,Japan,Midrange
+400-0,400,Nissan,Patrol,5.6L v8,210,petrol,5552.0,,0,77000.0,77000.0,400.0,400.0,560.0,560.0,7.3,7.3,7,7,Asia,Japan,Premium
+401-0,401,Nissan,GT-R NISMO,3.8L Twin-Turbo v6,330,petrol,3799.0,,0,220000.0,220000.0,600.0,600.0,652.0,652.0,2.9,2.9,2,2,Asia,Japan,Luxury
+402-0,402,Nissan,370Z Roadster,3.7L v6,250,petrol,3696.0,,0,41820.0,41820.0,332.0,332.0,366.0,366.0,5.5,5.5,2,2,Asia,Japan,Midrange
+403-0,403,Nissan,Ariya ,Dual Electric Motors,200,electric,,87.0,0,58950.0,58950.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+404-0,404,Nissan,Patrol Royale,5.6L v8,210,petrol,5552.0,,0,85000.0,85000.0,400.0,400.0,560.0,560.0,6.6,6.6,7,7,Asia,Japan,Premium
+405-0,405,Nissan,Infiniti QX80*,5.6L v8,210,petrol,5552.0,,0,70600.0,70600.0,400.0,400.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Premium
+406-0,406,Nissan,Tiida,1.6L inline-4,190,petrol,1598.0,,0,14500.0,14500.0,126.0,126.0,154.0,154.0,10.1,10.1,5,5,Asia,Japan,Budget
+407-0,407,Nissan,Pulsar,1.2L Turbocharged inline-4,190,petrol,1197.0,,0,19000.0,19000.0,115.0,115.0,190.0,190.0,10.7,10.7,5,5,Asia,Japan,Budget
+408-0,408,Nissan,Latio,1.5L inline-4,175,petrol,1498.0,,0,13000.0,13000.0,102.0,102.0,139.0,139.0,11.5,11.5,5,5,Asia,Japan,Budget
+409-0,409,Nissan,Bluebird Sylphy,2.0L inline-4,185,petrol,1997.0,,0,18500.0,18500.0,133.0,133.0,191.0,191.0,10.5,10.5,5,5,Asia,Japan,Budget
+410-0,410,Nissan,March,1.2L inline-3,170,petrol,1198.0,,0,12000.0,12000.0,79.0,79.0,106.0,106.0,13.7,13.7,5,5,Asia,Japan,Budget
+411-0,411,Nissan,Rogue Sport,2.0L inline-4,190,petrol,1997.0,,0,24960.0,24960.0,141.0,141.0,199.0,199.0,9.8,9.8,5,5,Asia,Japan,Budget
+412-0,412,Nissan,X-Trail Hybrid,2.0L inline-4 Hybrid,180,hybrid,1997.0,,0,28500.0,28500.0,179.0,179.0,207.0,207.0,9.4,9.4,5,5,Asia,Japan,Midrange
+413-0,413,Nissan,Pathfinder Rock Creek,3.5L v6,190,petrol,3498.0,,0,42820.0,42820.0,284.0,284.0,351.0,351.0,7.4,7.4,7,7,Asia,Japan,Midrange
+414-0,414,Nissan,Armada Platinum,5.6L v8,210,petrol,5552.0,,0,65300.0,65300.0,400.0,400.0,560.0,560.0,6.5,6.5,8,8,Asia,Japan,Premium
+415-0,415,Nissan,Terrano XL,1.6L inline-4,165,petrol,1598.0,,0,14000.0,14000.0,104.0,104.0,145.0,145.0,12.5,12.5,5,5,Asia,Japan,Budget
+416-0,416,Nissan,GT-R50 by Italdesign,3.8L Twin-Turbo v6,315,petrol,3799.0,,0,1100000.0,1100000.0,720.0,720.0,780.0,780.0,2.5,2.5,2,2,Asia,Japan,Supercar
+417-0,417,Nissan,370Z NISMO,3.7L v6,250,petrol,3696.0,,0,45790.0,45790.0,350.0,350.0,374.0,374.0,5.2,5.2,2,2,Asia,Japan,Midrange
+418-0,418,Nissan,Ariya E-4ORCE,Dual Electric Motors,200,electric,,87.0,0,60000.0,60000.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+419-0,419,Nissan,Patrol NISMO,5.6L v8,210,petrol,5552.0,,0,105000.0,105000.0,428.0,428.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Luxury
+420-0,420,Nissan,Infiniti Q60*,3.0L v6 Twin-Turbo,250,petrol,2997.0,,0,41750.0,41750.0,300.0,300.0,400.0,400.0,5.0,5.0,4,4,Asia,Japan,Midrange
+421-0,421,Nissan,Primera,2.0L inline-4,200,petrol,1998.0,,0,20000.0,20000.0,140.0,140.0,190.0,190.0,9.6,9.6,5,5,Asia,Japan,Budget
+422-0,422,Nissan,Skyline,3.0L v6 Twin-Turbo,250,petrol,2997.0,,0,50000.0,50000.0,400.0,400.0,475.0,475.0,5.0,5.0,5,5,Asia,Japan,Midrange
+423-0,423,Nissan,Cedric,2.0L inline-6,190,petrol,1998.0,,0,22000.0,22000.0,150.0,150.0,190.0,190.0,10.5,10.5,5,5,Asia,Japan,Budget
+424-0,424,Nissan,Gloria,2.5L v6,210,petrol,2498.0,,0,30000.0,30000.0,210.0,210.0,250.0,250.0,8.6,8.6,5,5,Asia,Japan,Midrange
+425-0,425,Nissan,Stanza,1.8L inline-4,175,petrol,1796.0,,0,18500.0,18500.0,120.0,120.0,170.0,170.0,11.0,11.0,5,5,Asia,Japan,Budget
+426-0,426,Nissan,Patrol Super Safari,4.8L inline-6,190,petrol,4750.0,,0,55000.0,55000.0,280.0,280.0,451.0,451.0,8.2,8.2,7,7,Asia,Japan,Premium
+427-0,427,Nissan,Pathfinder Hybrid,2.5L inline-4 Hybrid,190,hybrid,2488.0,,0,42500.0,42500.0,250.0,250.0,329.0,329.0,7.7,7.7,7,7,Asia,Japan,Midrange
+428-0,428,Nissan,X-Terra Pro-4X,2.5L inline-4,175,petrol,2498.0,,0,40000.0,40000.0,190.0,190.0,240.0,240.0,10.8,10.8,7,7,Asia,Japan,Midrange
+429-0,429,Nissan,Rogue Platinum,1.5L Turbo inline-3,180,petrol,1497.0,,0,38000.0,38000.0,201.0,201.0,300.0,300.0,8.2,8.2,5,5,Asia,Japan,Midrange
+430-0,430,Nissan,Qashqai Tekna,1.3L Turbo Hybrid inline-4,190,hybrid,1332.0,,0,36000.0,36000.0,158.0,158.0,270.0,270.0,9.2,9.2,5,5,Asia,Japan,Midrange
+431-0,431,Nissan,GT-R V-Spec,3.8L Twin-Turbo v6,330,petrol,3799.0,,0,175000.0,175000.0,600.0,600.0,652.0,652.0,2.8,2.8,2,2,Asia,Japan,Luxury
+432-0,432,Nissan,Skyline NISMO,3.0L Twin-Turbo v6,270,petrol,2997.0,,0,55000.0,55000.0,420.0,420.0,475.0,475.0,4.7,4.7,5,5,Asia,Japan,Premium
+433-0,433,Nissan,Ariya Lounge Edition,Dual Electric Motors,200,electric,,87.0,0,63000.0,63000.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+434-0,434,Nissan,Patrol Titanium,5.6L v8,210,petrol,5552.0,,0,98000.0,98000.0,428.0,428.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Premium
+435-0,435,Nissan,Infiniti FX50*,5.0L v8,250,petrol,5026.0,,0,61750.0,61750.0,390.0,390.0,500.0,500.0,5.6,5.6,5,5,Asia,Japan,Premium
+436-0,436,Nissan,Avenir,2.0L inline-4,180,petrol,1998.0,,0,20000.0,20000.0,140.0,140.0,186.0,186.0,9.8,9.8,5,5,Asia,Japan,Budget
+437-0,437,Nissan,Wingroad,1.8L inline-4,175,petrol,1798.0,,0,18000.0,18000.0,125.0,125.0,168.0,168.0,10.8,10.8,5,5,Asia,Japan,Budget
+438-0,438,Nissan,Presea,1.8L inline-4,170,petrol,1838.0,,0,17500.0,17500.0,115.0,115.0,161.0,161.0,11.5,11.5,5,5,Asia,Japan,Budget
+439-0,439,Nissan,Leopard,3.0L v6,200,petrol,2960.0,,0,32000.0,32000.0,210.0,210.0,265.0,265.0,8.4,8.4,5,5,Asia,Japan,Midrange
+440-0,440,Nissan,Sunny NISMO Edition,1.6L Turbo inline-4,200,petrol,1598.0,,0,24000.0,24000.0,190.0,190.0,240.0,240.0,7.5,7.5,5,5,Asia,Japan,Budget
+441-0,441,Nissan,Paladin,2.4L inline-4,180,petrol,2438.0,,0,20000.0,20000.0,150.0,150.0,217.0,217.0,10.6,10.6,5,5,Asia,Japan,Budget
+442-0,442,Nissan,Hardbody SUV,2.5L inline-4,175,petrol,2498.0,,0,18500.0,18500.0,158.0,158.0,225.0,225.0,11.0,11.0,5,5,Asia,Japan,Budget
+443-0,443,Nissan,Patrol Desert Edition,5.6L v8,210,petrol,5552.0,,0,95000.0,95000.0,428.0,428.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Premium
+444-0,444,Nissan,Pathfinder Armada,5.6L v8,200,petrol,5552.0,,0,60000.0,60000.0,400.0,400.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Premium
+445-0,445,Nissan,Rogue Midnight Edition,1.5L Turbo inline-3,180,petrol,1497.0,,0,39000.0,39000.0,201.0,201.0,300.0,300.0,8.2,8.2,5,5,Asia,Japan,Midrange
+446-0,446,Nissan,GT-R Black Edition,3.8L Twin-Turbo v6,330,petrol,3799.0,,0,185000.0,185000.0,600.0,600.0,652.0,652.0,2.8,2.8,2,2,Asia,Japan,Luxury
+447-0,447,Nissan,Fairlady Z Heritage,3.0L Twin-Turbo v6,250,petrol,2997.0,,0,48000.0,48000.0,400.0,400.0,475.0,475.0,4.2,4.2,2,2,Asia,Japan,Midrange
+448-0,448,Nissan,Skyline GT-R R34,2.6L Twin-Turbo inline-6,250,petrol,2568.0,,0,70000.0,70000.0,276.0,276.0,392.0,392.0,5.6,5.6,4,4,Asia,Japan,Premium
+449-0,449,Nissan,Ariya Premiere,Dual Electric Motors,200,electric,,87.0,0,67000.0,67000.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+450-0,450,Nissan,Infiniti QX55*,2.0L VC-Turbo inline-4,230,petrol,1997.0,,0,50000.0,50000.0,268.0,268.0,380.0,380.0,6.5,6.5,5,5,Asia,Japan,Midrange
+451-0,451,Nissan,NV350 Caravan,2.5L inline-4 Diesel,155,diesel,2488.0,,0,28000.0,28000.0,129.0,129.0,356.0,356.0,12.5,12.5,8,8,Asia,Japan,Midrange
+452-0,452,Nissan,Navara,2.3L inline-4 Diesel,180,diesel,2298.0,,0,32000.0,32000.0,190.0,190.0,450.0,450.0,10.2,10.2,5,5,Asia,Japan,Midrange
+453-0,453,Nissan,Titan XD,5.6L v8,195,petrol,5552.0,,0,55000.0,55000.0,400.0,400.0,560.0,560.0,6.9,6.9,6,6,Asia,Japan,Premium
+454-0,454,Nissan,Evalia,1.5L inline-4 Diesel,140,diesel,1461.0,,0,25000.0,25000.0,85.0,85.0,200.0,200.0,15.0,15.0,7,7,Asia,Japan,Budget
+455-0,455,Nissan,Cabstar,2.5L inline-4 Diesel,145,diesel,2488.0,,0,27000.0,27000.0,130.0,130.0,350.0,350.0,14.8,14.8,3,3,Asia,Japan,Midrange
+456-0,456,Nissan,Cherry,1.4L inline-4,145,petrol,1397.0,,0,14000.0,14000.0,67.0,67.0,110.0,110.0,14.0,14.0,5,5,Asia,Japan,Budget
+457-0,457,Nissan,Laurel,2.8L inline-6 Diesel,160,diesel,2825.0,,0,22000.0,22000.0,94.0,94.0,184.0,184.0,12.5,12.5,5,5,Asia,Japan,Budget
+458-0,458,Nissan,Silvia,2.0L Turbo inline-4,235,petrol,1998.0,,0,45000.0,45000.0,247.0,247.0,275.0,275.0,5.9,5.9,4,4,Asia,Japan,Midrange
+459-0,459,Nissan,NX Coupe,2.0L inline-4,200,petrol,1998.0,,0,22000.0,22000.0,140.0,140.0,180.0,180.0,9.0,9.0,4,4,Asia,Japan,Budget
+460-0,460,Nissan,AD Wagon,1.5L inline-4,165,petrol,1498.0,,0,16000.0,16000.0,105.0,105.0,150.0,150.0,12.3,12.3,5,5,Asia,Japan,Budget
+461-0,461,Nissan,Patrol Super Safari Y61,4.8L inline-6,190,petrol,4750.0,,0,58000.0,58000.0,280.0,280.0,451.0,451.0,8.2,8.2,7,7,Asia,Japan,Premium
+462-0,462,Nissan,Pathfinder Rock Creek Edition,3.5L v6,195,petrol,3498.0,,0,44000.0,44000.0,284.0,284.0,351.0,351.0,7.2,7.2,7,7,Asia,Japan,Midrange
+463-0,463,Nissan,Terrano II,2.7L inline-4 Diesel,160,diesel,2664.0,,0,28000.0,28000.0,125.0,125.0,278.0,278.0,12.9,12.9,5,5,Asia,Japan,Midrange
+464-0,464,Nissan,Murano CrossCabriolet,3.5L v6,195,petrol,3498.0,,0,47000.0,47000.0,260.0,260.0,325.0,325.0,7.6,7.6,4,4,Asia,Japan,Midrange
+465-0,465,Nissan,X-Trail Tekna,1.5L Turbo Hybrid,190,hybrid,1497.0,,0,43000.0,43000.0,204.0,204.0,305.0,305.0,8.0,8.0,5,5,Asia,Japan,Midrange
+466-0,466,Nissan,GT-R LM NISMO,3.0L Twin-Turbo v6 Hybrid,320,hybrid,3000.0,,0,600000.0,600000.0,500.0,500.0,650.0,650.0,3.0,3.0,2,2,Asia,Japan,Supercar
+467-0,467,Nissan,Skyline 400R,3.0L Twin-Turbo v6,250,petrol,2997.0,,0,70000.0,70000.0,400.0,400.0,475.0,475.0,4.5,4.5,5,5,Asia,Japan,Premium
+468-0,468,Nissan,Infiniti G37*,3.7L v6,250,petrol,3696.0,,0,42000.0,42000.0,328.0,328.0,365.0,365.0,5.5,5.5,5,5,Asia,Japan,Midrange
+469-0,469,Nissan,Patrol Black Edition,5.6L v8,200,petrol,5552.0,,0,85000.0,85000.0,400.0,400.0,560.0,560.0,6.5,6.5,7,7,Asia,Japan,Premium
+470-0,470,Nissan,Ariya Empower+,Dual Electric Motors,200,electric,,87.0,0,68000.0,68000.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+471-0,471,Nissan,Datsun 510 (Classic),1.6L inline-4,175,petrol,1595.0,,0,25000.0,25000.0,96.0,96.0,135.0,135.0,10.2,10.2,4,4,Asia,Japan,Budget
+472-0,472,Nissan,200SX,2.0L Turbo inline-4,240,petrol,1998.0,,0,30000.0,30000.0,200.0,200.0,265.0,265.0,7.2,7.2,4,4,Asia,Japan,Midrange
+473-0,473,Nissan,300ZX,3.0L Twin-Turbo v6,250,petrol,2960.0,,0,50000.0,50000.0,300.0,300.0,384.0,384.0,5.9,5.9,4,4,Asia,Japan,Midrange
+474-0,474,Nissan,R390 GT1 Road Car,3.5L Twin-Turbo v8,354,petrol,3495.0,,0,1000000.0,1000000.0,550.0,550.0,637.0,637.0,3.3,3.3,2,2,Asia,Japan,Supercar
+475-0,475,Nissan,Figaro,1.0L Turbo inline-4,170,petrol,987.0,,0,20000.0,20000.0,76.0,76.0,103.0,103.0,12.8,12.8,4,4,Asia,Japan,Budget
+476-0,476,Nissan,Hardbody Truck,2.4L inline-4,160,petrol,2389.0,,0,25000.0,25000.0,134.0,134.0,206.0,206.0,10.6,10.6,5,5,Asia,Japan,Budget
+477-0,477,Nissan,Atlas,3.0L inline-4 Diesel,130,diesel,2999.0,,0,35000.0,35000.0,130.0,130.0,300.0,300.0,18.0,18.0,3,3,Asia,Japan,Midrange
+478-0,478,Nissan,Clipper,660cc inline-3,110,petrol,659.0,,0,10000.0,10000.0,48.0,48.0,62.0,62.0,18.5,18.5,4,4,Asia,Japan,Budget
+479-0,479,Nissan,NV200,2.0L inline-4,140,petrol,1998.0,,0,28000.0,28000.0,131.0,131.0,188.0,188.0,14.0,14.0,7,7,Asia,Japan,Midrange
+480-0,480,Nissan,Violet,1.8L inline-4,155,petrol,1770.0,,0,18000.0,18000.0,85.0,85.0,130.0,130.0,13.8,13.8,5,5,Asia,Japan,Budget
+481-0,481,Nissan,Bluebird Z,2.0L inline-4,190,petrol,1998.0,,0,23000.0,23000.0,140.0,140.0,180.0,180.0,11.0,11.0,5,5,Asia,Japan,Budget
+482-0,482,Nissan,Stanza Wagon,2.4L inline-4,160,petrol,2389.0,,0,22000.0,22000.0,138.0,138.0,205.0,205.0,12.0,12.0,7,7,Asia,Japan,Budget
+483-0,483,Nissan,180SX,2.0L Turbo inline-4,240,petrol,1998.0,,0,35000.0,35000.0,205.0,205.0,275.0,275.0,6.8,6.8,4,4,Asia,Japan,Midrange
+484-0,484,Nissan,Sunny California,1.6L inline-4,170,petrol,1597.0,,0,18000.0,18000.0,110.0,110.0,140.0,140.0,11.0,11.0,5,5,Asia,Japan,Budget
+485-0,485,Nissan,Patrol Warrior,5.6L v8,205,petrol,5552.0,,0,95000.0,95000.0,428.0,428.0,580.0,580.0,6.3,6.3,7,7,Asia,Japan,Premium
+486-0,486,Nissan,Pathfinder Armada Platinum,5.6L v8,190,petrol,5552.0,,0,70000.0,70000.0,400.0,400.0,560.0,560.0,6.8,6.8,7,7,Asia,Japan,Premium
+487-0,487,Nissan,Rogue Sport SL,2.0L inline-4,190,petrol,1998.0,,0,32000.0,32000.0,141.0,141.0,195.0,195.0,9.0,9.0,5,5,Asia,Japan,Midrange
+488-0,488,Nissan,X-Trail Platinum Edition,1.5L Turbo Hybrid,190,hybrid,1497.0,,0,46000.0,46000.0,204.0,204.0,305.0,305.0,8.0,8.0,5,5,Asia,Japan,Midrange
+489-0,489,Nissan,Qashqai e-Power,1.5L Hybrid,200,hybrid,1497.0,,0,40000.0,40000.0,187.0,187.0,330.0,330.0,7.5,7.5,5,5,Asia,Japan,Midrange
+490-0,490,Nissan,GT-R Egoist,3.8L Twin-Turbo v6,315,petrol,3799.0,,0,220000.0,220000.0,565.0,565.0,637.0,637.0,2.8,2.8,2,2,Asia,Japan,Luxury
+491-0,491,Nissan,Infiniti M45*,4.5L v8,250,petrol,4494.0,,0,50000.0,50000.0,325.0,325.0,451.0,451.0,5.8,5.8,5,5,Asia,Japan,Midrange
+492-0,492,Nissan,Skyline 50th Anniversary,3.0L Twin-Turbo v6,250,petrol,2997.0,,0,75000.0,75000.0,400.0,400.0,475.0,475.0,4.5,4.5,5,5,Asia,Japan,Premium
+493-0,493,Nissan,Ariya Dual Motor AWD,Dual Electric Motors,200,electric,,87.0,0,70000.0,70000.0,389.0,389.0,600.0,600.0,5.1,5.1,5,5,Asia,Japan,Premium
+494-0,494,Nissan,Patrol Legend Edition,5.6L v8,205,petrol,5552.0,,0,95000.0,95000.0,428.0,428.0,580.0,580.0,6.3,6.3,7,7,Asia,Japan,Premium
+495-0,495,Nissan,Datsun 240Z (Classic),2.4L inline-6,210,petrol,2393.0,,0,45000.0,45000.0,151.0,151.0,198.0,198.0,8.0,8.0,2,2,Asia,Japan,Midrange
+496-0,496,Nissan,100NX,1.6L inline-4,185,petrol,1597.0,,0,18000.0,18000.0,110.0,110.0,135.0,135.0,9.6,9.6,4,4,Asia,Japan,Budget
+497-0,497,Nissan,Cedric Special Edition,3.0L v6,225,petrol,2960.0,,0,60000.0,60000.0,250.0,250.0,330.0,330.0,8.5,8.5,5,5,Asia,Japan,Premium
+498-0,498,Nissan,300ZX Turbo,3.0L Twin-Turbo v6,250,petrol,2960.0,,0,55000.0,55000.0,300.0,300.0,384.0,384.0,5.9,5.9,4,4,Asia,Japan,Premium
+499-0,499,Nissan,Silvia S15 Spec-R,2.0L Turbo inline-4,240,petrol,1998.0,,0,35000.0,35000.0,250.0,250.0,300.0,300.0,5.6,5.6,4,4,Asia,Japan,Midrange
+500-0,500,Nissan,NV400,2.3L inline-4 Diesel,150,diesel,2298.0,,0,40000.0,40000.0,135.0,135.0,360.0,360.0,15.0,15.0,3,3,Asia,Japan,Midrange
+501-0,501,Nissan,Titan Warrior,5.6L v8,180,petrol,5552.0,,0,55000.0,55000.0,400.0,400.0,560.0,560.0,7.0,7.0,5,5,Asia,Japan,Premium
+502-0,502,Nissan,Caravan Coach,2.5L inline-4 Diesel,140,diesel,2498.0,,0,30000.0,30000.0,127.0,127.0,260.0,260.0,14.0,14.0,7,7,Asia,Japan,Midrange
+503-0,503,Nissan,Serena e-Power,1.2L Hybrid,160,hybrid,1198.0,,0,35000.0,35000.0,134.0,134.0,320.0,320.0,12.0,12.0,7,7,Asia,Japan,Midrange
+504-0,504,Nissan,Elgrand,3.5L v6,200,petrol,3498.0,,0,50000.0,50000.0,280.0,280.0,344.0,344.0,8.5,8.5,7,7,Asia,Japan,Midrange
+505-0,505,Nissan,Datsun 510,1.6L inline-4,175,petrol,1595.0,,0,25000.0,25000.0,96.0,96.0,135.0,135.0,10.2,10.2,4,4,Asia,Japan,Budget
+506-0,506,Nissan,Prairie,2.0L inline-4,175,petrol,1998.0,,0,18000.0,18000.0,120.0,120.0,170.0,170.0,11.0,11.0,5,5,Asia,Japan,Budget
+507-0,507,Nissan,Pulsar GTI-R,2.0L Turbo inline-4,225,petrol,1998.0,,0,30000.0,30000.0,230.0,230.0,280.0,280.0,6.0,6.0,5,5,Asia,Japan,Midrange
+508-0,508,Nissan,Almera Tino,1.8L inline-4,180,petrol,1769.0,,0,15000.0,15000.0,114.0,114.0,160.0,160.0,12.5,12.5,5,5,Asia,Japan,Budget
+509-0,509,Nissan,Lucino,1.6L inline-4,185,petrol,1597.0,,0,12000.0,12000.0,115.0,115.0,150.0,150.0,10.5,10.5,5,5,Asia,Japan,Budget
+510-0,510,Nissan,Rasheen,1.5L inline-4,165,petrol,1497.0,,0,10000.0,10000.0,105.0,105.0,135.0,135.0,13.0,13.0,5,5,Asia,Japan,Budget
+511-0,511,Nissan,Mistral,2.7L Turbo Diesel,160,diesel,2663.0,,0,25000.0,25000.0,125.0,125.0,260.0,260.0,12.5,12.5,7,7,Asia,Japan,Budget
+512-0,512,Nissan,Patrol Y60,4.2L inline-6,160,diesel,4169.0,,0,45000.0,45000.0,155.0,155.0,330.0,330.0,12.0,12.0,7,7,Asia,Japan,Midrange
+513-0,513,Nissan,X-Trail GT,2.0L Turbo inline-4,215,petrol,1998.0,,0,38000.0,38000.0,280.0,280.0,310.0,310.0,6.4,6.4,5,5,Asia,Japan,Midrange
+514-0,514,Nissan,Terrano Regulus,3.3L v6,175,petrol,3275.0,,0,28000.0,28000.0,170.0,170.0,290.0,290.0,10.0,10.0,5,5,Asia,Japan,Midrange
+515-0,515,Nissan,President,4.5L v8,210,petrol,4494.0,,0,70000.0,70000.0,280.0,280.0,400.0,400.0,7.5,7.5,5,5,Asia,Japan,Premium
+516-0,516,Nissan,Cima,4.1L v8,210,petrol,4130.0,,0,60000.0,60000.0,270.0,270.0,390.0,390.0,8.0,8.0,5,5,Asia,Japan,Premium
+517-0,517,Nissan,Leopard J. Ferie,3.0L v6 Turbo,215,petrol,2960.0,,0,45000.0,45000.0,255.0,255.0,340.0,340.0,6.5,6.5,5,5,Asia,Japan,Midrange
+518-0,518,Nissan,Gloria Gran Turismo,3.0L v6 Turbo,220,petrol,2960.0,,0,50000.0,50000.0,255.0,255.0,340.0,340.0,6.5,6.5,5,5,Asia,Japan,Midrange
+519-0,519,Nissan,Infiniti Q45*,4.5L v8,240,petrol,4494.0,,0,50000.0,50000.0,340.0,340.0,450.0,450.0,6.2,6.2,5,5,Asia,Japan,Midrange
+520-0,520,Nissan,Datsun 240Z,2.4L inline-6,210,petrol,2393.0,,0,45000.0,45000.0,151.0,151.0,198.0,198.0,8.0,8.0,2,2,Asia,Japan,Midrange
+521-0,521,Nissan,280ZX,2.8L inline-6,205,petrol,2753.0,,0,35000.0,35000.0,145.0,145.0,210.0,210.0,9.5,9.5,2,2,Asia,Japan,Midrange
+522-0,522,Nissan,Silvia S13,1.8L Turbo inline-4,215,petrol,1809.0,,0,20000.0,20000.0,175.0,175.0,230.0,230.0,6.8,6.8,4,4,Asia,Japan,Budget
+523-0,523,Nissan,200SX,2.0L Turbo inline-4,225,petrol,1998.0,,0,25000.0,25000.0,200.0,200.0,260.0,260.0,7.0,7.0,4,4,Asia,Japan,Budget
+524-0,524,Nissan,NX Coupe,1.8L inline-4,200,petrol,1839.0,,0,18000.0,18000.0,140.0,140.0,180.0,180.0,9.0,9.0,4,4,Asia,Japan,Budget
+525-0,525,Nissan,NV2500,4.0L v6,160,petrol,3954.0,,0,36000.0,36000.0,261.0,261.0,385.0,385.0,10.0,10.0,2,2,Asia,Japan,Midrange
+526-0,526,Nissan,NV3500,5.6L v8,170,petrol,5552.0,,0,42000.0,42000.0,375.0,375.0,525.0,525.0,9.0,9.0,2,2,Asia,Japan,Midrange
+527-0,527,Nissan,NT400 Cabstar,3.0L inline-4 Diesel,140,diesel,2953.0,,0,35000.0,35000.0,150.0,150.0,350.0,350.0,15.0,15.0,3,3,Asia,Japan,Midrange
+528-0,528,Porsche,Panamera,2.9L v6 Twin Turbo,270,petrol,2894.0,,0,88000.0,88000.0,330.0,330.0,450.0,450.0,5.6,5.6,4,4,Europe,Germany,Premium
+529-0,529,Porsche,Panamera 4,2.9L v6 Twin Turbo,270,petrol,2894.0,,0,92000.0,92000.0,330.0,330.0,450.0,450.0,5.4,5.4,4,4,Europe,Germany,Premium
+530-0,530,Porsche,Panamera 4S,2.9L v6 Twin Turbo,289,petrol,2894.0,,0,105000.0,105000.0,440.0,440.0,550.0,550.0,4.4,4.4,4,4,Europe,Germany,Luxury
+531-0,531,Porsche,Panamera Turbo S,4.0L v8 Twin Turbo,315,petrol,3996.0,,0,180000.0,180000.0,620.0,620.0,820.0,820.0,3.1,3.1,4,4,Europe,Germany,Luxury
+532-0,532,Porsche,Panamera GTS,4.0L v8 Twin Turbo,300,petrol,3996.0,,0,130000.0,130000.0,473.0,473.0,620.0,620.0,3.9,3.9,4,4,Europe,Germany,Luxury
+533-0,533,Porsche,Panamera Platinum Edition,2.9L v6 Twin Turbo,270,petrol,2894.0,,0,102000.0,102000.0,330.0,330.0,450.0,450.0,5.4,5.4,4,4,Europe,Germany,Luxury
+534-0,534,Porsche,Panamera E-Hybrid,2.9L v6 + Electric Motor,280,hybrid,,17.9,0,115000.0,115000.0,455.0,455.0,700.0,700.0,4.4,4.4,4,4,Europe,Germany,Luxury
+535-0,535,Porsche,Panamera 4 E-Hybrid Sport Turismo,2.9L v6 + Electric Motor,280,hybrid,,17.9,0,120000.0,120000.0,455.0,455.0,700.0,700.0,4.4,4.4,4,4,Europe,Germany,Luxury
+536-0,536,Porsche,Panamera Turbo S E-Hybrid,4.0L v8 + Electric Motor,315,hybrid,,17.9,0,190000.0,190000.0,690.0,690.0,870.0,870.0,3.2,3.2,4,4,Europe,Germany,Luxury
+537-0,537,Porsche,Panamera 4 Executive,2.9L v6 Twin Turbo,270,petrol,2894.0,,0,95000.0,95000.0,330.0,330.0,450.0,450.0,5.6,5.6,4,4,Europe,Germany,Premium
+538-0,538,Porsche,Cayenne,3.0L v6 Turbo,245,petrol,2995.0,,0,80000.0,80000.0,335.0,335.0,450.0,450.0,5.9,5.9,5,5,Europe,Germany,Premium
+539-0,539,Porsche,Cayenne Coupe,3.0L v6 Turbo,245,petrol,2995.0,,0,85000.0,85000.0,335.0,335.0,450.0,450.0,6.0,6.0,5,5,Europe,Germany,Premium
+540-0,540,Porsche,Cayenne S,2.9L v6 Twin Turbo,265,petrol,2894.0,,0,95000.0,95000.0,434.0,434.0,550.0,550.0,5.0,5.0,5,5,Europe,Germany,Premium
+541-0,541,Porsche,Cayenne Turbo,4.0L v8 Twin Turbo,286,petrol,3996.0,,0,130000.0,130000.0,541.0,541.0,770.0,770.0,4.0,4.0,5,5,Europe,Germany,Luxury
+542-0,542,Porsche,Cayenne GTS,4.0L v8 Twin Turbo,270,petrol,3996.0,,0,110000.0,110000.0,453.0,453.0,620.0,620.0,4.5,4.5,5,5,Europe,Germany,Luxury
+543-0,543,Porsche,Cayenne Turbo S E-Hybrid,4.0L v8 + Electric Motor,295,hybrid,,17.9,0,170000.0,170000.0,670.0,670.0,900.0,900.0,3.6,3.6,5,5,Europe,Germany,Luxury
+544-0,544,Porsche,Macan,2.0L i4 Turbo,232,petrol,1984.0,,0,60000.0,60000.0,261.0,261.0,400.0,400.0,6.2,6.2,5,5,Europe,Germany,Premium
+545-0,545,Porsche,Macan S,2.9L v6 Twin Turbo,259,petrol,2894.0,,0,75000.0,75000.0,375.0,375.0,520.0,520.0,4.8,4.8,5,5,Europe,Germany,Premium
+546-0,546,Porsche,Macan GTS,2.9L v6 Twin Turbo,272,petrol,2894.0,,0,85000.0,85000.0,434.0,434.0,550.0,550.0,4.5,4.5,5,5,Europe,Germany,Premium
+547-0,547,Porsche,Macan T,2.0L i4 Turbo,232,petrol,1984.0,,0,65000.0,65000.0,261.0,261.0,400.0,400.0,6.2,6.2,5,5,Europe,Germany,Premium
+548-0,548,Porsche,911 Carrera,3.0L Flat-6 Twin Turbo,293,petrol,2981.0,,0,110000.0,110000.0,379.0,379.0,450.0,450.0,4.2,4.2,4,4,Europe,Germany,Luxury
+549-0,549,Porsche,911 Carrera S,3.0L Twin-Turbo Flat-6,308,petrol,2981.0,,0,131300.0,131300.0,443.0,443.0,528.0,528.0,3.5,3.5,4,4,Europe,Germany,Luxury
+550-0,550,Porsche,911 Carrera 4,3.0L Twin-Turbo Flat-6,293,petrol,2981.0,,0,106500.0,106500.0,379.0,379.0,450.0,450.0,4.2,4.2,4,4,Europe,Germany,Luxury
+551-0,551,Porsche,911 Carrera 4S,3.0L Twin-Turbo Flat-6,306,petrol,2981.0,,0,113300.0,113300.0,443.0,443.0,528.0,528.0,3.4,3.4,4,4,Europe,Germany,Luxury
+552-0,552,Porsche,911 Targa 4,3.0L Twin-Turbo Flat-6,289,petrol,2981.0,,0,121300.0,121300.0,379.0,379.0,450.0,450.0,4.4,4.4,4,4,Europe,Germany,Luxury
+553-0,553,Porsche,911 Turbo,3.8L Twin-Turbo Flat-6,320,petrol,3745.0,,0,197200.0,197200.0,572.0,572.0,750.0,750.0,2.7,2.7,4,4,Europe,Germany,Luxury
+554-0,554,Porsche,911 Turbo S,3.8L Twin-Turbo Flat-6,330,petrol,3745.0,,0,230400.0,230400.0,640.0,640.0,800.0,800.0,2.6,2.6,4,4,Europe,Germany,Luxury
+555-0,555,Porsche,911 GT3,4.0L Naturally Aspirated Flat-6,318,petrol,3996.0,,0,161100.0,161100.0,502.0,502.0,469.0,469.0,3.4,3.4,2,2,Europe,Germany,Luxury
+556-0,556,Porsche,911 GT3 RS,4.0L Naturally Aspirated Flat-6,296,petrol,3996.0,,0,241300.0,241300.0,518.0,518.0,465.0,465.0,3.2,3.2,2,2,Europe,Germany,Luxury
+557-0,557,Porsche,911 Dakar,3.0L Twin-Turbo Flat-6,240,petrol,2981.0,,0,222000.0,222000.0,473.0,473.0,570.0,570.0,3.4,3.4,2,2,Europe,Germany,Luxury
+558-0,558,Porsche,Taycan,Dual Electric Motors,230,electric,,79.2,0,86700.0,86700.0,402.0,402.0,344.0,344.0,5.4,5.4,4,4,Europe,Germany,Premium
+559-0,559,Porsche,Taycan 4S,Dual Electric Motors,250,electric,,79.2,0,103800.0,103800.0,522.0,522.0,640.0,640.0,4.0,4.0,4,4,Europe,Germany,Luxury
+560-0,560,Porsche,Taycan Turbo,Dual Electric Motors,260,electric,,93.4,0,150900.0,150900.0,670.0,670.0,850.0,850.0,3.2,3.2,4,4,Europe,Germany,Luxury
+561-0,561,Porsche,Taycan Turbo S,Dual Electric Motors,260,electric,,93.4,0,185000.0,185000.0,750.0,750.0,1050.0,1050.0,2.8,2.8,4,4,Europe,Germany,Luxury
+562-0,562,Porsche,Taycan GTS,Dual Electric Motors,250,electric,,93.4,0,132750.0,132750.0,590.0,590.0,850.0,850.0,3.5,3.5,4,4,Europe,Germany,Luxury
+563-0,563,Porsche,Taycan Cross Turismo,Dual Electric Motors,220,electric,,93.4,0,97700.0,97700.0,469.0,469.0,500.0,500.0,4.8,4.8,5,5,Europe,Germany,Premium
+564-0,564,Porsche,Taycan Sport Turismo,Dual Electric Motors,240,electric,,79.2,0,104000.0,104000.0,509.0,509.0,650.0,650.0,4.1,4.1,5,5,Europe,Germany,Luxury
+565-0,565,Porsche,718 Cayman,2.0L Turbocharged Flat-4,275,petrol,1988.0,,0,63400.0,63400.0,300.0,300.0,380.0,380.0,4.9,4.9,2,2,Europe,Germany,Premium
+566-0,566,Porsche,718 Cayman S,2.5L Turbocharged Flat-4,285,petrol,2497.0,,0,75400.0,75400.0,350.0,350.0,420.0,420.0,4.4,4.4,2,2,Europe,Germany,Premium
+567-0,567,Porsche,718 Cayman GT4,4.0L Naturally Aspirated Flat-6,302,petrol,3995.0,,0,100200.0,100200.0,414.0,414.0,420.0,420.0,4.2,4.2,2,2,Europe,Germany,Luxury
+568-0,568,Porsche,718 Cayman GT4 RS,4.0L Naturally Aspirated Flat-6,315,petrol,3996.0,,0,141700.0,141700.0,493.0,493.0,450.0,450.0,3.2,3.2,2,2,Europe,Germany,Luxury
+569-0,569,Porsche,718 Boxster,2.0L Turbo Flat-4,275,petrol,1988.0,,0,65500.0,65500.0,300.0,300.0,380.0,380.0,4.9,4.9,2,2,Europe,Germany,Premium
+570-0,570,Porsche,718 Boxster T,2.0L Turbo Flat-4,275,petrol,1988.0,,0,69600.0,69600.0,300.0,300.0,380.0,380.0,4.7,4.7,2,2,Europe,Germany,Premium
+571-0,571,Porsche,718 Boxster GTS,4.0L Naturally Aspirated Flat-6,293,petrol,3995.0,,0,90300.0,90300.0,394.0,394.0,430.0,430.0,4.3,4.3,2,2,Europe,Germany,Premium
+572-0,572,Porsche,718 Spyder,4.0L Naturally Aspirated Flat-6,301,petrol,3995.0,,0,98300.0,98300.0,414.0,414.0,420.0,420.0,4.1,4.1,2,2,Europe,Germany,Premium
+573-0,573,Porsche,Panamera Base,2.9L Twin-Turbo v6,265,petrol,2894.0,,0,92300.0,92300.0,325.0,325.0,450.0,450.0,5.6,5.6,4,4,Europe,Germany,Premium
+574-0,574,Porsche,Panamera 4 E-Hybrid,2.9L Twin-Turbo v6 + Electric Motor,280,hybrid,2894.0,,0,113300.0,113300.0,462.0,462.0,700.0,700.0,4.4,4.4,4,4,Europe,Germany,Luxury
+575-0,575,Porsche,Panamera 4 Sport Turismo,2.9L Twin-Turbo v6,265,petrol,2894.0,,0,101400.0,101400.0,325.0,325.0,450.0,450.0,5.5,5.5,4,4,Europe,Germany,Luxury
+576-0,576,Porsche,Panamera Turbo S E-Hybrid Sport Turismo,4.0L Twin-Turbo v8 + Electric Motor,315,hybrid,3996.0,,0,200200.0,200200.0,690.0,690.0,870.0,870.0,3.2,3.2,4,4,Europe,Germany,Luxury
+577-0,577,Porsche,Panamera 4S E-Hybrid Executive,2.9L Twin-Turbo v6 + Electric Motor,295,hybrid,2894.0,,0,128900.0,128900.0,560.0,560.0,750.0,750.0,3.7,3.7,4,4,Europe,Germany,Luxury
+578-0,578,Porsche,Panamera Platinum Edition,2.9L Twin-Turbo v6,265,petrol,2894.0,,0,98300.0,98300.0,325.0,325.0,450.0,450.0,5.6,5.6,4,4,Europe,Germany,Premium
+579-0,579,Porsche,Panamera GTS Sport Turismo,4.0L Twin-Turbo v8,300,petrol,3996.0,,0,136900.0,136900.0,473.0,473.0,620.0,620.0,3.9,3.9,4,4,Europe,Germany,Luxury
+580-0,580,Porsche,Panamera Turbo Executive,4.0L Twin-Turbo v8,306,petrol,3996.0,,0,175200.0,175200.0,550.0,550.0,770.0,770.0,3.8,3.8,4,4,Europe,Germany,Luxury
+581-0,581,Porsche,Panamera Turbo S Exclusive Series,4.0L Twin-Turbo v8,310,petrol,3996.0,,0,290000.0,290000.0,570.0,570.0,800.0,800.0,3.8,3.8,4,4,Europe,Germany,Supercar
+582-0,582,Porsche,Panamera 4S ,2.9L Twin-Turbo v6,289,petrol,2894.0,,0,105000.0,105000.0,443.0,443.0,550.0,550.0,4.1,4.1,4,4,Europe,Germany,Luxury
+583-0,583,Porsche,Macan Base,2.0L Turbo inline-4,232,petrol,1984.0,,0,58000.0,58000.0,265.0,265.0,400.0,400.0,6.4,6.4,5,5,Europe,Germany,Premium
+584-0,584,Porsche,Macan T,2.0L Turbo inline-4,233,petrol,1984.0,,0,63000.0,63000.0,265.0,265.0,400.0,400.0,6.2,6.2,5,5,Europe,Germany,Premium
+585-0,585,Porsche,Macan S,2.9L Twin-Turbo v6,259,petrol,2894.0,,0,70400.0,70400.0,375.0,375.0,520.0,520.0,4.6,4.6,5,5,Europe,Germany,Premium
+586-0,586,Porsche,Macan GTS,2.9L Twin-Turbo v6,272,petrol,2894.0,,0,82900.0,82900.0,434.0,434.0,550.0,550.0,4.3,4.3,5,5,Europe,Germany,Premium
+587-0,587,Porsche,Macan EV ,Dual Electric Motors,240,electric,,95.0,0,85000.0,85000.0,603.0,603.0,750.0,750.0,4.0,4.0,5,5,Europe,Germany,Premium
+588-0,588,Porsche,Cayenne Base,3.0L Turbocharged v6,245,petrol,2995.0,,0,72200.0,72200.0,335.0,335.0,450.0,450.0,5.9,5.9,5,5,Europe,Germany,Premium
+589-0,589,Porsche,Cayenne E-Hybrid,3.0L v6 + Electric Motor,253,hybrid,2995.0,,0,91000.0,91000.0,455.0,455.0,700.0,700.0,4.8,4.8,5,5,Europe,Germany,Premium
+590-0,590,Porsche,Cayenne S Coupe,2.9L Twin-Turbo v6,263,petrol,2894.0,,0,94300.0,94300.0,434.0,434.0,550.0,550.0,4.7,4.7,4,4,Europe,Germany,Premium
+591-0,591,Porsche,Cayenne Turbo GT,4.0L Twin-Turbo v8,300,petrol,3996.0,,0,182150.0,182150.0,631.0,631.0,850.0,850.0,3.3,3.3,4,4,Europe,Germany,Luxury
+592-0,592,Porsche,Cayenne Platinum Edition,3.0L Turbocharged v6,245,petrol,2995.0,,0,79000.0,79000.0,335.0,335.0,450.0,450.0,5.8,5.8,5,5,Europe,Germany,Premium
+593-0,593,Porsche,Cayenne Turbo S E-Hybrid Coupe,4.0L Twin-Turbo v8 + Electric Motor,295,hybrid,3996.0,,0,167800.0,167800.0,670.0,670.0,900.0,900.0,3.6,3.6,4,4,Europe,Germany,Luxury
+594-0,594,Porsche,Cayenne GTS Coupe,4.0L Twin-Turbo v8,270,petrol,3996.0,,0,111200.0,111200.0,453.0,453.0,620.0,620.0,4.5,4.5,4,4,Europe,Germany,Luxury
+595-0,595,Porsche,Cayenne Diesel (Regional Markets),3.0L Turbo Diesel v6,221,diesel,2967.0,,0,69000.0,69000.0,262.0,262.0,580.0,580.0,7.3,7.3,5,5,Europe,Germany,Premium
+596-0,596,Porsche,Cayenne S Hybrid,3.0L v6 + Electric Motor,242,hybrid,2995.0,,0,85500.0,85500.0,380.0,380.0,580.0,580.0,6.5,6.5,5,5,Europe,Germany,Premium
+597-0,597,Porsche,Cayenne Coupe Turbo E-Hybrid,4.0L Twin-Turbo v8 + Electric Motor,295,hybrid,3996.0,,0,182900.0,182900.0,728.0,728.0,950.0,950.0,3.6,3.6,4,4,Europe,Germany,Luxury
+598-0,598,Porsche,Taycan Base,Dual Electric Motors,230,electric,,79.2,0,86700.0,86700.0,321.0,321.0,345.0,345.0,5.4,5.4,4,4,Europe,Germany,Premium
+599-0,599,Cadillac,CT4,2.0L Turbo inline-4 Gasoline,250,petrol,2000.0,,0,34395.0,34395.0,237.0,237.0,350.0,350.0,6.0,6.0,5,5,North America,United States,Midrange
+600-0,600,Cadillac,CT4-V,2.7L Turbo inline-4 Gasoline,260,petrol,2700.0,,0,46595.0,46595.0,325.0,325.0,500.0,500.0,4.9,4.9,5,5,North America,United States,Midrange
+601-0,601,Cadillac,CT5,2.0L Turbo inline-4 Gasoline,240,petrol,2000.0,,0,38195.0,38195.0,237.0,237.0,350.0,350.0,6.6,6.6,5,5,North America,United States,Midrange
+602-0,602,Cadillac,CT5-V,3.0L Twin-Turbo v6 Gasoline,250,petrol,3000.0,,0,50995.0,50995.0,360.0,360.0,550.0,550.0,4.6,4.6,5,5,North America,United States,Premium
+603-0,603,Porsche,Taycan Cross Turismo 4,Dual Electric Motors,240,electric,,93.4,0,94800.0,94800.0,375.0,375.0,500.0,500.0,5.1,5.1,4,4,Europe,Germany,Premium
+604-0,604,Porsche,Taycan Cross Turismo GTS,Dual Electric Motors,250,electric,,93.4,0,139400.0,139400.0,590.0,590.0,620.0,620.0,3.8,3.8,4,4,Europe,Germany,Luxury
+605-0,605,Porsche,Taycan Sport Turismo Base,Dual Electric Motors,230,electric,,79.2,0,90500.0,90500.0,375.0,375.0,500.0,500.0,5.4,5.4,4,4,Europe,Germany,Premium
+606-0,606,Porsche,Taycan Sport Turismo GTS,Dual Electric Motors,250,electric,,93.4,0,136700.0,136700.0,590.0,590.0,620.0,620.0,3.7,3.7,4,4,Europe,Germany,Luxury
+607-0,607,Porsche,Taycan Turbo S Cross Turismo,Dual Electric Motors,260,electric,,93.4,0,190000.0,190000.0,750.0,750.0,1050.0,1050.0,2.9,2.9,4,4,Europe,Germany,Luxury
+608-0,608,Porsche,911 Carrera Base,3.0L Twin-Turbo Flat-6,293,petrol,2981.0,,0,106100.0,106100.0,379.0,379.0,450.0,450.0,4.2,4.2,4,4,Europe,Germany,Luxury
+609-0,609,Porsche,911 Carrera S Cabriolet,3.0L Twin-Turbo Flat-6,304,petrol,2981.0,,0,129900.0,129900.0,443.0,443.0,530.0,530.0,3.9,3.9,4,4,Europe,Germany,Luxury
+610-0,610,Porsche,911 Carrera 4,3.0L Twin-Turbo Flat-6,293,petrol,2981.0,,0,113300.0,113300.0,379.0,379.0,450.0,450.0,4.4,4.4,4,4,Europe,Germany,Luxury
+611-0,611,Porsche,911 Carrera 4 GTS,3.0L Twin-Turbo Flat-6,311,petrol,2981.0,,0,137000.0,137000.0,473.0,473.0,570.0,570.0,3.3,3.3,4,4,Europe,Germany,Luxury
+612-0,612,Porsche,911 Targa 4 GTS,3.0L Twin-Turbo Flat-6,307,petrol,2981.0,,0,157300.0,157300.0,473.0,473.0,570.0,570.0,3.5,3.5,4,4,Europe,Germany,Luxury
+613-0,613,Porsche,911 Turbo Cabriolet,3.8L Twin-Turbo Flat-6,320,petrol,3745.0,,0,184100.0,184100.0,572.0,572.0,750.0,750.0,2.9,2.9,4,4,Europe,Germany,Luxury
+614-0,614,Porsche,911 Turbo S Coupe,3.8L Twin-Turbo Flat-6,330,petrol,3745.0,,0,207000.0,207000.0,640.0,640.0,800.0,800.0,2.7,2.7,4,4,Europe,Germany,Luxury
+615-0,615,Porsche,911 GT3 Touring,4.0L Naturally Aspirated Flat-6,318,petrol,3996.0,,0,170000.0,170000.0,502.0,502.0,470.0,470.0,3.9,3.9,2,2,Europe,Germany,Luxury
+616-0,616,Porsche,911 GT3 RS Clubsport,4.0L Naturally Aspirated Flat-6,296,petrol,3996.0,,0,223800.0,223800.0,525.0,525.0,465.0,465.0,3.2,3.2,2,2,Europe,Germany,Luxury
+617-0,617,Porsche,911 Dakar Limited Edition,3.0L Twin-Turbo Flat-6,240,petrol,2981.0,,0,222000.0,222000.0,473.0,473.0,570.0,570.0,3.4,3.4,4,4,Europe,Germany,Luxury
+618-0,618,Porsche,911 Carrera GTS Lightweight,3.0L Twin-Turbo Flat-6,311,petrol,2981.0,,0,145300.0,145300.0,473.0,473.0,570.0,570.0,3.2,3.2,4,4,Europe,Germany,Luxury
+619-0,619,Porsche,911 Targa 4 Lightweight,3.0L Twin-Turbo Flat-6,289,petrol,2981.0,,0,135500.0,135500.0,379.0,379.0,450.0,450.0,4.3,4.3,4,4,Europe,Germany,Luxury
+620-0,620,Porsche,911 Turbo Exclusive Series,3.8L Twin-Turbo Flat-6,330,petrol,3745.0,,0,258000.0,258000.0,607.0,607.0,750.0,750.0,2.9,2.9,4,4,Europe,Germany,Supercar
+621-0,621,Porsche,911 GT2 RS,3.8L Twin-Turbo Flat-6,340,petrol,3745.0,,0,293200.0,293200.0,700.0,700.0,750.0,750.0,2.8,2.8,2,2,Europe,Germany,Supercar
+622-0,622,Porsche,911 GT3 Cup,4.0L Naturally Aspirated Flat-6,290,petrol,3996.0,,0,245000.0,245000.0,510.0,510.0,470.0,470.0,3.4,3.4,1,1,Europe,Germany,Luxury
+623-0,623,Porsche,911 GT4 RS,4.0L Naturally Aspirated Flat-6,315,petrol,3996.0,,0,222000.0,222000.0,500.0,500.0,450.0,450.0,3.4,3.4,2,2,Europe,Germany,Luxury
+624-0,624,Porsche,911 RSR (Motorsport Edition),4.2L Naturally Aspirated Flat-6,296,petrol,4194.0,,0,750000.0,750000.0,515.0,515.0,480.0,480.0,3.1,3.1,1,1,Europe,Germany,Supercar
+625-0,625,Porsche,911 Sport Turismo,3.0L Twin-Turbo Flat-6,293,petrol,2981.0,,0,116000.0,116000.0,379.0,379.0,450.0,450.0,4.4,4.4,4,4,Europe,Germany,Luxury
+626-0,626,Porsche,911 Turbo Cabriolet Lightweight,3.8L Twin-Turbo Flat-6,318,petrol,3745.0,,0,191300.0,191300.0,572.0,572.0,750.0,750.0,3.0,3.0,4,4,Europe,Germany,Luxury
+627-0,627,Porsche,911 Dakar Sport,3.0L Twin-Turbo Flat-6,240,petrol,2981.0,,0,233000.0,233000.0,473.0,473.0,570.0,570.0,3.5,3.5,4,4,Europe,Germany,Luxury
+628-0,628,Tata Motors,Tiago,1.2L Revotron 3-cylinder Petrol,170,petrol,1199.0,,0,8200.0,8200.0,86.0,86.0,113.0,113.0,13.0,13.0,5,5,Asia,India,Budget
+629-0,629,Tata Motors,Tiago EV,Permanent Magnet Synchronous,120,electric,,24.0,0,11000.0,11000.0,74.0,74.0,114.0,114.0,5.7,5.7,5,5,Asia,India,Budget
+630-0,630,Tata Motors,Altroz,1.2L Revotron Petrol,170,petrol,1199.0,,0,10400.0,10400.0,86.0,86.0,113.0,113.0,12.0,12.0,5,5,Asia,India,Budget
+630-1,630,Tata Motors,Altroz,1.5L Diesel,170,diesel,1497.0,,1,10400.0,10400.0,89.0,89.0,200.0,200.0,12.0,12.0,5,5,Asia,India,Budget
+631-0,631,Tata Motors,Altroz DCA,1.2L Revotron 3-cylinder Petrol,170,petrol,1199.0,,0,11300.0,11300.0,86.0,86.0,113.0,113.0,12.5,12.5,5,5,Asia,India,Budget
+632-0,632,Tata Motors,Altroz iTurbo,1.2L Turbocharged Petrol,180,petrol,1199.0,,0,12000.0,12000.0,110.0,110.0,140.0,140.0,10.0,10.0,5,5,Asia,India,Budget
+634-0,634,Tata Motors,Tiago NRG,1.2L Revotron 3-cylinder Petrol,170,petrol,1199.0,,0,9200.0,9200.0,86.0,86.0,113.0,113.0,13.5,13.5,5,5,Asia,India,Budget
+635-0,635,Tata Motors,Nano GenX,624cc MPFI,105,petrol,624.0,,0,4000.0,4000.0,37.0,37.0,51.0,51.0,29.0,29.0,4,4,Asia,India,Budget
+636-0,636,Tata Motors,Indica eV2,1.4L CR4 Diesel,155,diesel,1396.0,,0,6200.0,6200.0,70.0,70.0,140.0,140.0,16.0,16.0,5,5,Asia,India,Budget
+637-0,637,Tata Motors,Indica V2 Xeta,1.2L MPFI Petrol,140,petrol,1193.0,,0,5000.0,5000.0,65.0,65.0,100.0,100.0,16.0,16.0,5,5,Asia,India,Budget
+638-0,638,Tata Motors,Tigor,1.2L Revotron 3-cylinder Petrol,170,petrol,1199.0,,0,9400.0,9400.0,86.0,86.0,113.0,113.0,13.0,13.0,5,5,Asia,India,Budget
+639-0,639,Tata Motors,Tigor EV,Permanent Magnet Synchronous,120,electric,,26.0,0,14500.0,14500.0,74.0,74.0,114.0,114.0,5.7,5.7,5,5,Asia,India,Budget
+640-0,640,Tata Motors,Zest,1.3L Quadrajet Diesel,165,diesel,1248.0,,0,8700.0,8700.0,75.0,75.0,190.0,190.0,15.0,15.0,5,5,Asia,India,Budget
+640-1,640,Tata Motors,Zest,1.2L Revotron Petrol,165,petrol,1199.0,,1,8700.0,8700.0,90.0,90.0,140.0,140.0,15.0,15.0,5,5,Asia,India,Budget
+641-0,641,Tata Motors,Indigo eCS,1.4L CR4 Diesel,155,diesel,1396.0,,0,6500.0,6500.0,70.0,70.0,140.0,140.0,16.5,16.5,5,5,Asia,India,Budget
+642-0,642,Cadillac,Escalade,6.2L v8 Gasoline,210,petrol,6200.0,,0,79295.0,79295.0,420.0,420.0,624.0,624.0,6.8,6.8,7,7,North America,United States,Premium
+643-0,643,Tata Motors,Indigo Marina,1.4L CR4 Diesel,150,diesel,1396.0,,0,8300.0,8300.0,70.0,70.0,135.0,135.0,17.0,17.0,5,5,Asia,India,Budget
+643-1,643,Tata Motors,Indigo Marina,1.4L Petrol,150,petrol,1396.0,,1,8300.0,8300.0,85.0,85.0,115.0,115.0,17.0,17.0,5,5,Asia,India,Budget
+644-0,644,Tata Motors,Manza,1.3L Quadrajet Diesel,160,diesel,1248.0,,0,9000.0,9000.0,75.0,75.0,200.0,200.0,14.0,14.0,5,5,Asia,India,Budget
+644-1,644,Tata Motors,Manza,1.4L Petrol,160,petrol,1368.0,,1,9000.0,9000.0,90.0,90.0,115.0,115.0,14.0,14.0,5,5,Asia,India,Budget
+645-0,645,Tata Motors,Indigo LX,1.4L CR4 Diesel,150,diesel,1396.0,,0,7000.0,7000.0,70.0,70.0,140.0,140.0,17.0,17.0,5,5,Asia,India,Budget
+646-0,646,Tata Motors,Indigo GLX,1.4L MPFI Petrol,160,petrol,1396.0,,0,7200.0,7200.0,85.0,85.0,115.0,115.0,15.0,15.0,5,5,Asia,India,Budget
+647-0,647,Cadillac,Escalade ESV,6.2L v8 Gasoline,205,petrol,6200.0,,0,82295.0,82295.0,420.0,420.0,624.0,624.0,6.9,6.9,7,7,North America,United States,Premium
+648-0,648,Tata Motors,Nexon,1.2L Turbo Petrol,180,petrol,1199.0,,0,14000.0,14000.0,118.0,118.0,170.0,170.0,10.0,10.0,5,5,Asia,India,Budget
+648-1,648,Tata Motors,Nexon,1.5L Diesel,180,diesel,1497.0,,1,14000.0,14000.0,110.0,110.0,260.0,260.0,10.0,10.0,5,5,Asia,India,Budget
+649-0,649,Tata Motors,Nexon EV Max,Permanent Magnet Synchronous,140,electric,,40.5,0,25000.0,25000.0,143.0,143.0,250.0,250.0,9.0,9.0,5,5,Asia,India,Budget
+650-0,650,Tata Motors,Harrier,2.0L Kryotec Turbocharged Diesel,180,diesel,1956.0,,0,23000.0,23000.0,168.0,168.0,350.0,350.0,11.0,11.0,5,5,Asia,India,Budget
+651-0,651,Tata Motors,Safari,2.0L Kryotec Turbocharged Diesel,180,diesel,1956.0,,0,25500.0,25500.0,168.0,168.0,350.0,350.0,11.0,11.0,7,7,Asia,India,Midrange
+652-0,652,Tata Motors,Punch,1.2L Revotron Petrol,160,petrol,1199.0,,0,10500.0,10500.0,86.0,86.0,113.0,113.0,16.0,16.0,5,5,Asia,India,Budget
+653-0,653,Tata Motors,Hexa,2.2L Varicor Diesel,180,diesel,2179.0,,0,20000.0,20000.0,154.0,154.0,400.0,400.0,12.0,12.0,7,7,Asia,India,Budget
+654-0,654,Tata Motors,Aria,2.2L Dicor Diesel,162,diesel,2179.0,,0,19000.0,19000.0,138.0,138.0,320.0,320.0,13.0,13.0,7,7,Asia,India,Budget
+655-0,655,Tata Motors,Sumo Gold,3.0L CR4 Diesel,125,diesel,2956.0,,0,15000.0,15000.0,85.0,85.0,250.0,250.0,17.6,17.6,7,7,Asia,India,Budget
+656-0,656,Tata Motors,Sumo Grande,2.2L Dicor Diesel,140,diesel,2179.0,,0,16500.0,16500.0,118.0,118.0,250.0,250.0,15.0,15.0,7,7,Asia,India,Budget
+657-0,657,Tata Motors,Nexon EV Prime,Permanent Magnet Synchronous,120,electric,,30.2,0,22000.0,22000.0,129.0,129.0,245.0,245.0,9.4,9.4,5,5,Asia,India,Budget
+659-0,659,Tesla,Model S,Dual Electric Motors,250,electric,,100.0,0,88490.0,88490.0,670.0,670.0,967.0,967.0,3.1,3.1,5,5,North America,United States,Premium
+660-0,660,Tesla,Model S Plaid,Tri Electric Motors,322,electric,,100.0,0,108490.0,108490.0,1020.0,1020.0,1400.0,1400.0,2.1,2.1,5,5,North America,United States,Luxury
+661-0,661,Tesla,Model 3,Single Electric Motor (RWD),225,electric,,60.0,0,40240.0,40240.0,283.0,283.0,420.0,420.0,5.8,5.8,5,5,North America,United States,Midrange
+662-0,662,Tesla,Model 3 Performance,Dual Electric Motors (AWD),261,electric,,82.0,0,53240.0,53240.0,450.0,450.0,660.0,660.0,3.1,3.1,5,5,North America,United States,Premium
+663-0,663,Tesla,Model X,Dual Electric Motors (AWD),250,electric,,100.0,0,98490.0,98490.0,670.0,670.0,967.0,967.0,3.8,3.8,7,7,North America,United States,Premium
+664-0,664,Tesla,Model X Plaid,Tri Electric Motors,262,electric,,100.0,0,113490.0,113490.0,1020.0,1020.0,1400.0,1400.0,2.6,2.6,6,6,North America,United States,Luxury
+665-0,665,Tesla,Model Y,Single Electric Motor (RWD),217,electric,,75.0,0,47490.0,47490.0,346.0,346.0,498.0,498.0,5.0,5.0,5,5,North America,United States,Midrange
+666-0,666,Tesla,Model Y Long Range,Dual Electric Motors (AWD),217,electric,,82.0,0,50490.0,50490.0,384.0,384.0,559.0,559.0,4.8,4.8,5,5,North America,United States,Premium
+667-0,667,Tesla,Cybertruck,Tri Electric Motors,209,electric,,200.0,0,69900.0,69900.0,800.0,800.0,1355.0,1355.0,2.9,2.9,6,6,North America,United States,Premium
+668-0,668,Tesla,Roadster 2,Quad Electric Motors,402,electric,,200.0,0,200000.0,200000.0,1288.0,1288.0,10000.0,10000.0,1.9,1.9,4,4,North America,United States,Luxury
+669-0,669,Jeep,Wrangler,3.6L v6 Pentastar Gasoline,180,petrol,3600.0,,0,35195.0,35195.0,285.0,285.0,353.0,353.0,6.8,6.8,4,4,North America,United States,Midrange
+670-0,670,Jeep,Wrangler Rubicon,2.0L Turbo i4 Gasoline,180,petrol,2000.0,,0,42100.0,42100.0,270.0,270.0,400.0,400.0,7.1,7.1,4,4,North America,United States,Midrange
+671-0,671,Jeep,Grand Cherokee,3.6L v6 Pentastar Gasoline,209,petrol,3600.0,,0,41530.0,41530.0,293.0,293.0,352.0,352.0,7.0,7.0,5,5,North America,United States,Midrange
+672-0,672,Jeep,Grand Cherokee L,3.6L v6 Pentastar Gasoline,209,petrol,3600.0,,0,43530.0,43530.0,293.0,293.0,352.0,352.0,7.2,7.2,7,7,North America,United States,Midrange
+673-0,673,Jeep,Cherokee,2.4L i4 Tigershark Gasoline,195,petrol,2400.0,,0,37695.0,37695.0,180.0,180.0,230.0,230.0,8.5,8.5,5,5,North America,United States,Midrange
+674-0,674,Jeep,Compass,2.0L Turbo Gasoline,200,petrol,2000.0,,0,31590.0,31590.0,200.0,200.0,320.0,320.0,7.8,7.8,5,5,North America,United States,Midrange
+675-0,675,Jeep,Renegade,1.3L Turbo i4 Gasoline,200,petrol,1300.0,,0,28345.0,28345.0,177.0,177.0,285.0,285.0,8.7,8.7,5,5,North America,United States,Midrange
+676-0,676,Jeep,Gladiator,3.6L v6 Pentastar Gasoline,177,petrol,3600.0,,0,38775.0,38775.0,285.0,285.0,353.0,353.0,8.1,8.1,5,5,North America,United States,Midrange
+677-0,677,Jeep,Wagoneer,5.7L v8 Gasoline with eTorque,190,petrol,5700.0,,0,63595.0,63595.0,392.0,392.0,548.0,548.0,7.4,7.4,8,8,North America,United States,Premium
+678-0,678,Jeep,Grand Wagoneer,6.4L v8 Gasoline,190,petrol,6400.0,,0,91495.0,91495.0,471.0,471.0,617.0,617.0,6.0,6.0,8,8,North America,United States,Premium
+679-0,679,Jeep,Grand Cherokee 4xe,2.0L Turbo PHEV,210,hybrid,,17.3,0,59865.0,59865.0,375.0,375.0,637.0,637.0,6.0,6.0,5,5,North America,United States,Premium
+680-0,680,Jeep,Wrangler 4xe,2.0L Turbo PHEV,180,hybrid,,17.3,0,50695.0,50695.0,375.0,375.0,637.0,637.0,6.4,6.4,5,5,North America,United States,Premium
+681-0,681,Jeep,Compass 4xe,1.3L Turbo PHEV,200,hybrid,,11.4,0,46500.0,46500.0,240.0,240.0,270.0,270.0,7.3,7.3,5,5,North America,United States,Midrange
+682-0,682,Jeep,Renegade 4xe,1.3L Turbo PHEV,200,hybrid,,11.4,0,44500.0,44500.0,240.0,240.0,270.0,270.0,7.5,7.5,5,5,North America,United States,Midrange
+683-0,683,Mazda,Mazda2,1.5L 4-Cylinder,180,petrol,1500.0,,0,-20000.0,17000.0,108.0,108.0,142.0,142.0,10.2,10.2,5,5,Asia,Japan,Budget
+684-0,684,Jeep,Wagoneer S (Electric),Dual Electric Motors,177,electric,,100.0,0,80000.0,80000.0,600.0,600.0,850.0,850.0,4.5,4.5,5,5,North America,United States,Premium
+685-0,685,Jeep,Gladiator Mojave Edition,3.6L v6 Pentastar Gasoline,177,petrol,3600.0,,0,51570.0,51570.0,285.0,285.0,353.0,353.0,8.6,8.6,5,5,North America,United States,Premium
+686-0,686,Jeep,Grand Cherokee Summit Reserve,5.7L v8 Gasoline,190,petrol,5700.0,,0,66575.0,66575.0,357.0,357.0,529.0,529.0,7.3,7.3,5,5,North America,United States,Premium
+687-0,687,Jeep,Jeep Cherokee X Edition,3.2L v6 Pentastar Gasoline,195,petrol,3200.0,,0,41295.0,41295.0,271.0,271.0,324.0,324.0,7.6,7.6,5,5,North America,United States,Midrange
+688-0,688,Jeep,Wrangler 392,6.4L v8 HEMI Gasoline,160,petrol,6400.0,,0,82495.0,82495.0,470.0,470.0,637.0,637.0,4.5,4.5,4,4,North America,United States,Premium
+689-0,689,Cadillac,XT4,2.0L Turbo inline-4 Gasoline,220,petrol,2000.0,,0,37490.0,37490.0,235.0,235.0,350.0,350.0,7.6,7.6,5,5,North America,United States,Midrange
+690-0,690,Cadillac,XT5,3.6L v6 Gasoline,210,petrol,3600.0,,0,44195.0,44195.0,310.0,310.0,366.0,366.0,6.5,6.5,5,5,North America,United States,Midrange
+691-0,691,Cadillac,XT6,3.6L v6 Gasoline,210,petrol,3600.0,,0,48595.0,48595.0,310.0,310.0,366.0,366.0,6.9,6.9,7,7,North America,United States,Midrange
+692-0,692,Cadillac,Lyriq EV,Single Electric Motor,190,electric,,100.0,0,58590.0,58590.0,340.0,340.0,440.0,440.0,5.7,5.7,5,5,North America,United States,Premium
+693-0,693,Cadillac,Escalade V,6.2L Supercharged v8 Gasoline,200,petrol,6200.0,,0,149990.0,149990.0,682.0,682.0,885.0,885.0,4.4,4.4,7,7,North America,United States,Luxury
+694-0,694,Cadillac,Escalade Platinum,6.2L v8 Gasoline,210,petrol,6200.0,,0,104595.0,104595.0,420.0,420.0,624.0,624.0,6.8,6.8,7,7,North America,United States,Luxury
+695-0,695,Cadillac,CT5-V Blackwing,6.2L Supercharged v8 Gasoline,320,petrol,6200.0,,0,92000.0,92000.0,668.0,668.0,893.0,893.0,3.4,3.4,5,5,North America,United States,Premium
+696-0,696,Cadillac,CT4-V Blackwing,3.6L Twin-Turbo v6 Gasoline,290,petrol,3600.0,,0,60495.0,60495.0,472.0,472.0,603.0,603.0,3.9,3.9,5,5,North America,United States,Premium
+697-0,697,Cadillac,XT4 Sport,2.0L Turbo inline-4 Gasoline,220,petrol,2000.0,,0,41390.0,41390.0,235.0,235.0,350.0,350.0,7.4,7.4,5,5,North America,United States,Midrange
+698-0,698,Cadillac,XT5 Sport,3.6L v6 Gasoline,210,petrol,3600.0,,0,51095.0,51095.0,310.0,310.0,366.0,366.0,6.5,6.5,5,5,North America,United States,Premium
+699-0,699,Cadillac,XT6 Sport,3.6L v6 Gasoline,210,petrol,3600.0,,0,57095.0,57095.0,310.0,310.0,366.0,366.0,6.9,6.9,7,7,North America,United States,Premium
+700-0,700,Cadillac,Lyriq Launch Edition,Single Electric Motor,190,electric,,100.0,0,59990.0,59990.0,340.0,340.0,440.0,440.0,5.7,5.7,5,5,North America,United States,Premium
+701-0,701,Cadillac,Lyriq EV Premium,Dual Electric Motors,210,electric,,100.0,0,64990.0,64990.0,500.0,500.0,620.0,620.0,4.5,4.5,5,5,North America,United States,Premium
+702-0,702,Cadillac,CT5 Premium Luxury,2.0L Turbo inline-4 Gasoline,240,petrol,2000.0,,0,41290.0,41290.0,237.0,237.0,350.0,350.0,6.8,6.8,5,5,North America,United States,Midrange
+703-0,703,Chevrolet,Spark,1.4L inline-4 Gasoline,180,petrol,1400.0,,0,14595.0,14595.0,98.0,98.0,127.0,127.0,10.7,10.7,5,5,North America,United States,Budget
+704-0,704,Chevrolet,Sonic,1.4L Turbo inline-4 Gasoline,190,petrol,1400.0,,0,16720.0,16720.0,138.0,138.0,200.0,200.0,8.5,8.5,5,5,North America,United States,Budget
+705-0,705,Chevrolet,Malibu,1.5L Turbo inline-4 Gasoline,210,petrol,1500.0,,0,25000.0,25000.0,160.0,160.0,250.0,250.0,8.0,8.0,5,5,North America,United States,Budget
+706-0,706,Chevrolet,Camaro,2.0L Turbo inline-4 Gasoline,240,petrol,2000.0,,0,26400.0,26400.0,275.0,275.0,400.0,400.0,5.4,5.4,4,4,North America,United States,Midrange
+707-0,707,Chevrolet,Corvette,6.2L v8 Gasoline,312,petrol,6200.0,,0,65895.0,65895.0,495.0,495.0,637.0,637.0,3.0,3.0,2,2,North America,United States,Premium
+708-0,708,Chevrolet,Traverse,3.6L v6 Gasoline,210,petrol,3600.0,,0,35915.0,35915.0,310.0,310.0,360.0,360.0,7.0,7.0,7,7,North America,United States,Midrange
+709-0,709,Chevrolet,Equinox,1.5L Turbo inline-4 Gasoline,200,petrol,1500.0,,0,26600.0,26600.0,170.0,170.0,275.0,275.0,8.9,8.9,5,5,North America,United States,Midrange
+710-0,710,Chevrolet,Blazer,3.6L v6 Gasoline,220,petrol,3600.0,,0,44000.0,44000.0,308.0,308.0,366.0,366.0,6.6,6.6,5,5,North America,United States,Midrange
+711-0,711,Chevrolet,Tahoe,5.3L v8 Gasoline,200,petrol,5300.0,,0,56995.0,56995.0,355.0,355.0,519.0,519.0,7.5,7.5,7,7,North America,United States,Premium
+712-0,712,Chevrolet,Suburban,5.3L v8 Gasoline,190,petrol,5300.0,,0,59900.0,59900.0,355.0,355.0,519.0,519.0,7.6,7.6,8,8,North America,United States,Premium
+713-0,713,Chevrolet,Colorado,2.7L Turbo inline-4 Gasoline,190,petrol,2700.0,,0,30695.0,30695.0,310.0,310.0,583.0,583.0,6.8,6.8,5,5,North America,United States,Midrange
+714-0,714,Chevrolet,Silverado 1500,5.3L v8 Gasoline,180,petrol,5300.0,,0,42795.0,42795.0,355.0,355.0,519.0,519.0,7.0,7.0,6,6,North America,United States,Midrange
+715-0,715,Chevrolet,Silverado 2500HD,6.6L v8 Gasoline,170,petrol,6600.0,,0,41500.0,41500.0,401.0,401.0,629.0,629.0,8.0,8.0,6,6,North America,United States,Midrange
+716-0,716,Chevrolet,Silverado 3500HD,6.6L v8 Diesel,160,diesel,6600.0,,0,45500.0,45500.0,445.0,445.0,1234.0,1234.0,8.5,8.5,6,6,North America,United States,Midrange
+717-0,717,Chevrolet,Bolt EV,Single Electric Motor,150,electric,,66.0,0,27495.0,27495.0,200.0,200.0,360.0,360.0,6.5,6.5,5,5,North America,United States,Midrange
+718-0,718,Chevrolet,Bolt EUV,Single Electric Motor,150,electric,,66.0,0,28795.0,28795.0,200.0,200.0,360.0,360.0,7.0,7.0,5,5,North America,United States,Midrange
+719-0,719,Chevrolet,Trailblazer,1.3L Turbo inline-3 Gasoline,200,petrol,1300.0,,0,23100.0,23100.0,155.0,155.0,236.0,236.0,9.4,9.4,5,5,North America,United States,Budget
+720-0,720,Chevrolet,Malibu Premier,2.0L Turbo inline-4 Gasoline,240,petrol,2000.0,,0,33500.0,33500.0,250.0,250.0,353.0,353.0,5.8,5.8,5,5,North America,United States,Midrange
+721-0,721,Chevrolet,Camaro ZL1,6.2L Supercharged v8 Gasoline,318,petrol,6200.0,,0,67300.0,67300.0,650.0,650.0,881.0,881.0,3.5,3.5,4,4,North America,United States,Premium
+722-0,722,Chevrolet,Corvette Stingray,6.2L v8 Gasoline,312,petrol,6200.0,,0,65895.0,65895.0,495.0,495.0,637.0,637.0,3.0,3.0,2,2,North America,United States,Premium
+723-0,723,Chevrolet,Silverado 1500 High Country,5.3L v8 Gasoline,180,petrol,5300.0,,0,61595.0,61595.0,355.0,355.0,519.0,519.0,7.0,7.0,6,6,North America,United States,Premium
+724-0,724,Chevrolet,Silverado 1500 Trail Boss,5.3L v8 Gasoline,180,petrol,5300.0,,0,55895.0,55895.0,355.0,355.0,519.0,519.0,7.0,7.0,6,6,North America,United States,Premium
+725-0,725,Chevrolet,Silverado 1500 RST,5.3L v8 Gasoline,180,petrol,5300.0,,0,50895.0,50895.0,355.0,355.0,519.0,519.0,7.1,7.1,6,6,North America,United States,Premium
+726-0,726,Chevrolet,Colorado ZR2,2.8L Turbo Diesel i4,160,diesel,2800.0,,0,48295.0,48295.0,181.0,181.0,500.0,500.0,9.1,9.1,5,5,North America,United States,Midrange
+727-0,727,Chevrolet,Traverse Premier,3.6L v6 Gasoline,210,petrol,3600.0,,0,46600.0,46600.0,310.0,310.0,360.0,360.0,7.0,7.0,7,7,North America,United States,Midrange
+728-0,728,Chevrolet,Equinox Premier,1.5L Turbo inline-4 Gasoline,200,petrol,1500.0,,0,33400.0,33400.0,170.0,170.0,275.0,275.0,8.8,8.8,5,5,North America,United States,Midrange
+729-0,729,Chevrolet,Blazer RS,3.6L v6 Gasoline,220,petrol,3600.0,,0,48900.0,48900.0,308.0,308.0,366.0,366.0,6.6,6.6,5,5,North America,United States,Midrange
+730-0,730,Chevrolet,Bolt EV 2LT,Single Electric Motor,150,electric,,66.0,0,28795.0,28795.0,200.0,200.0,360.0,360.0,6.7,6.7,5,5,North America,United States,Midrange
+731-0,731,Chevrolet,Camaro SS,6.2L v8 Gasoline,290,petrol,6200.0,,0,43500.0,43500.0,455.0,455.0,617.0,617.0,4.3,4.3,4,4,North America,United States,Midrange
+732-0,732,Chevrolet,Corvette Grand Sport,6.2L v8 Gasoline,290,petrol,6200.0,,0,65900.0,65900.0,460.0,460.0,630.0,630.0,3.9,3.9,2,2,North America,United States,Premium
+733-0,733,Chevrolet,Traverse RS,3.6L v6 Gasoline,210,petrol,3600.0,,0,43700.0,43700.0,310.0,310.0,360.0,360.0,7.0,7.0,7,7,North America,United States,Midrange
+734-0,734,Chevrolet,Blazer Premier,3.6L v6 Gasoline,220,petrol,3600.0,,0,45000.0,45000.0,308.0,308.0,366.0,366.0,6.6,6.6,5,5,North America,United States,Midrange
+735-0,735,Chevrolet,Malibu LT,1.5L Turbo inline-4 Gasoline,210,petrol,1500.0,,0,25800.0,25800.0,160.0,160.0,250.0,250.0,8.5,8.5,5,5,North America,United States,Midrange
+736-0,736,Chevrolet,Spark Activ,1.4L inline-4 Gasoline,180,petrol,1400.0,,0,17595.0,17595.0,98.0,98.0,127.0,127.0,11.0,11.0,5,5,North America,United States,Budget
+737-0,737,Chevrolet,Trax LT,1.2L Turbo inline-3 Gasoline,200,petrol,1200.0,,0,24100.0,24100.0,137.0,137.0,220.0,220.0,9.2,9.2,5,5,North America,United States,Budget
+738-0,738,Chevrolet,Equinox LT,1.5L Turbo inline-4 Gasoline,200,petrol,1500.0,,0,28400.0,28400.0,170.0,170.0,275.0,275.0,8.9,8.9,5,5,North America,United States,Midrange
+739-0,739,Chevrolet,Silverado 3500HD High Country,6.6L v8 Diesel,160,diesel,6600.0,,0,75700.0,75700.0,445.0,445.0,1234.0,1234.0,8.5,8.5,6,6,North America,United States,Premium
+740-0,740,Chevrolet,Colorado WT,2.7L Turbo inline-4 Gasoline,190,petrol,2700.0,,0,29200.0,29200.0,310.0,310.0,583.0,583.0,6.9,6.9,5,5,North America,United States,Midrange
+741-0,741,Chevrolet,Suburban High Country,6.2L v8 Gasoline,200,petrol,6200.0,,0,82400.0,82400.0,420.0,420.0,624.0,624.0,7.0,7.0,8,8,North America,United States,Premium
+742-0,742,Chevrolet,Silverado Custom,4.3L v6 Gasoline,180,petrol,4300.0,,0,33900.0,33900.0,285.0,285.0,413.0,413.0,8.5,8.5,6,6,North America,United States,Midrange
+743-0,743,Chevrolet,Spark LS,1.4L inline-4 Gasoline,180,petrol,1400.0,,0,14395.0,14395.0,98.0,98.0,127.0,127.0,10.9,10.9,5,5,North America,United States,Budget
+744-0,744,Chevrolet,Traverse LT,3.6L v6 Gasoline,210,petrol,3600.0,,0,37200.0,37200.0,310.0,310.0,360.0,360.0,7.1,7.1,7,7,North America,United States,Midrange
+745-0,745,Chevrolet,Blazer LT,2.5L inline-4 Gasoline,200,petrol,2500.0,,0,36100.0,36100.0,193.0,193.0,255.0,255.0,9.0,9.0,5,5,North America,United States,Midrange
+746-0,746,Chevrolet,Malibu Premier,2.0L Turbo inline-4 Gasoline,240,petrol,2000.0,,0,34500.0,34500.0,250.0,250.0,353.0,353.0,5.8,5.8,5,5,North America,United States,Midrange
+747-0,747,Chevrolet,Equinox RS,1.5L Turbo inline-4 Gasoline,200,petrol,1500.0,,0,31900.0,31900.0,170.0,170.0,275.0,275.0,8.8,8.8,5,5,North America,United States,Midrange
+748-0,748,Chevrolet,Silverado 1500 Custom,4.3L v6 Gasoline,180,petrol,4300.0,,0,34900.0,34900.0,285.0,285.0,413.0,413.0,8.6,8.6,6,6,North America,United States,Midrange
+749-0,749,Chevrolet,Silverado 2500HD LTZ,6.6L v8 Diesel,160,diesel,6600.0,,0,56400.0,56400.0,445.0,445.0,1234.0,1234.0,8.4,8.4,6,6,North America,United States,Premium
+750-0,750,Chevrolet,Tahoe RST,5.3L v8 Gasoline,180,petrol,5300.0,,0,64100.0,64100.0,355.0,355.0,519.0,519.0,7.4,7.4,7,7,North America,United States,Premium
+751-0,751,Chevrolet,Suburban LT,5.3L v8 Gasoline,180,petrol,5300.0,,0,64400.0,64400.0,355.0,355.0,519.0,519.0,5.1,5.1,8,8,North America,United States,Premium
+752-0,752,Chevrolet,Bolt EV Premier,Single Electric Motor,150,electric,,66.0,0,31700.0,31700.0,200.0,200.0,360.0,360.0,6.5,6.5,5,5,North America,United States,Midrange
+753-0,753,Chevrolet,Tahoe LS,5.3L v8 Gasoline,180,petrol,5300.0,,0,56995.0,56995.0,355.0,355.0,519.0,519.0,7.5,7.5,8,8,North America,United States,Premium
+754-0,754,Chevrolet,Tahoe LT,5.3L v8 Gasoline,180,petrol,5300.0,,0,62495.0,62495.0,355.0,355.0,519.0,519.0,7.4,7.4,8,8,North America,United States,Premium
+756-0,756,Chevrolet,Tahoe Z71,5.3L v8 Gasoline,180,petrol,5300.0,,0,66700.0,66700.0,355.0,355.0,519.0,519.0,7.6,7.6,7,7,North America,United States,Premium
+757-0,757,Chevrolet,Tahoe Premier,6.2L v8 Gasoline,200,petrol,6200.0,,0,71600.0,71600.0,420.0,420.0,624.0,624.0,6.8,6.8,7,7,North America,United States,Premium
+758-0,758,Chevrolet,Tahoe High Country,6.2L v8 Gasoline,200,petrol,6200.0,,0,76700.0,76700.0,420.0,420.0,624.0,624.0,6.7,6.7,7,7,North America,United States,Premium
+759-0,759,Chevrolet,Tahoe Midnight Edition,5.3L v8 Gasoline,180,petrol,5300.0,,0,65500.0,65500.0,355.0,355.0,519.0,519.0,7.5,7.5,8,8,North America,United States,Premium
+760-0,760,Chevrolet,Tahoe Sport Edition,6.2L v8 Gasoline,200,petrol,6200.0,,0,70000.0,70000.0,420.0,420.0,624.0,624.0,6.8,6.8,7,7,North America,United States,Premium
+761-0,761,Gmc,Terrain,1.5L Turbo 4-cylinder,190,petrol,1500.0,,0,29900.0,29900.0,175.0,175.0,275.0,275.0,9.5,9.5,5,5,North America,United States,Midrange
+762-0,762,Gmc,Acadia,2.0L Turbo 4-cylinder,200,petrol,2000.0,,0,36800.0,36800.0,228.0,228.0,350.0,350.0,7.8,7.8,7,7,North America,United States,Midrange
+763-0,763,Gmc,Yukon,5.3L v8 Gasoline,180,petrol,5300.0,,0,57400.0,57400.0,355.0,355.0,519.0,519.0,7.4,7.4,8,8,North America,United States,Premium
+764-0,764,Gmc,Yukon XL,6.2L v8 Gasoline,200,petrol,6200.0,,0,61100.0,61100.0,420.0,420.0,624.0,624.0,6.9,6.9,8,8,North America,United States,Premium
+765-0,765,Gmc,Canyon,2.7L Turbo 4-cylinder,190,petrol,2700.0,,0,36900.0,36900.0,310.0,310.0,583.0,583.0,7.6,7.6,5,5,North America,United States,Midrange
+766-0,766,Gmc,Sierra 1500,5.3L v8 Gasoline,180,petrol,5300.0,,0,37100.0,37100.0,355.0,355.0,519.0,519.0,7.3,7.3,6,6,North America,United States,Midrange
+767-0,767,Gmc,Sierra 2500HD,6.6L v8 Diesel,175,diesel,6600.0,,0,43900.0,43900.0,401.0,401.0,629.0,629.0,7.5,7.5,6,6,North America,United States,Midrange
+768-0,768,Gmc,Sierra 3500HD,6.6L v8 Diesel,175,diesel,6600.0,,0,49000.0,49000.0,445.0,445.0,1234.0,1234.0,7.4,7.4,6,6,North America,United States,Midrange
+769-0,769,Gmc,Hummer EV Pickup,Dual-Motor Electric,170,electric,,212.0,0,108700.0,108700.0,625.0,625.0,1000.0,1000.0,3.0,3.0,5,5,North America,United States,Luxury
+770-0,770,Gmc,Hummer EV SUV,Dual-Motor Electric,170,electric,,212.0,0,105600.0,105600.0,625.0,625.0,1000.0,1000.0,3.5,3.5,5,5,North America,United States,Luxury
+771-0,771,Gmc,Yukon Denali,6.2L v8 Gasoline,200,petrol,6200.0,,0,72800.0,72800.0,420.0,420.0,624.0,624.0,6.8,6.8,8,8,North America,United States,Premium
+772-0,772,Gmc,Sierra Denali,6.2L v8 Gasoline,190,petrol,6200.0,,0,66800.0,66800.0,420.0,420.0,624.0,624.0,6.7,6.7,6,6,North America,United States,Premium
+773-0,773,Gmc,Terrain AT4,1.5L Turbo 4-cylinder,190,petrol,1500.0,,0,36500.0,36500.0,175.0,175.0,275.0,275.0,9.6,9.6,5,5,North America,United States,Midrange
+774-0,774,Gmc,Acadia AT4,3.6L v6 Gasoline,210,petrol,3600.0,,0,41400.0,41400.0,310.0,310.0,366.0,366.0,7.6,7.6,6,6,North America,United States,Midrange
+775-0,775,Gmc,Sierra 1500 AT4,5.3L v8 Gasoline,180,petrol,5300.0,,0,53800.0,53800.0,355.0,355.0,519.0,519.0,7.4,7.4,6,6,North America,United States,Premium
+776-0,776,Gmc,Sierra 2500HD Denali,6.6L v8 Diesel,175,diesel,6600.0,,0,72200.0,72200.0,401.0,401.0,1234.0,1234.0,7.5,7.5,6,6,North America,United States,Premium
+777-0,777,Gmc,Sierra Elevation,2.7L Turbo 4-cylinder,190,petrol,2700.0,,0,45000.0,45000.0,310.0,310.0,583.0,583.0,7.6,7.6,5,5,North America,United States,Midrange
+778-0,778,Gmc,Canyon AT4,2.7L Turbo 4-cylinder,190,petrol,2700.0,,0,43900.0,43900.0,310.0,310.0,583.0,583.0,7.5,7.5,5,5,North America,United States,Midrange
+779-0,779,Gmc,Canyon Denali,2.7L Turbo 4-cylinder,190,petrol,2700.0,,0,48000.0,48000.0,310.0,310.0,583.0,583.0,7.5,7.5,5,5,North America,United States,Midrange
+780-0,780,Gmc,Yukon XL Denali Ultimate,6.2L v8 Gasoline,200,petrol,6200.0,,0,93800.0,93800.0,420.0,420.0,624.0,624.0,6.7,6.7,8,8,North America,United States,Premium
+781-0,781,Gmc,Terrain Denali,1.5L Turbo 4-cylinder,190,petrol,1500.0,,0,38600.0,38600.0,175.0,175.0,275.0,275.0,9.5,9.5,5,5,North America,United States,Midrange
+782-0,782,Gmc,Acadia Denali,3.6L v6 engine,210,petrol,3564.0,,0,54300.0,54300.0,310.0,310.0,366.0,366.0,6.5,6.5,7,7,North America,United States,Premium
+783-0,783,Gmc,Yukon AT4,5.3L v8 engine,210,petrol,5327.0,,0,71505.0,71505.0,355.0,355.0,519.0,519.0,7.1,7.1,8,8,North America,United States,Premium
+784-0,784,Gmc,Yukon XL AT4,5.3L v8 engine,210,petrol,5327.0,,0,73305.0,73305.0,355.0,355.0,519.0,519.0,7.3,7.3,8,8,North America,United States,Premium
+785-0,785,Gmc,Sierra 1500 Elevation,2.7L Turbo engine,180,petrol,2713.0,,0,52000.0,52000.0,310.0,310.0,569.0,569.0,7.0,7.0,5,5,North America,United States,Premium
+786-0,786,Gmc,Sierra 1500 SLT,5.3L v8 engine,180,petrol,5327.0,,0,56000.0,56000.0,355.0,355.0,519.0,519.0,6.8,6.8,5,5,North America,United States,Premium
+787-0,787,Gmc,Sierra 2500HD AT4,6.6L v8 engine,170,petrol,6600.0,,0,70000.0,70000.0,401.0,401.0,629.0,629.0,7.5,7.5,5,5,North America,United States,Premium
+788-0,788,Gmc,Sierra 3500HD AT4,6.6L v8 engine,170,petrol,6600.0,,0,72000.0,72000.0,401.0,401.0,629.0,629.0,7.7,7.7,5,5,North America,United States,Premium
+789-0,789,Gmc,Canyon Elevation,2.5L i4 engine,175,petrol,2488.0,,0,36300.0,36300.0,200.0,200.0,259.0,259.0,8.5,8.5,5,5,North America,United States,Midrange
+790-0,790,Gmc,Canyon Denali Black Edition,3.6L v6 engine,180,petrol,3564.0,,0,44000.0,44000.0,308.0,308.0,373.0,373.0,6.9,6.9,5,5,North America,United States,Midrange
+791-0,791,Gmc,Sierra 1500 Denali Ultimate,6.2L v8 engine,200,petrol,6162.0,,0,80000.0,80000.0,420.0,420.0,624.0,624.0,5.8,5.8,5,5,North America,United States,Premium
+792-0,792,Gmc,Yukon XL Denali Reserve,6.2L v8 engine,210,petrol,6162.0,,0,82000.0,82000.0,420.0,420.0,624.0,624.0,6.0,6.0,7,7,North America,United States,Premium
+793-0,793,Gmc,Terrain Elevation Edition,1.5L Turbocharged i4 engine,200,petrol,1490.0,,0,28700.0,28700.0,170.0,170.0,275.0,275.0,9.3,9.3,5,5,North America,United States,Midrange
+794-0,794,Gmc,Acadia Black Edition,3.6L v6 engine,210,petrol,3564.0,,0,45000.0,45000.0,310.0,310.0,366.0,366.0,6.5,6.5,7,7,North America,United States,Midrange
+795-0,795,Gmc,Hummer EV SUV Edition 1,"Electric motors with up to 11,500 lb-ft torque",170,electric,,200.0,0,96550.0,96550.0,830.0,830.0,15590.0,15590.0,3.5,3.5,5,5,North America,United States,Premium
+796-0,796,Gmc,Hummer EV Pickup Edition 1,"Electric motors with up to 11,500 lb-ft torque",170,electric,,200.0,0,96550.0,96550.0,1000.0,1000.0,15590.0,15590.0,3.0,3.0,5,5,North America,United States,Premium
+797-0,797,Gmc,Sierra Denali CarbonPro,6.2L v8 engine,200,petrol,6162.0,,0,65000.0,65000.0,420.0,420.0,624.0,624.0,5.8,5.8,5,5,North America,United States,Premium
+798-0,798,Gmc,Yukon Denali Performance,6.2L v8 engine,210,petrol,6162.0,,0,76805.0,76805.0,420.0,420.0,624.0,624.0,6.0,6.0,8,8,North America,United States,Premium
+799-0,799,Gmc,Sierra 2500HD Denali Black Edition,6.6L v8 engine,170,petrol,6600.0,,0,75000.0,75000.0,401.0,401.0,629.0,629.0,7.5,7.5,5,5,North America,United States,Premium
+800-0,800,Gmc,Canyon AT4X,3.6L v6 engine,180,petrol,3564.0,,0,50000.0,50000.0,308.0,308.0,373.0,373.0,6.9,6.9,5,5,North America,United States,Midrange
+801-0,801,Gmc,Yukon XL SLT,5.3L v8 engine,210,petrol,5327.0,,0,65000.0,65000.0,355.0,355.0,519.0,519.0,7.3,7.3,8,8,North America,United States,Premium
+802-0,802,Gmc,Sierra 1500 Pro,4.3L v6 engine,180,petrol,4300.0,,0,37700.0,37700.0,285.0,285.0,413.0,413.0,7.5,7.5,3,3,North America,United States,Midrange
+803-0,803,Gmc,Sierra 2500HD Pro,6.6L v8 engine,170,petrol,6600.0,,0,60000.0,60000.0,401.0,401.0,629.0,629.0,7.7,7.7,3,3,North America,United States,Premium
+804-0,804,Gmc,Sierra 3500HD Pro,6.6L v8 engine,170,petrol,6600.0,,0,62000.0,62000.0,401.0,401.0,629.0,629.0,7.8,7.8,3,3,North America,United States,Premium
+805-0,805,Gmc,Terrain SLT,1.5L Turbocharged i4 engine,200,petrol,1490.0,,0,31000.0,31000.0,170.0,170.0,275.0,275.0,9.4,9.4,5,5,North America,United States,Midrange
+806-0,806,Gmc,Acadia SLE,3.6L v6 engine,210,petrol,3564.0,,0,40000.0,40000.0,310.0,310.0,366.0,366.0,6.6,6.6,7,7,North America,United States,Midrange
+807-0,807,Gmc,Canyon SLT,2.5L i4 engine,175,petrol,2488.0,,0,38000.0,38000.0,200.0,200.0,259.0,259.0,8.6,8.6,5,5,North America,United States,Midrange
+808-0,808,Gmc,Yukon XL Elevation,5.3L v8 engine,210,petrol,5327.0,,0,75000.0,75000.0,355.0,355.0,519.0,519.0,7.4,7.4,8,8,North America,United States,Premium
+809-0,809,Gmc,Sierra 1500 AT4X,6.2L v8 engine,200,petrol,6162.0,,0,82000.0,82000.0,420.0,420.0,624.0,624.0,5.9,5.9,5,5,North America,United States,Premium
+810-0,810,Gmc,Hummer EV SUV Extreme Off-Road,"Electric motors with up to 11,500 lb-ft torque",170,electric,,200.0,0,110000.0,110000.0,830.0,830.0,15590.0,15590.0,3.6,3.6,5,5,North America,United States,Luxury
+811-0,811,Gmc,Sierra EV Denali,Electric motors with advanced AWD,170,electric,,200.0,0,108700.0,108700.0,754.0,754.0,1064.0,1064.0,4.5,4.5,5,5,North America,United States,Luxury
+812-0,812,Gmc,Hummer EV Omega Edition,"Electric motors with up to 11,500 lb-ft torque",170,electric,,200.0,0,112700.0,112700.0,1000.0,1000.0,15590.0,15590.0,3.0,3.0,5,5,North America,United States,Luxury
+813-0,813,Gmc,Canyon AT4X Edition 1,3.6L v6 engine,180,petrol,3564.0,,0,55000.0,55000.0,308.0,308.0,373.0,373.0,6.8,6.8,5,5,North America,United States,Premium
+814-0,814,Gmc,Yukon Denali Ultimate Black,6.2L v8 engine,210,petrol,6162.0,,0,90000.0,90000.0,420.0,420.0,624.0,624.0,6.0,6.0,8,8,North America,United States,Premium
+815-0,815,Gmc,Sierra HD Denali Reserve,6.6L v8 engine,170,petrol,6600.0,,0,85000.0,85000.0,401.0,401.0,629.0,629.0,7.5,7.5,5,5,North America,United States,Premium
+816-0,816,Gmc,Acadia Denali Ultimate,3.6L v6 engine,210,petrol,3564.0,,0,60000.0,60000.0,310.0,310.0,366.0,366.0,6.5,6.5,7,7,North America,United States,Premium
+817-0,817,Gmc,Terrain All-Terrain Edition,1.5L Turbocharged i4 engine,200,petrol,1490.0,,0,35000.0,35000.0,170.0,170.0,275.0,275.0,9.3,9.3,5,5,North America,United States,Midrange
+818-0,818,Gmc,Yukon Trailering Edition,5.3L v8 engine,210,petrol,5327.0,,0,78000.0,78000.0,355.0,355.0,519.0,519.0,7.5,7.5,8,8,North America,United States,Premium
+819-0,819,Gmc,Hummer EV Adventure Series,"Electric motors with up to 11,500 lb-ft torque",170,electric,,200.0,0,105000.0,105000.0,830.0,830.0,15590.0,15590.0,3.6,3.6,5,5,North America,United States,Luxury
+820-0,820,Kia,Rio,1.6L 4-Cylinder,180,petrol,1591.0,,0,17000.0,17000.0,120.0,120.0,151.0,151.0,10.3,10.3,5,5,Asia,South Korea,Budget
+821-0,821,Kia,Rio 5-Door,1.6L 4-Cylinder,180,petrol,1591.0,,0,18000.0,18000.0,120.0,120.0,151.0,151.0,10.3,10.3,5,5,Asia,South Korea,Budget
+822-0,822,Kia,Seltos Nightfall Edition,1.6L Turbocharged 4-Cylinder,210,petrol,1591.0,,0,28000.0,28000.0,175.0,175.0,264.0,264.0,7.5,7.5,5,5,Asia,South Korea,Midrange
+823-0,823,Peugeot,508 PSE (Peugeot Sport Engineered),Hybrid i4 + Electric Motor,250,hybrid,1599.0,,0,55000.0,55000.0,360.0,360.0,520.0,520.0,5.2,5.2,5,5,Europe,France,Premium
+824-0,824,Kia,Sorento X-Line,2.5L Turbocharged 4-Cylinder,220,petrol,2500.0,,0,42000.0,42000.0,277.0,277.0,421.0,421.0,7.0,7.0,7,7,Asia,South Korea,Midrange
+825-0,825,Kia,Telluride SX,3.8L v6,240,petrol,3778.0,,0,50000.0,50000.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Midrange
+826-0,826,Kia,Forte LXS,2.0L 4-Cylinder,190,petrol,1999.0,,0,19000.0,19000.0,147.0,147.0,179.0,179.0,9.2,9.2,5,5,Asia,South Korea,Budget
+827-0,827,Kia,K5 EX,1.6L Turbocharged 4-Cylinder,220,petrol,1591.0,,0,28500.0,28500.0,180.0,180.0,264.0,264.0,7.8,7.8,5,5,Asia,South Korea,Midrange
+828-0,828,Kia,Niro Plug-In Hybrid,1.6L 4-Cylinder Hybrid,180,hybrid,1591.0,,0,33000.0,33000.0,139.0,139.0,265.0,265.0,10.5,10.5,5,5,Asia,South Korea,Midrange
+829-0,829,Kia,EV6 Wind,Electric Motor,190,electric,,77.4,0,50000.0,50000.0,225.0,225.0,350.0,350.0,5.2,5.2,5,5,Asia,South Korea,Midrange
+830-0,830,Kia,Soul Turbo,1.6L Turbocharged 4-Cylinder,200,petrol,1591.0,,0,28000.0,28000.0,201.0,201.0,264.0,264.0,6.5,6.5,5,5,Asia,South Korea,Midrange
+831-0,831,Kia,Seltos SX,1.6L Turbocharged 4-Cylinder,210,petrol,1591.0,,0,28500.0,28500.0,175.0,175.0,264.0,264.0,7.5,7.5,5,5,Asia,South Korea,Midrange
+832-0,832,Kia,Stinger Scorpion Edition,2.5L Turbocharged 4-Cylinder,270,petrol,2500.0,,0,55000.0,55000.0,300.0,300.0,422.0,422.0,5.0,5.0,5,5,Asia,South Korea,Premium
+833-0,833,Kia,Sorento Hybrid SX Prestige,1.6L Hybrid Turbocharged 4-Cylinder,200,hybrid,1591.0,,0,47000.0,47000.0,227.0,227.0,352.0,352.0,7.9,7.9,7,7,Asia,South Korea,Midrange
+834-0,834,Kia,Carnival EX,3.5L v6,220,petrol,3500.0,,0,42500.0,42500.0,290.0,290.0,355.0,355.0,8.0,8.0,8,8,Asia,South Korea,Midrange
+835-0,835,Kia,Telluride Nightfall Edition,3.8L v6,240,petrol,3778.0,,0,51000.0,51000.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Premium
+836-0,836,Peugeot,508 Plug-In Hybrid,Hybrid i4 + Electric Motor,210,hybrid,1598.0,,0,44000.0,44000.0,225.0,225.0,360.0,360.0,7.5,7.5,5,5,Europe,France,Midrange
+837-0,837,Kia,EV6 First Edition,Electric Motor,230,electric,,77.4,0,58000.0,58000.0,320.0,320.0,450.0,450.0,5.0,5.0,5,5,Asia,South Korea,Premium
+838-0,838,Kia,Niro Touring,1.6L 4-Cylinder Hybrid,180,hybrid,1591.0,,0,33000.0,33000.0,139.0,139.0,265.0,265.0,10.5,10.5,5,5,Asia,South Korea,Midrange
+839-0,839,Kia,Forte GT-Line,1.6L Turbocharged 4-Cylinder,200,petrol,1591.0,,0,25000.0,25000.0,201.0,201.0,264.0,264.0,6.5,6.5,5,5,Asia,South Korea,Budget
+840-0,840,Kia,Seltos EX,2.0L 4-Cylinder,190,petrol,1999.0,,0,23500.0,23500.0,146.0,146.0,179.0,179.0,9.0,9.0,5,5,Asia,South Korea,Budget
+841-0,841,Peugeot,3008 Plug-In Hybrid,Hybrid i4 + Electric Motor,210,hybrid,1598.0,,0,42000.0,42000.0,225.0,225.0,360.0,360.0,7.0,7.0,5,5,Europe,France,Midrange
+842-0,842,Kia,Sorento LX,2.5L 4-Cylinder,210,petrol,2500.0,,0,35500.0,35500.0,191.0,191.0,246.0,246.0,8.5,8.5,7,7,Asia,South Korea,Midrange
+843-0,843,Kia,Telluride EX,3.8L v6,240,petrol,3778.0,,0,44000.0,44000.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Midrange
+844-0,844,Kia,Soul EX,2.0L 4-Cylinder,190,petrol,1999.0,,0,22000.0,22000.0,147.0,147.0,179.0,179.0,9.5,9.5,5,5,Asia,South Korea,Budget
+845-0,845,Kia,Forte FE,2.0L 4-Cylinder,190,petrol,1999.0,,0,18500.0,18500.0,147.0,147.0,179.0,179.0,9.2,9.2,5,5,Asia,South Korea,Budget
+846-0,846,Kia,K5 GT-Line,1.6L Turbocharged 4-Cylinder,220,petrol,1591.0,,0,29000.0,29000.0,180.0,180.0,264.0,264.0,7.8,7.8,5,5,Asia,South Korea,Midrange
+847-0,847,Kia,Carnival LXS,3.5L v6,220,petrol,3500.0,,0,39500.0,39500.0,290.0,290.0,355.0,355.0,8.0,8.0,8,8,Asia,South Korea,Midrange
+848-0,848,Kia,EV6 Light,Electric Motor,190,electric,,77.4,0,46000.0,46000.0,225.0,225.0,350.0,350.0,5.2,5.2,5,5,Asia,South Korea,Midrange
+849-0,849,Kia,Niro EX,1.6L 4-Cylinder Hybrid,180,hybrid,1591.0,,0,30000.0,30000.0,139.0,139.0,265.0,265.0,10.5,10.5,5,5,Asia,South Korea,Midrange
+850-0,850,Kia,Stinger GT,3.3L Turbocharged v6,270,petrol,3300.0,,0,51500.0,51500.0,365.0,365.0,510.0,510.0,4.7,4.7,5,5,Asia,South Korea,Premium
+851-0,851,Kia,Sorento SX Prestige,2.5L Hybrid Turbocharged 4-Cylinder,200,hybrid,1591.0,,0,48000.0,48000.0,227.0,227.0,352.0,352.0,7.9,7.9,7,7,Asia,South Korea,Midrange
+852-0,852,Kia,Telluride SX Prestige,3.8L v6,240,petrol,3778.0,,0,52000.0,52000.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Premium
+853-0,853,Peugeot,508 Hybrid4,Hybrid i4 + Electric Motor,235,hybrid,1598.0,,0,47000.0,47000.0,300.0,300.0,520.0,520.0,6.0,6.0,5,5,Europe,France,Midrange
+854-0,854,Kia,EV6 GT Performance,Electric Motor,260,electric,,77.4,0,65000.0,65000.0,577.0,577.0,740.0,740.0,3.5,3.5,5,5,Asia,South Korea,Premium
+855-0,855,Kia,Niro SX Touring,1.6L 4-Cylinder Hybrid,180,hybrid,1591.0,,0,34500.0,34500.0,139.0,139.0,265.0,265.0,10.5,10.5,5,5,Asia,South Korea,Midrange
+856-0,856,Kia,Carnival SX Prestige,3.5L v6,220,petrol,3500.0,,0,47000.0,47000.0,290.0,290.0,355.0,355.0,8.0,8.0,8,8,Asia,South Korea,Midrange
+857-0,857,Kia,Seltos SX Turbo,1.6L Turbocharged 4-Cylinder,210,petrol,1591.0,,0,32000.0,32000.0,175.0,175.0,264.0,264.0,7.5,7.5,5,5,Asia,South Korea,Midrange
+858-0,858,Kia,Forte EX Premium,2.0L 4-Cylinder,190,petrol,1999.0,,0,22500.0,22500.0,147.0,147.0,179.0,179.0,9.2,9.2,5,5,Asia,South Korea,Budget
+859-0,859,Kia,Soul EX Designer Edition,2.0L 4-Cylinder,190,petrol,1999.0,,0,23500.0,23500.0,147.0,147.0,179.0,179.0,9.5,9.5,5,5,Asia,South Korea,Budget
+860-0,860,Kia,Rio S,1.6L 4-Cylinder,180,petrol,1591.0,,0,17500.0,17500.0,120.0,120.0,151.0,151.0,10.3,10.3,5,5,Asia,South Korea,Budget
+861-0,861,Kia,Rio 5-Door S,1.6L 4-Cylinder,180,petrol,1591.0,,0,18000.0,18000.0,120.0,120.0,151.0,151.0,10.3,10.3,5,5,Asia,South Korea,Budget
+862-0,862,Kia,Soul S,2.0L 4-Cylinder,190,petrol,1999.0,,0,20500.0,20500.0,147.0,147.0,179.0,179.0,9.5,9.5,5,5,Asia,South Korea,Budget
+863-0,863,Kia,Seltos LX,2.0L 4-Cylinder,190,petrol,1999.0,,0,23000.0,23000.0,146.0,146.0,179.0,179.0,9.2,9.2,5,5,Asia,South Korea,Budget
+864-0,864,Peugeot,3008 Hybrid4,Hybrid i4+ Electric Motor,235,hybrid,1599.0,,0,45000.0,45000.0,300.0,300.0,520.0,520.0,6.0,6.0,5,5,Europe,France,Midrange
+865-0,865,Kia,Sorento Hybrid EX,1.6L Hybrid Turbocharged 4-Cylinder,200,hybrid,1591.0,,0,47000.0,47000.0,227.0,227.0,352.0,352.0,7.9,7.9,7,7,Asia,South Korea,Midrange
+866-0,866,Kia,Telluride LX,3.8L v6,240,petrol,3778.0,,0,41500.0,41500.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Midrange
+867-0,867,Kia,Carnival MPV EX,3.5L v6,220,petrol,3500.0,,0,43500.0,43500.0,290.0,290.0,355.0,355.0,8.0,8.0,8,8,Asia,South Korea,Midrange
+868-0,868,Kia,EV6 AWD GT-Line,Electric Motor,230,electric,,77.4,0,60000.0,60000.0,320.0,320.0,450.0,450.0,5.0,5.0,5,5,Asia,South Korea,Premium
+869-0,869,Kia,Forte GT Turbo,1.6L Turbocharged 4-Cylinder,200,petrol,1591.0,,0,25500.0,25500.0,201.0,201.0,264.0,264.0,6.5,6.5,5,5,Asia,South Korea,Midrange
+870-0,870,Kia,Soul GT Designer Edition,2.0L 4-Cylinder,190,petrol,1999.0,,0,23000.0,23000.0,147.0,147.0,179.0,179.0,9.5,9.5,5,5,Asia,South Korea,Budget
+871-0,871,Kia,Seltos X-Line Turbo,1.6L Turbocharged 4-Cylinder,210,petrol,1591.0,,0,30000.0,30000.0,175.0,175.0,264.0,264.0,7.5,7.5,5,5,Asia,South Korea,Midrange
+872-0,872,Peugeot,e-2008 GT,Electric Motor,200,electric,,50.0,0,40000.0,40000.0,136.0,136.0,260.0,260.0,8.5,8.5,5,5,Europe,France,Midrange
+873-0,873,Kia,Telluride Limited Edition,3.8L v6,240,petrol,3778.0,,0,53000.0,53000.0,291.0,291.0,355.0,355.0,7.0,7.0,7,7,Asia,South Korea,Premium
+874-0,874,Kia,Stinger GT-Line,2.5L Turbocharged 4-Cylinder,270,petrol,2500.0,,0,50000.0,50000.0,300.0,300.0,422.0,422.0,5.0,5.0,5,5,Asia,South Korea,Midrange
+875-0,875,Kia,Carnival Special Edition,3.5L v6,220,petrol,3500.0,,0,45500.0,45500.0,290.0,290.0,355.0,355.0,8.0,8.0,8,8,Asia,South Korea,Midrange
+876-0,876,Kia,Niro SX Hybrid,1.6L Hybrid Turbocharged 4-Cylinder,180,hybrid,1591.0,,0,36000.0,36000.0,139.0,139.0,265.0,265.0,10.5,10.5,5,5,Asia,South Korea,Midrange
+877-0,877,Kia,EV6 First Edition AWD,Electric Motor,230,electric,,77.4,0,62000.0,62000.0,320.0,320.0,450.0,450.0,5.0,5.0,5,5,Asia,South Korea,Premium
+878-0,878,Kia,Sorento X-Pro Hybrid,1.6L Hybrid Turbocharged 4-Cylinder,200,hybrid,1591.0,,0,49000.0,49000.0,227.0,227.0,352.0,352.0,7.8,7.8,7,7,Asia,South Korea,Midrange
+879-0,879,Kia,Forte Limited Edition,2.0L 4-Cylinder,190,petrol,1999.0,,0,22500.0,22500.0,147.0,147.0,179.0,179.0,9.2,9.2,5,5,Asia,South Korea,Budget
+880-0,880,Bugatti,Chiron,8.0L Quad-Turbo W16,420,petrol,7993.0,,0,3000000.0,3000000.0,1500.0,1500.0,1600.0,1600.0,2.5,2.5,2,2,Europe,France,Supercar
+881-0,881,Bugatti,Chiron Pur Sport,8.0L Quad-Turbo W16,350,petrol,7993.0,,0,3300000.0,3300000.0,1500.0,1500.0,1600.0,1600.0,2.3,2.3,2,2,Europe,France,Supercar
+882-0,882,Bugatti,Chiron Super Sport,8.0L Quad-Turbo W16,490,petrol,7993.0,,0,3500000.0,3500000.0,1600.0,1600.0,1600.0,1600.0,2.4,2.4,2,2,Europe,France,Supercar
+883-0,883,Bugatti,Chiron Sport,8.0L Quad-Turbo W16,420,petrol,7993.0,,0,3300000.0,3300000.0,1500.0,1500.0,1600.0,1600.0,2.4,2.4,2,2,Europe,France,Supercar
+884-0,884,Bugatti,Chiron Noire,8.0L Quad-Turbo W16,420,petrol,7993.0,,0,3300000.0,3300000.0,1500.0,1500.0,1600.0,1600.0,2.5,2.5,2,2,Europe,France,Supercar
+885-0,885,Bugatti,Divo,8.0L Quad-Turbo W16,380,petrol,7993.0,,0,5800000.0,5800000.0,1500.0,1500.0,1600.0,1600.0,2.4,2.4,2,2,Europe,France,Supercar
+886-0,886,Bugatti,Centodieci,8.0L Quad-Turbo W16,380,petrol,7993.0,,0,9000000.0,9000000.0,1600.0,1600.0,1600.0,1600.0,2.4,2.4,2,2,Europe,France,Supercar
+887-0,887,Bugatti,La Voiture Noire,8.0L Quad-Turbo W16,420,petrol,7993.0,,0,18000000.0,18000000.0,1500.0,1500.0,1600.0,1600.0,2.5,2.5,2,2,Europe,France,Supercar
+888-0,888,Bugatti,Bolide,8.0L Quad-Turbo W16,500,petrol,7993.0,,0,4500000.0,4500000.0,1850.0,1850.0,1600.0,1600.0,2.2,2.2,2,2,Europe,France,Supercar
+889-0,889,Bugatti,Mistral,8.0L Quad-Turbo W16,420,petrol,7993.0,,0,5000000.0,5000000.0,1600.0,1600.0,1600.0,1600.0,2.4,2.4,2,2,Europe,France,Supercar
+890-0,890,Volvo,Volvo FH,13.0L i6 Turbo Diesel,120,diesel,13000.0,,0,120000.0,120000.0,540.0,540.0,2600.0,2600.0,15.0,15.0,2,2,Europe,Sweden,Luxury
+891-0,891,Volvo,Volvo FH16,16.1L i6 Turbo Diesel,120,diesel,16100.0,,0,160000.0,160000.0,750.0,750.0,3500.0,3500.0,14.5,14.5,2,2,Europe,Sweden,Luxury
+892-0,892,Volvo,Volvo FM,12.8L i6 Turbo Diesel,110,diesel,12800.0,,0,100000.0,100000.0,460.0,460.0,2200.0,2200.0,16.0,16.0,2,2,Europe,Sweden,Premium
+893-0,893,Volvo,Volvo FMX,13.0L i6 Turbo Diesel,110,diesel,13000.0,,0,110000.0,110000.0,500.0,500.0,2500.0,2500.0,16.5,16.5,2,2,Europe,Sweden,Luxury
+894-0,894,Volvo,Volvo VNL,12.8L i6 Turbo Diesel,120,diesel,12800.0,,0,125000.0,125000.0,500.0,500.0,2400.0,2400.0,15.0,15.0,2,2,Europe,Sweden,Luxury
+895-0,895,Volvo,Volvo VNR,12.8L i6 Turbo Diesel,110,diesel,12800.0,,0,95000.0,95000.0,400.0,400.0,1800.0,1800.0,17.0,17.0,2,2,Europe,Sweden,Premium
+896-0,896,Volvo,Volvo VHD,12.8L i6 Turbo Diesel,100,diesel,12800.0,,0,120000.0,120000.0,500.0,500.0,2500.0,2500.0,18.0,18.0,2,2,Europe,Sweden,Luxury
+897-0,897,Volvo,Volvo FE,7.7L i6 Turbo Diesel,90,diesel,7700.0,,0,85000.0,85000.0,280.0,280.0,1200.0,1200.0,20.0,20.0,2,2,Europe,Sweden,Premium
+898-0,898,Volvo,Volvo FL,5.1L i4 Turbo Diesel,80,diesel,5100.0,,0,75000.0,75000.0,180.0,180.0,800.0,800.0,22.0,22.0,2,2,Europe,Sweden,Premium
+899-0,899,Jaguar Land Rover,Jaguar F-Type,v6,260,petrol,2995.0,,0,70000.0,70000.0,335.0,335.0,450.0,450.0,5.1,5.1,2,2,Europe,United Kingdom,Premium
+899-1,899,Jaguar Land Rover,Jaguar F-Type,v8 Petrol,260,petrol,2995.0,,1,70000.0,70000.0,335.0,335.0,450.0,450.0,5.1,5.1,2,2,Europe,United Kingdom,Premium
+900-0,900,Jaguar Land Rover,Jaguar XE,i4 Petrol,250,petrol,1999.0,,0,45000.0,45000.0,250.0,250.0,365.0,365.0,6.5,6.5,5,5,Europe,United Kingdom,Midrange
+901-0,901,Jaguar Land Rover,Jaguar XF,i4 Petrol,250,petrol,1999.0,,0,50000.0,50000.0,250.0,250.0,365.0,365.0,6.5,6.5,5,5,Europe,United Kingdom,Midrange
+902-0,902,Jaguar Land Rover,Jaguar XJ,v6 Petrol,250,petrol,2995.0,,0,85000.0,85000.0,300.0,300.0,400.0,400.0,6.0,6.0,5,5,Europe,United Kingdom,Premium
+903-0,903,Jaguar Land Rover,Jaguar E-PACE,i4 Petrol,230,petrol,1999.0,,0,50000.0,50000.0,200.0,200.0,430.0,430.0,7.0,7.0,5,5,Europe,United Kingdom,Midrange
+904-0,904,Jaguar Land Rover,Jaguar I-PACE,Electric (Dual Motor),200,electric,,90.0,0,70000.0,70000.0,400.0,400.0,696.0,696.0,4.8,4.8,5,5,Europe,United Kingdom,Premium
+905-0,905,Jaguar Land Rover,Jaguar F-PACE,i4 Petrol,230,petrol,1999.0,,0,55000.0,65000.0,250.0,250.0,365.0,365.0,7.2,7.2,5,5,Europe,United Kingdom,Premium
+905-1,905,Jaguar Land Rover,Jaguar F-PACE,v6 Petrol,230,petrol,2995.0,,1,55000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+906-0,906,Jaguar Land Rover,Jaguar X-TYPE,i4 Petrol,215,petrol,1998.0,,0,40000.0,40000.0,160.0,160.0,215.0,215.0,9.0,9.0,5,5,Europe,United Kingdom,Midrange
+907-0,907,Jaguar Land Rover,Jaguar F-PACE R-Dynamic,i4 Petrol,250,petrol,1999.0,,0,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+907-1,907,Jaguar Land Rover,Jaguar F-PACE R-Dynamic,v6 Petrol,250,petrol,2995.0,,1,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+908-0,908,Jaguar Land Rover,Jaguar XE R-Dynamic,i4 Petrol,250,petrol,1999.0,,0,60000.0,60000.0,340.0,340.0,450.0,450.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+909-0,909,Jaguar Land Rover,Jaguar F-Type SVR,v8 Petrol,320,petrol,5000.0,,0,120000.0,120000.0,575.0,575.0,700.0,700.0,3.7,3.7,2,2,Europe,United Kingdom,Luxury
+910-0,910,Jaguar Land Rover,Jaguar I-PACE Electric Performance,Electric (Dual Motor),200,electric,,90.0,0,85000.0,85000.0,400.0,400.0,696.0,696.0,4.5,4.5,5,5,Europe,United Kingdom,Premium
+911-0,911,Jaguar Land Rover,Jaguar F-PACE SVR,v8 Petrol,283,petrol,5000.0,,0,85000.0,85000.0,550.0,550.0,700.0,700.0,4.0,4.0,5,5,Europe,United Kingdom,Premium
+912-0,912,Jaguar Land Rover,Jaguar XE S,i4 Petrol,250,petrol,1999.0,,0,55000.0,55000.0,340.0,340.0,450.0,450.0,5.3,5.3,5,5,Europe,United Kingdom,Premium
+913-0,913,Jaguar Land Rover,Jaguar XF R-Dynamic,i4 Petrol,250,petrol,1999.0,,0,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+913-1,913,Jaguar Land Rover,Jaguar XF R-Dynamic,v6 Petrol,250,petrol,2995.0,,1,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+914-0,914,Jaguar Land Rover,Jaguar XJ LWB (Long Wheelbase),v6 Petrol,250,petrol,2995.0,,0,90000.0,90000.0,300.0,300.0,400.0,400.0,6.0,6.0,5,5,Europe,United Kingdom,Premium
+915-0,915,Jaguar Land Rover,Jaguar F-Type Heritage Edition,v8 Petrol,300,petrol,5000.0,,0,110000.0,110000.0,550.0,550.0,680.0,680.0,3.9,3.9,2,2,Europe,United Kingdom,Luxury
+916-0,916,Jaguar Land Rover,Jaguar E-PACE S,i4 Petrol,230,petrol,1999.0,,0,50000.0,50000.0,200.0,200.0,430.0,430.0,7.0,7.0,5,5,Europe,United Kingdom,Midrange
+917-0,917,Jaguar Land Rover,Jaguar I-PACE HSE,Electric (Dual Motor),200,electric,,90.0,0,90000.0,90000.0,400.0,400.0,696.0,696.0,4.5,4.5,5,5,Europe,United Kingdom,Premium
+918-0,918,Jaguar Land Rover,Jaguar F-Type V8 R,v8 Petrol,300,petrol,5000.0,,0,100000.0,100000.0,550.0,550.0,680.0,680.0,3.9,3.9,2,2,Europe,United Kingdom,Premium
+919-0,919,Jaguar Land Rover,Jaguar F-Type R-Dynamic,i4 Petrol,250,petrol,1999.0,,0,70000.0,70000.0,300.0,300.0,400.0,400.0,5.1,5.1,2,2,Europe,United Kingdom,Premium
+919-1,919,Jaguar Land Rover,Jaguar F-Type R-Dynamic,v6 Petrol,250,petrol,2995.0,,1,70000.0,70000.0,300.0,300.0,400.0,400.0,5.1,5.1,2,2,Europe,United Kingdom,Premium
+920-0,920,Jaguar Land Rover,Jaguar XE P300 R-Dynamic,i4 Petrol,250,petrol,1999.0,,0,55000.0,55000.0,300.0,300.0,400.0,400.0,5.5,5.5,5,5,Europe,United Kingdom,Premium
+921-0,921,Jaguar Land Rover,Jaguar XF Sportbrake,i4 Petrol,250,petrol,1999.0,,0,60000.0,60000.0,250.0,250.0,400.0,400.0,6.5,6.5,5,5,Europe,United Kingdom,Premium
+921-1,921,Jaguar Land Rover,Jaguar XF Sportbrake,v6 Petrol,250,petrol,2995.0,,1,60000.0,60000.0,250.0,250.0,400.0,400.0,6.5,6.5,5,5,Europe,United Kingdom,Premium
+922-0,922,Jaguar Land Rover,Jaguar I-PACE EV400 HSE,Electric (Dual Motor),200,electric,,90.0,0,85000.0,85000.0,400.0,400.0,696.0,696.0,4.5,4.5,5,5,Europe,United Kingdom,Premium
+923-0,923,Jaguar Land Rover,Jaguar F-PACE S 30t AWD,i4 Petrol,225,petrol,1999.0,,0,60000.0,60000.0,247.0,247.0,365.0,365.0,6.4,6.4,5,5,Europe,United Kingdom,Premium
+924-0,924,Jaguar Land Rover,Jaguar E-PACE R-Dynamic,i4 Petrol,230,petrol,1999.0,,0,55000.0,55000.0,246.0,246.0,430.0,430.0,6.8,6.8,5,5,Europe,United Kingdom,Premium
+925-0,925,Jaguar Land Rover,Jaguar XJ50,v6 Petrol,250,petrol,2995.0,,0,80000.0,80000.0,300.0,300.0,400.0,400.0,6.0,6.0,5,5,Europe,United Kingdom,Premium
+926-0,926,Jaguar Land Rover,Jaguar F-Type 75th Anniversary Edition,v8 Petrol,300,petrol,5000.0,,0,100000.0,100000.0,550.0,550.0,680.0,680.0,3.9,3.9,2,2,Europe,United Kingdom,Premium
+927-0,927,Jaguar Land Rover,Jaguar F-PACE S AWD,i4 Petrol,250,petrol,1999.0,,0,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+927-1,927,Jaguar Land Rover,Jaguar F-PACE S AWD,v6 Petrol,250,petrol,2995.0,,1,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+928-0,928,Jaguar Land Rover,Jaguar XE SE,i4 Petrol,240,petrol,1999.0,,0,50000.0,50000.0,250.0,250.0,365.0,365.0,6.2,6.2,5,5,Europe,United Kingdom,Midrange
+929-0,929,Jaguar Land Rover,Jaguar F-Type V6 S Convertible,v6 Petrol,280,petrol,2995.0,,0,80000.0,80000.0,380.0,380.0,460.0,460.0,4.8,4.8,2,2,Europe,United Kingdom,Premium
+930-0,930,Jaguar Land Rover,Jaguar XE R-Sport AWD,i4 Petrol,250,petrol,1999.0,,0,55000.0,55000.0,300.0,300.0,400.0,400.0,5.5,5.5,5,5,Europe,United Kingdom,Premium
+930-1,930,Jaguar Land Rover,Jaguar XE R-Sport AWD,v6 Petrol,250,petrol,2995.0,,1,55000.0,55000.0,300.0,300.0,400.0,400.0,5.5,5.5,5,5,Europe,United Kingdom,Premium
+931-0,931,Jaguar Land Rover,Jaguar XF Portfolio AWD,i4 Petrol,250,petrol,1999.0,,0,60000.0,60000.0,340.0,340.0,450.0,450.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+931-1,931,Jaguar Land Rover,Jaguar XF Portfolio AWD,v6 Petrol,250,petrol,2995.0,,1,60000.0,60000.0,340.0,340.0,450.0,450.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+932-0,932,Jaguar Land Rover,Jaguar F-Type Coupe R,v8 Petrol,300,petrol,5000.0,,0,100000.0,100000.0,550.0,550.0,680.0,680.0,3.9,3.9,2,2,Europe,United Kingdom,Premium
+933-0,933,Jaguar Land Rover,Jaguar I-PACE First Edition,Electric (Dual Motor),200,electric,,90.0,0,85000.0,85000.0,400.0,400.0,696.0,696.0,4.5,4.5,5,5,Europe,United Kingdom,Premium
+934-0,934,Jaguar Land Rover,Jaguar F-PACE Prestige AWD,i4 Petrol,250,petrol,1999.0,,0,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+934-1,934,Jaguar Land Rover,Jaguar F-PACE Prestige AWD,v6 Petrol,250,petrol,2995.0,,1,65000.0,65000.0,340.0,340.0,480.0,480.0,5.4,5.4,5,5,Europe,United Kingdom,Premium
+935-0,935,Jaguar Land Rover,Jaguar XJ Supercharged,v8 Petrol,280,petrol,5000.0,,0,90000.0,90000.0,510.0,510.0,625.0,625.0,4.2,4.2,5,5,Europe,United Kingdom,Premium
+936-0,936,Jaguar Land Rover,Jaguar F-Type P450 AWD,v8 Petrol,290,petrol,5000.0,,0,90000.0,90000.0,450.0,450.0,600.0,600.0,4.0,4.0,2,2,Europe,United Kingdom,Premium
+937-0,937,Jaguar Land Rover,Jaguar F-PACE P400e Plug-in Hybrid,i4 Petrol + Electric Motor,220,hybrid,1999.0,,0,75000.0,75000.0,398.0,398.0,640.0,640.0,5.1,5.1,5,5,Europe,United Kingdom,Premium
+938-0,938,Jaguar Land Rover,Jaguar F-Type P300 Coupe,i4 Petrol,250,petrol,1999.0,,0,60000.0,60000.0,300.0,300.0,400.0,400.0,5.5,5.5,2,2,Europe,United Kingdom,Premium
+939-0,939,Acura,NSX Type S,Twin-Turbo v6 Hybrid,307,hybrid,3493.0,,0,157000.0,157000.0,600.0,600.0,666.0,666.0,2.9,2.9,2,2,Asia,Japan,Luxury
+940-0,940,Acura,TLX PMC Edition,v6,250,petrol,3500.0,,0,62000.0,62000.0,290.0,290.0,362.0,362.0,5.7,5.7,5,5,Asia,Japan,Premium
+941-0,941,Acura,MDX Advance,v6,190,petrol,3500.0,,0,60000.0,60000.0,290.0,290.0,362.0,362.0,6.0,6.0,7,7,Asia,Japan,Premium
+942-0,942,Acura,RDX Technology,i4 Turbocharged,210,petrol,1500.0,,0,45000.0,45000.0,272.0,272.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Midrange
+943-0,943,Acura,ILX Premium,i4,200,petrol,2400.0,,0,30000.0,30000.0,201.0,201.0,180.0,180.0,6.6,6.6,5,5,Asia,Japan,Midrange
+944-0,944,Acura,TLX A-Spec,v6,250,petrol,3500.0,,0,50000.0,50000.0,290.0,290.0,362.0,362.0,5.7,5.7,5,5,Asia,Japan,Midrange
+945-0,945,Acura,RDX SH-AWD,i4 Turbocharged,210,petrol,1500.0,,0,50000.0,50000.0,272.0,272.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Midrange
+946-0,946,Acura,MDX SH-AWD,v6,190,petrol,3500.0,,0,55000.0,55000.0,290.0,290.0,362.0,362.0,6.0,6.0,7,7,Asia,Japan,Premium
+947-0,947,Acura,RDX Platinum Elite,i4 Turbocharged,210,petrol,1500.0,,0,55000.0,55000.0,272.0,272.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Premium
+948-0,948,Acura,TLX A-Spec Sedan,v6,250,petrol,3500.0,,0,50000.0,50000.0,290.0,290.0,362.0,362.0,5.7,5.7,5,5,Asia,Japan,Midrange
+949-0,949,Acura,TLX 2.4L,inline-4,210,petrol,2400.0,,0,35000.0,35000.0,206.0,206.0,247.0,247.0,6.0,6.0,5,5,Asia,Japan,Midrange
+950-0,950,Acura,MDX Hybrid,v6 Hybrid,190,hybrid,3500.0,,0,55000.0,55000.0,321.0,321.0,335.0,335.0,6.0,6.0,7,7,Asia,Japan,Premium
+951-0,951,Acura,RDX Hybrid,inline-4 Hybrid,210,hybrid,1500.0,,0,50000.0,50000.0,247.0,247.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Midrange
+952-0,952,Acura,ILX Technology Package,inline-4,200,petrol,2400.0,,0,30000.0,30000.0,201.0,201.0,180.0,180.0,6.6,6.6,5,5,Asia,Japan,Midrange
+953-0,953,Acura,NSX GT3 (Track Version),Twin-Turbo v6 Hybrid,300,hybrid,3493.0,,0,150000.0,150000.0,500.0,500.0,600.0,600.0,3.0,3.0,2,2,Asia,Japan,Luxury
+954-0,954,Acura,RDX Turbo AWD,inline-4 Turbocharged,210,petrol,1500.0,,0,45000.0,45000.0,272.0,272.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Midrange
+955-0,955,Acura,TLX 3.5L V6,v6,250,petrol,3500.0,,0,50000.0,50000.0,290.0,290.0,362.0,362.0,5.7,5.7,5,5,Asia,Japan,Midrange
+956-0,956,Acura,ILX Special Edition,inline-4,200,petrol,2400.0,,0,30000.0,30000.0,201.0,201.0,180.0,180.0,6.6,6.6,5,5,Asia,Japan,Midrange
+957-0,957,Acura,MDX SH-AWD w/Technology Package,v6,190,petrol,3500.0,,0,55000.0,55000.0,290.0,290.0,362.0,362.0,6.0,6.0,7,7,Asia,Japan,Premium
+958-0,958,Acura,NSX 3.5L Hybrid Coupe,Twin-Turbo v6 Hybrid,307,hybrid,3493.0,,0,157000.0,157000.0,537.0,537.0,666.0,666.0,2.9,2.9,2,2,Asia,Japan,Luxury
+959-0,959,Acura,MDX Elite,v6,190,petrol,3500.0,,0,58000.0,58000.0,290.0,290.0,362.0,362.0,6.0,6.0,7,7,Asia,Japan,Premium
+960-0,960,Acura,TLX V6 Advance,v6,250,petrol,3500.0,,0,46000.0,46000.0,290.0,290.0,362.0,362.0,5.7,5.7,5,5,Asia,Japan,Midrange
+961-0,961,Acura,NSX Carbon Edition,Twin-Turbo v6 Hybrid,307,hybrid,3493.0,,0,157000.0,157000.0,537.0,537.0,666.0,666.0,2.9,2.9,2,2,Asia,Japan,Luxury
+962-0,962,Acura,RDX Turbo SH-AWD,Turbocharged i4,210,petrol,1500.0,,0,42000.0,42000.0,272.0,272.0,400.0,400.0,6.6,6.6,5,5,Asia,Japan,Midrange
+963-0,963,Acura,ILX Technology Plus,inline-4,200,petrol,2400.0,,0,28000.0,28000.0,201.0,201.0,180.0,180.0,6.6,6.6,5,5,Asia,Japan,Midrange
+964-0,964,Acura,TLX Type S PMC Edition,Turbocharged v6,250,petrol,3000.0,,0,54000.0,54000.0,355.0,355.0,480.0,480.0,5.1,5.1,5,5,Asia,Japan,Premium
+965-0,965,Acura,MDX Sport Hybrid,v6 Hybrid,190,hybrid,3500.0,,0,52000.0,52000.0,321.0,321.0,335.0,335.0,6.0,6.0,7,7,Asia,Japan,Premium
+966-0,966,Peugeot,208,inline-4,180,petrol,1199.0,,0,22000.0,22000.0,82.0,82.0,160.0,160.0,10.5,10.5,5,5,Europe,France,Budget
+967-0,967,Peugeot,2008,inline-4,190,petrol,1199.0,,0,25000.0,25000.0,100.0,100.0,205.0,205.0,9.0,9.0,5,5,Europe,France,Budget
+968-0,968,Peugeot,301,inline-4,185,petrol,1598.0,,0,23500.0,23500.0,115.0,115.0,150.0,150.0,10.0,10.0,5,5,Europe,France,Budget
+969-0,969,Peugeot,308,inline-4,200,petrol,1598.0,,0,28000.0,28000.0,130.0,130.0,230.0,230.0,8.0,8.0,5,5,Europe,France,Midrange
+970-0,970,Peugeot,3008,inline-4,210,petrol,1598.0,,0,32000.0,32000.0,180.0,180.0,400.0,400.0,7.5,7.5,5,5,Europe,France,Midrange
+971-0,971,Peugeot,5008,inline-4,200,diesel,1998.0,,0,35000.0,35000.0,165.0,165.0,400.0,400.0,9.5,9.5,7,7,Europe,France,Midrange
+972-0,972,Peugeot,508,inline-4,235,petrol,1998.0,,0,35500.0,35500.0,180.0,180.0,300.0,300.0,8.0,8.0,5,5,Europe,France,Midrange
+973-0,973,Peugeot,Partner,Diesel i4,160,diesel,1560.0,,0,22500.0,22500.0,75.0,75.0,200.0,200.0,12.0,12.0,5,5,Europe,France,Budget
+974-0,974,Peugeot,Expert,Diesel i4,180,diesel,1997.0,,0,30000.0,30000.0,120.0,120.0,300.0,300.0,10.0,10.0,3,3,Europe,France,Midrange
+975-0,975,Peugeot,Boxer,Diesel i4,160,diesel,2200.0,,0,32000.0,32000.0,140.0,140.0,340.0,340.0,11.0,11.0,3,3,Europe,France,Midrange
+976-0,976,Peugeot,e-208,Electric Motor,150,electric,,50.0,0,35000.0,35000.0,136.0,136.0,260.0,260.0,8.1,8.1,5,5,Europe,France,Midrange
+977-0,977,Peugeot,e-2008,Electric Motor,150,electric,,50.0,0,38000.0,38000.0,136.0,136.0,260.0,260.0,8.5,8.5,5,5,Europe,France,Midrange
+978-0,978,Peugeot,208 GTI,inline-4,230,petrol,1598.0,,0,28000.0,28000.0,208.0,208.0,300.0,300.0,6.5,6.5,5,5,Europe,France,Midrange
+979-0,979,Peugeot,308 GTI,inline-4,250,petrol,1598.0,,0,35000.0,35000.0,270.0,270.0,330.0,330.0,6.0,6.0,5,5,Europe,France,Midrange
+980-0,980,Peugeot,508 PSE (Peugeot Sport Engineered),Hybrid i4,250,hybrid,1598.0,,0,55000.0,55000.0,360.0,360.0,520.0,520.0,5.2,5.2,5,5,Europe,France,Premium
+981-0,981,Peugeot,308 Allure,inline-4,205,petrol,1199.0,,0,25000.0,25000.0,130.0,130.0,230.0,230.0,9.3,9.3,5,5,Europe,France,Budget
+982-0,982,Peugeot,2008 Allure,inline-4,200,petrol,1199.0,,0,27000.0,27000.0,130.0,130.0,230.0,230.0,9.7,9.7,5,5,Europe,France,Midrange
+983-0,983,Peugeot,3008 Allure,inline-4,210,petrol,1499.0,,0,30000.0,30000.0,180.0,180.0,250.0,250.0,8.0,8.0,5,5,Europe,France,Midrange
+984-0,984,Peugeot,5008 Allure,inline-4,200,petrol,1499.0,,0,33000.0,33000.0,180.0,180.0,250.0,250.0,8.5,8.5,7,7,Europe,France,Midrange
+985-0,985,Peugeot,508 Allure,inline-4,225,petrol,1499.0,,0,35000.0,35000.0,180.0,180.0,250.0,250.0,8.0,8.0,5,5,Europe,France,Midrange
+986-0,986,Peugeot,3008 GT,inline-4,220,petrol,1598.0,,0,35000.0,35000.0,200.0,200.0,280.0,280.0,7.5,7.5,5,5,Europe,France,Midrange
+987-0,987,Peugeot,508 GT,inline-4,235,petrol,1598.0,,0,40000.0,40000.0,225.0,225.0,300.0,300.0,6.8,6.8,5,5,Europe,France,Midrange
+988-0,988,Peugeot,3008 GT Hybrid,Hybrid i4,235,hybrid,1598.0,,0,45000.0,45000.0,300.0,300.0,400.0,400.0,6.0,6.0,5,5,Europe,France,Midrange
+989-0,989,Peugeot,5008 GT Hybrid,Hybrid i4,210,hybrid,1598.0,,0,48000.0,48000.0,300.0,300.0,400.0,400.0,6.5,6.5,7,7,Europe,France,Midrange
+990-0,990,Peugeot,208 Allure Premium,inline-4,200,petrol,1199.0,,0,28000.0,28000.0,130.0,130.0,230.0,230.0,9.5,9.5,5,5,Europe,France,Midrange
+991-0,991,Peugeot,Partner Tepee,inline-4,170,diesel,1560.0,,0,25000.0,25000.0,100.0,100.0,260.0,260.0,12.0,12.0,5,5,Europe,France,Budget
+992-0,992,Peugeot,Expert L2H1,inline-4,160,diesel,1997.0,,0,30000.0,30000.0,120.0,120.0,320.0,320.0,13.0,13.0,3,3,Europe,France,Midrange
+993-0,993,Peugeot,Boxer L2H2,inline-4,140,diesel,2200.0,,0,35000.0,35000.0,130.0,130.0,350.0,350.0,14.0,14.0,3,3,Europe,France,Midrange
+994-0,994,Peugeot,Partner Electric,Electric Motor,130,electric,,,0,40000.0,40000.0,136.0,136.0,260.0,260.0,9.0,9.0,5,5,Europe,France,Midrange
+995-0,995,Peugeot,Expert Electric,Electric Motor,130,electric,,,0,45000.0,45000.0,136.0,136.0,260.0,260.0,9.5,9.5,5,5,Europe,France,Midrange
+996-0,996,Peugeot,208 PSE (Peugeot Sport Engineered),Hybrid i4,250,hybrid,1598.0,,0,45000.0,45000.0,225.0,225.0,360.0,360.0,5.5,5.5,5,5,Europe,France,Midrange
+997-0,997,Peugeot,308 PSE,Hybrid i4,250,hybrid,1598.0,,0,55000.0,55000.0,360.0,360.0,520.0,520.0,5.0,5.0,5,5,Europe,France,Premium
+998-0,998,Peugeot,508 PSE,Hybrid i4,250,hybrid,1598.0,,0,60000.0,60000.0,360.0,360.0,520.0,520.0,5.2,5.2,5,5,Europe,France,Premium
+999-0,999,Peugeot,3008 PSE,Hybrid i4,235,hybrid,1598.0,,0,50000.0,50000.0,300.0,300.0,400.0,400.0,6.0,6.0,5,5,Europe,France,Midrange
+1000-0,1000,Peugeot,2008 Active,inline-4,190,petrol,1199.0,,0,22000.0,22000.0,100.0,100.0,205.0,205.0,11.2,11.2,5,5,Europe,France,Budget
+1001-0,1001,Peugeot,3008 Active,inline-4,200,petrol,1499.0,,0,30000.0,30000.0,130.0,130.0,240.0,240.0,10.0,10.0,5,5,Europe,France,Midrange
+1002-0,1002,Peugeot,5008 Active,inline-4,190,petrol,1499.0,,0,33000.0,33000.0,130.0,130.0,240.0,240.0,10.5,10.5,7,7,Europe,France,Midrange
+1003-0,1003,Peugeot,3008 Allure Premium,inline-4,200,petrol,1499.0,,0,32000.0,32000.0,130.0,130.0,240.0,240.0,9.8,9.8,5,5,Europe,France,Midrange
+1004-0,1004,Peugeot,5008 Allure Premium,inline-4,190,petrol,1499.0,,0,35000.0,35000.0,130.0,130.0,240.0,240.0,10.2,10.2,7,7,Europe,France,Midrange
+1005-0,1005,Peugeot,3008 GT Line,inline-4,210,petrol,1598.0,,0,35000.0,35000.0,180.0,180.0,250.0,250.0,8.5,8.5,5,5,Europe,France,Midrange
+1006-0,1006,Peugeot,5008 GT Line,inline-4,200,petrol,1598.0,,0,38000.0,38000.0,180.0,180.0,250.0,250.0,9.0,9.0,7,7,Europe,France,Midrange
+1007-0,1007,Peugeot,2008 GT,inline-4,200,petrol,1199.0,,0,25000.0,25000.0,130.0,130.0,230.0,230.0,9.3,9.3,5,5,Europe,France,Budget
+1008-0,1008,Peugeot,5008 GT,inline-4,210,petrol,1598.0,,0,40000.0,40000.0,180.0,180.0,250.0,250.0,8.2,8.2,7,7,Europe,France,Midrange
+1009-0,1009,Peugeot,508 SW (Station Wagon),inline-4,220,petrol,1598.0,,0,35000.0,35000.0,180.0,180.0,300.0,300.0,8.4,8.4,5,5,Europe,France,Midrange
+1010-0,1010,Peugeot,508 Saloon,inline-4,210,petrol,1598.0,,0,37000.0,37000.0,180.0,180.0,300.0,300.0,8.6,8.6,5,5,Europe,France,Midrange
+1011-0,1011,Peugeot,308 Saloon,inline-4,200,petrol,1199.0,,0,28000.0,28000.0,130.0,130.0,230.0,230.0,9.0,9.0,5,5,Europe,France,Midrange
+1012-0,1012,Peugeot,301 Sedan,inline-4,180,petrol,1199.0,,0,20000.0,20000.0,82.0,82.0,115.0,115.0,12.0,12.0,5,5,Europe,France,Budget
+1013-0,1013,Peugeot,208 Sedan,inline-4,190,petrol,1199.0,,0,22000.0,22000.0,100.0,100.0,205.0,205.0,11.2,11.2,5,5,Europe,France,Budget
+1014-0,1014,Ford,Fusion (Mondeo),1.5L EcoBoost,220,petrol,2000.0,,0,25000.0,40000.0,160.0,160.0,200.0,200.0,7.5,7.5,5,5,North America,United States,Midrange
+1014-1,1014,Ford,Fusion (Mondeo),2.0L Hybrid,220,hybrid,1500.0,,1,25000.0,40000.0,250.0,250.0,400.0,400.0,7.5,7.5,5,5,North America,United States,Midrange
+1015-0,1015,Ford,Taurus,3.5L v6,220,petrol,3500.0,,0,30000.0,45000.0,200.0,200.0,300.0,300.0,6.5,6.5,5,5,North America,United States,Midrange
+1015-1,1015,Ford,Taurus,2.0L EcoBoost,220,petrol,2000.0,,1,30000.0,45000.0,365.0,365.0,500.0,500.0,6.5,6.5,5,5,North America,United States,Midrange
+1016-0,1016,Ford,Fiesta,1.0L EcoBoost,200,petrol,1500.0,,0,15000.0,25000.0,85.0,85.0,130.0,130.0,7.0,7.0,5,5,North America,United States,Budget
+1016-1,1016,Ford,Fiesta,1.5L,200,petrol,1000.0,,1,15000.0,25000.0,200.0,200.0,290.0,290.0,7.0,7.0,5,5,North America,United States,Budget
+1017-0,1017,Ford,Focus,1.0L EcoBoost,220,petrol,2000.0,,0,20000.0,30000.0,120.0,120.0,150.0,150.0,6.5,6.5,5,5,North America,United States,Midrange
+1017-1,1017,Ford,Focus,1.5L,220,petrol,1000.0,,1,20000.0,30000.0,300.0,300.0,400.0,400.0,6.5,6.5,5,5,North America,United States,Midrange
+1017-2,1017,Ford,Focus,2.0L,220,petrol,1000.0,,2,20000.0,30000.0,300.0,300.0,400.0,400.0,6.5,6.5,5,5,North America,United States,Midrange
+1018-0,1018,Ford,KA+,1.2L Petrol,165,petrol,1200.0,,0,12000.0,15000.0,70.0,70.0,100.0,100.0,10.5,10.5,5,5,North America,United States,Budget
+1018-1,1018,Ford,KA+,1.2L Petrol,165,petrol,1200.0,,1,12000.0,15000.0,85.0,85.0,140.0,140.0,10.5,10.5,5,5,North America,United States,Budget
+1019-0,1019,Ford,EcoSport,1.0L Turbo inline-3,180,petrol,2000.0,,0,20000.0,25000.0,123.0,123.0,170.0,170.0,9.0,9.0,5,5,North America,United States,Budget
+1019-1,1019,Ford,EcoSport,2.0L,180,petrol,1000.0,,1,20000.0,25000.0,166.0,166.0,200.0,200.0,9.0,9.0,5,5,North America,United States,Budget
+1020-0,1020,Ford,Escape (Kuga),1.5L EcoBoost,190,petrol,2500.0,,0,25000.0,38000.0,181.0,181.0,230.0,230.0,7.5,7.5,5,5,North America,United States,Midrange
+1020-1,1020,Ford,Escape (Kuga),2.5L Hybrid,190,hybrid,1500.0,,1,25000.0,38000.0,200.0,200.0,200.0,200.0,7.5,7.5,5,5,North America,United States,Midrange
+1021-0,1021,Ford,Edge,2.0L EcoBoost,200,petrol,2700.0,,0,35000.0,45000.0,250.0,250.0,400.0,400.0,6.5,6.5,5,5,North America,United States,Midrange
+1021-1,1021,Ford,Edge,2.7L v6,200,petrol,2000.0,,1,35000.0,45000.0,335.0,335.0,475.0,475.0,6.5,6.5,5,5,North America,United States,Midrange
+1022-0,1022,Ford,Explorer,2.3L EcoBoost,200,petrol,3000.0,,0,35000.0,55000.0,300.0,300.0,420.0,420.0,6.0,6.0,7,7,North America,United States,Premium
+1022-1,1022,Ford,Explorer,3.0L v6,200,petrol,2300.0,,1,35000.0,55000.0,400.0,400.0,500.0,500.0,6.0,6.0,7,7,North America,United States,Premium
+1023-0,1023,Ford,Expedition,3.5L EcoBoost,180,petrol,5400.0,,0,50000.0,75000.0,375.0,375.0,650.0,650.0,6.5,6.5,8,8,North America,United States,Premium
+1023-1,1023,Ford,Expedition,5.4L v8,180,petrol,3500.0,,1,50000.0,75000.0,400.0,400.0,800.0,800.0,6.5,6.5,8,8,North America,United States,Premium
+1024-0,1024,Ford,Bronco,2.3L EcoBoost,200,petrol,2700.0,,0,30000.0,55000.0,275.0,275.0,400.0,400.0,7.5,7.5,4,4,North America,United States,Premium
+1024-1,1024,Ford,Bronco,2.7L v6,200,petrol,2300.0,,1,30000.0,55000.0,310.0,310.0,600.0,600.0,7.5,7.5,4,4,North America,United States,Premium
+1025-0,1025,Ford,Bronco Sport,1.5L EcoBoost,185,petrol,2000.0,,0,26000.0,38000.0,181.0,181.0,250.0,250.0,7.0,7.0,5,5,North America,United States,Midrange
+1025-1,1025,Ford,Bronco Sport,2.0L EcoBoost,185,petrol,1500.0,,1,26000.0,38000.0,250.0,250.0,375.0,375.0,7.0,7.0,5,5,North America,United States,Midrange
+1026-0,1026,Ford,F-150,3.3L v6,200,petrol,5000.0,,0,35000.0,75000.0,290.0,290.0,400.0,400.0,5.0,5.0,5,5,North America,United States,Premium
+1026-1,1026,Ford,F-150,5.0L v8,200,diesel,3300.0,,1,35000.0,75000.0,450.0,450.0,700.0,700.0,6.5,6.5,5,5,North America,United States,Premium
+1026-2,1026,Ford,F-150,3.5L EcoBoost,200,diesel,3300.0,,2,35000.0,75000.0,450.0,450.0,700.0,700.0,6.5,6.5,5,5,North America,United States,Premium
+1027-0,1027,Ford,F-250 Super Duty,6.2L v8,180,petrol,7300.0,,0,40000.0,70000.0,385.0,385.0,700.0,700.0,6.5,6.5,5,5,North America,United States,Premium
+1027-1,1027,Ford,F-250 Super Duty,7.3L v8,180,diesel,6200.0,,1,40000.0,70000.0,475.0,475.0,1050.0,1050.0,7.0,7.0,5,5,North America,United States,Premium
+1027-2,1027,Ford,F-250 Super Duty,6.7L Turbo-Diesel,180,diesel,6200.0,,2,40000.0,70000.0,475.0,475.0,1050.0,1050.0,7.0,7.0,5,5,North America,United States,Premium
+1028-0,1028,Ford,F-350 Super Duty,6.7L Turbo-Diesel,180,diesel,7300.0,,0,45000.0,75000.0,450.0,450.0,1050.0,1050.0,7.0,7.0,5,5,North America,United States,Premium
+1028-1,1028,Ford,F-350 Super Duty,7.3L v8,180,diesel,6700.0,,1,45000.0,75000.0,475.0,475.0,1200.0,1200.0,8.0,8.0,5,5,North America,United States,Premium
+1029-0,1029,Ford,Maverick,2.5L Hybrid,180,hybrid,2000.0,,0,22000.0,30000.0,191.0,191.0,250.0,250.0,6.5,6.5,5,5,North America,United States,Midrange
+1029-1,1029,Ford,Maverick,2.0L EcoBoost,180,petrol,2500.0,,1,22000.0,30000.0,250.0,250.0,380.0,380.0,8.0,8.0,5,5,North America,United States,Midrange
+1030-0,1030,Ford,Ranger,2.3L Turbo inline-4,180,petrol,2700.0,,0,25000.0,45000.0,270.0,270.0,400.0,400.0,6.0,6.0,5,5,North America,United States,Midrange
+1030-1,1030,Ford,Ranger,2.7L v6,180,diesel,2300.0,,1,25000.0,45000.0,325.0,325.0,540.0,540.0,7.0,7.0,5,5,North America,United States,Midrange
+1031-0,1031,Ford,Mustang Mach-E,Electric Motor,180,electric,,68.0,0,43000.0,61000.0,290.0,290.0,430.0,430.0,3.5,3.5,5,5,North America,United States,Premium
+1031-1,1031,Ford,Mustang Mach-E,Electric Motor,180,electric,,98.0,1,43000.0,61000.0,480.0,480.0,430.0,430.0,3.5,3.5,5,5,North America,United States,Premium
+1032-0,1032,Ford,F-150 Lightning,Electric Motor,180,electric,,98.0,0,40000.0,90000.0,452.0,452.0,1051.0,1051.0,4.5,4.5,5,5,North America,United States,Premium
+1033-0,1033,Ford,Escape Hybrid,2.5L inline-4 + Electric,180,hybrid,2500.0,,0,28000.0,38000.0,200.0,200.0,210.0,210.0,7.7,7.7,5,5,North America,United States,Midrange
+1034-0,1034,Ford,Explorer Hybrid,3.3L v6 + Electric,180,hybrid,3300.0,,0,50000.0,55000.0,318.0,318.0,500.0,500.0,7.5,7.5,7,7,North America,United States,Premium
+1035-0,1035,Ford,Mustang,5.0L v8,250,petrol,5000.0,,0,55000.0,55000.0,450.0,450.0,530.0,530.0,4.3,4.3,4,4,North America,United States,Premium
+1036-0,1036,Ford,GT,3.5L Twin-Turbo v6,348,petrol,3500.0,,0,500000.0,500000.0,660.0,660.0,746.0,746.0,3.0,3.0,2,2,North America,United States,Supercar
+1037-0,1037,Ford,Focus ST,2.3L Turbo inline-4,250,petrol,2300.0,,0,30000.0,30000.0,280.0,280.0,420.0,420.0,5.7,5.7,5,5,North America,United States,Midrange
+1038-0,1038,Ford,Fiesta ST,1.5L Turbo inline-3,230,petrol,1500.0,,0,23000.0,23000.0,200.0,200.0,290.0,290.0,6.5,6.5,5,5,North America,United States,Budget
+1039-0,1039,Ford,Bronco Raptor,3.0L Twin-Turbo v6,220,petrol,3000.0,,0,70000.0,70000.0,400.0,400.0,583.0,583.0,5.5,5.5,4,4,North America,United States,Premium
+1040-0,1040,Ford,Ranger Raptor,2.7L Twin-Turbo v6,200,petrol,2700.0,,0,45000.0,45000.0,392.0,392.0,583.0,583.0,6.0,6.0,5,5,North America,United States,Midrange
+1041-0,1041,Ford,F-150 Raptor,3.5L Twin-Turbo v6,200,petrol,3500.0,,0,70000.0,70000.0,450.0,450.0,691.0,691.0,5.0,5.0,5,5,North America,United States,Premium
+1042-0,1042,Ford,Puma,Turbocharged inline-3,191,petrol,1000.0,,0,28000.0,28000.0,123.0,123.0,200.0,200.0,9.6,9.6,5,5,North America,United States,Midrange
+1043-0,1043,Ford,Territory,Turbocharged inline-4,180,petrol,1500.0,,0,32000.0,32000.0,140.0,140.0,225.0,225.0,11.0,11.0,5,5,North America,United States,Midrange
+1044-0,1044,Ford,Everest,Turbocharged inline-4,190,diesel,2000.0,,0,52000.0,52000.0,210.0,210.0,500.0,500.0,10.5,10.5,7,7,North America,United States,Premium
+1045-0,1045,Ford,Flex,Naturally Aspirated v6,200,petrol,3500.0,,0,31000.0,31000.0,287.0,287.0,345.0,345.0,7.9,7.9,7,7,North America,United States,Midrange
+1046-0,1046,Ford,Transit,EcoBlue Turbo Diesel,160,diesel,2000.0,,0,43455.0,43455.0,170.0,170.0,405.0,405.0,12.0,12.0,2,15,North America,United States,Midrange
+1047-0,1047,Ford,Transit Connect,inline-4 Gasoline Engine,175,petrol,2000.0,,0,29365.0,29365.0,162.0,162.0,200.0,200.0,10.5,10.5,2,7,North America,United States,Midrange
+1048-0,1048,Ford,F-450 Super Duty,Turbocharged v8 Diesel,165,diesel,6700.0,,0,61625.0,61625.0,475.0,475.0,1424.0,1424.0,8.5,8.5,2,6,North America,United States,Premium
+1049-0,1049,Ford,F-550 Super Duty,Turbocharged v8 Diesel,165,diesel,6700.0,,0,64540.0,64540.0,475.0,475.0,1424.0,1424.0,8.8,8.8,2,6,North America,United States,Premium
+1050-0,1050,Ford,Mustang Shelby GT500,Supercharged v8,290,petrol,5200.0,,0,79420.0,79420.0,760.0,760.0,847.0,847.0,3.5,3.5,2,2,North America,United States,Premium
+1051-0,1051,Ford,Mustang Shelby GT350,Naturally Aspirated v8,280,petrol,5200.0,,0,59140.0,59140.0,526.0,526.0,582.0,582.0,4.0,4.0,2,2,North America,United States,Premium
+1052-0,1052,Ford,F-150 Platinum,Turbocharged v6,180,petrol,3500.0,,0,64695.0,64695.0,400.0,400.0,678.0,678.0,6.5,6.5,5,5,North America,United States,Premium
+1053-0,1053,Ford,F-150 Limited,Turbocharged v6,190,petrol,3500.0,,0,84910.0,84910.0,450.0,450.0,678.0,678.0,6.1,6.1,5,5,North America,United States,Premium
+1054-0,1054,Ford,Explorer Platinum,Turbocharged v6,230,petrol,3000.0,,0,56505.0,56505.0,400.0,400.0,563.0,563.0,6.0,6.0,7,7,North America,United States,Premium
+1055-0,1055,Ford,Expedition King Ranch,Turbocharged v6,210,petrol,3500.0,,0,79560.0,79560.0,440.0,440.0,691.0,691.0,6.8,6.8,7,8,North America,United States,Premium
+1056-0,1056,Ford,Transit Custom,EcoBlue Turbo Diesel,160,diesel,2000.0,,0,35000.0,35000.0,130.0,130.0,385.0,385.0,12.5,12.5,2,9,North America,United States,Midrange
+1057-0,1057,Ford,E-Series Cutaway,v8 Gasoline Engine,140,petrol,7300.0,,0,36000.0,36000.0,350.0,350.0,569.0,569.0,13.0,13.0,2,2,North America,United States,Midrange
+1058-0,1058,Ford,Transit Chassis Cab,EcoBlue Turbo Diesel,160,diesel,2000.0,,0,37000.0,37000.0,170.0,170.0,405.0,405.0,11.5,11.5,2,2,North America,United States,Midrange
+1059-0,1059,Ford,Transit Electric (E-Transit),Electric Motor,140,electric,,89.0,0,52000.0,52000.0,266.0,266.0,430.0,430.0,9.0,9.0,2,12,North America,United States,Premium
+1060-0,1060,Ford,Explorer Plug-in Hybrid,v6 Hybrid + Electric Motor,225,hybrid,3000.0,,0,53000.0,53000.0,457.0,457.0,825.0,825.0,6.0,6.0,7,7,North America,United States,Premium
+1061-0,1061,Ford,Maverick Hybrid,i4 Hybrid,180,hybrid,2500.0,,0,25000.0,25000.0,191.0,191.0,210.0,210.0,7.8,7.8,5,5,North America,United States,Budget
+1062-0,1062,Ford,Mustang (2024),v8 Gasoline Engine,250,petrol,5000.0,,0,60000.0,60000.0,450.0,450.0,570.0,570.0,4.5,4.5,4,4,North America,United States,Premium
+1063-0,1063,Ford,Ranger (2024),i4 Turbo Diesel,180,diesel,2000.0,,0,40000.0,40000.0,210.0,210.0,500.0,500.0,8.0,8.0,5,5,North America,United States,Midrange
+1064-0,1064,Ford,Escape Plug-in Hybrid (2024),i4 Hybrid,190,hybrid,2500.0,,0,38000.0,38000.0,221.0,221.0,210.0,210.0,7.5,7.5,5,5,North America,United States,Midrange
+1065-0,1065,Ford,Bronco (2024),v6 EcoBoost,200,petrol,2700.0,,0,45000.0,45000.0,310.0,310.0,542.0,542.0,6.7,6.7,5,5,North America,United States,Midrange
+1066-0,1066,Ford,Explorer (2024),v6 Turbocharged,230,petrol,3000.0,,0,55000.0,55000.0,400.0,400.0,563.0,563.0,5.9,5.9,7,7,North America,United States,Premium
+1067-0,1067,Mitsubishi,Mirage,1.2L MIVEC,170,petrol,1200.0,,0,16000.0,18000.0,78.0,78.0,100.0,100.0,12.0,12.0,5,5,Asia,Japan,Budget
+1068-0,1068,Mitsubishi,Mirage G4,1.2L MIVEC,170,petrol,1200.0,,0,17000.0,19000.0,78.0,78.0,100.0,100.0,12.0,12.0,5,5,Asia,Japan,Budget
+1069-0,1069,Mitsubishi,Outlander,2.5L 4-Cylinder,190,petrol,2500.0,,0,28000.0,35000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1070-0,1070,Mitsubishi,Outlander PHEV,2.4L Hybrid,170,hybrid,2400.0,20.0,0,39000.0,43000.0,248.0,248.0,300.0,300.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1071-0,1071,Mitsubishi,Eclipse Cross,1.5L Turbo,180,petrol,1500.0,,0,25000.0,28000.0,152.0,152.0,250.0,250.0,9.8,9.8,5,5,Asia,Japan,Midrange
+1072-0,1072,Mitsubishi,ASX (Outlander Sport),2.0L MIVEC,190,petrol,2000.0,,0,23000.0,26000.0,148.0,148.0,197.0,197.0,10.0,10.0,5,5,Asia,Japan,Midrange
+1073-0,1073,Mitsubishi,Pajero,3.2L Diesel Turbo,180,diesel,3200.0,,0,40000.0,45000.0,189.0,189.0,441.0,441.0,10.5,10.5,7,7,Asia,Japan,Midrange
+1074-0,1074,Mitsubishi,Pajero Sport,2.4L Diesel Turbo,180,diesel,2400.0,,0,35000.0,40000.0,181.0,181.0,430.0,430.0,11.0,11.0,7,7,Asia,Japan,Midrange
+1075-0,1075,Mitsubishi,Triton (L200),2.4L Diesel Turbo,177,diesel,2400.0,,0,25000.0,35000.0,181.0,181.0,430.0,430.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1076-0,1076,Mitsubishi,Lancer Evolution X,2.0L Turbocharged,240,petrol,2000.0,,0,40000.0,50000.0,291.0,291.0,407.0,407.0,5.0,5.0,5,5,Asia,Japan,Midrange
+1077-0,1077,Mitsubishi,i-MiEV (Electric),Electric Motor,130,electric,,16.0,0,23000.0,26000.0,66.0,66.0,196.0,196.0,15.0,15.0,4,4,Asia,Japan,Midrange
+1078-0,1078,Mitsubishi,Xpander,1.5L MIVEC,170,petrol,1500.0,,0,20000.0,25000.0,105.0,105.0,141.0,141.0,13.5,13.5,7,7,Asia,Japan,Budget
+1079-0,1079,Mitsubishi,Delica D:5,2.2L Diesel Turbo,175,diesel,2200.0,,0,35000.0,40000.0,145.0,145.0,360.0,360.0,11.0,11.0,7,7,Asia,Japan,Midrange
+1080-0,1080,Mitsubishi,Colt,1.1L,180,petrol,1500.0,,0,15000.0,20000.0,75.0,75.0,100.0,100.0,9.0,9.0,5,5,Asia,Japan,Budget
+1080-1,1080,Mitsubishi,Colt,1.5L MIVEC,180,petrol,1100.0,,1,15000.0,20000.0,150.0,150.0,180.0,180.0,12.0,12.0,5,5,Asia,Japan,Budget
+1081-0,1081,Mitsubishi,Grandis,2.4L MIVEC,190,petrol,2400.0,,0,25000.0,30000.0,165.0,165.0,217.0,217.0,11.0,11.0,7,7,Asia,Japan,Midrange
+1082-0,1082,Mitsubishi,Outlander Black Edition,2.5L 4-Cylinder,190,petrol,2500.0,,0,32000.0,35000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1083-0,1083,Mitsubishi,Outlander SEL,2.5L 4-Cylinder,190,petrol,2500.0,,0,31000.0,34000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1084-0,1084,Mitsubishi,Outlander SE,2.5L 4-Cylinder,190,petrol,2500.0,,0,29000.0,32000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1085-0,1085,Mitsubishi,Eclipse Cross Black Edition,1.5L Turbo,180,petrol,1500.0,,0,28000.0,30000.0,152.0,152.0,250.0,250.0,9.8,9.8,5,5,Asia,Japan,Midrange
+1086-0,1086,Mitsubishi,ASX Exceed,2.0L MIVEC,190,petrol,2000.0,,0,26000.0,28000.0,148.0,148.0,197.0,197.0,10.0,10.0,5,5,Asia,Japan,Midrange
+1087-0,1087,Mitsubishi,Triton Athlete,2.4L Diesel Turbo,177,diesel,2400.0,,0,27000.0,35000.0,181.0,181.0,430.0,430.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1088-0,1088,Mitsubishi,Pajero Final Edition,3.2L Diesel Turbo,180,diesel,3200.0,,0,45000.0,50000.0,189.0,189.0,441.0,441.0,10.5,10.5,7,7,Asia,Japan,Midrange
+1089-0,1089,Mitsubishi,L200 Barbarian X,2.4L Diesel Turbo,177,diesel,2400.0,,0,30000.0,35000.0,181.0,181.0,430.0,430.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1090-0,1090,Mitsubishi,Space Star,1.2L MIVEC,170,petrol,1200.0,,0,15000.0,17000.0,78.0,78.0,100.0,100.0,12.0,12.0,5,5,Asia,Japan,Budget
+1091-0,1091,Mitsubishi,Lancer EX,1.6L MIVEC,200,petrol,2000.0,,0,20000.0,25000.0,117.0,117.0,154.0,154.0,10.0,10.0,5,5,Asia,Japan,Budget
+1091-1,1091,Mitsubishi,Lancer EX,2.0L,200,petrol,1600.0,,1,20000.0,25000.0,148.0,148.0,197.0,197.0,10.0,10.0,5,5,Asia,Japan,Budget
+1092-0,1092,Mitsubishi,Montero Sport,2.4L Diesel Turbo,180,diesel,2400.0,,0,35000.0,40000.0,181.0,181.0,430.0,430.0,11.0,11.0,7,7,Asia,Japan,Midrange
+1093-0,1093,Mitsubishi,Attrage,1.2L MIVEC,170,petrol,1200.0,,0,15000.0,17000.0,78.0,78.0,100.0,100.0,12.5,12.5,5,5,Asia,Japan,Budget
+1094-0,1094,Mitsubishi,RVR SE,2.0L MIVEC,190,petrol,2000.0,,0,23000.0,25000.0,148.0,148.0,197.0,197.0,10.5,10.5,5,5,Asia,Japan,Budget
+1095-0,1095,Mitsubishi,Delica Van,2.0L Diesel,175,diesel,2200.0,,0,30000.0,35000.0,145.0,145.0,360.0,360.0,11.5,11.5,7,7,Asia,Japan,Midrange
+1095-1,1095,Mitsubishi,Delica Van,2.2L Diesel,175,diesel,2000.0,,1,30000.0,35000.0,145.0,145.0,360.0,360.0,11.5,11.5,7,7,Asia,Japan,Midrange
+1097-0,1097,Mitsubishi,Lancer GLX,1.6L MIVEC,190,petrol,1600.0,,0,17000.0,20000.0,115.0,115.0,154.0,154.0,11.5,11.5,5,5,Asia,Japan,Budget
+1098-0,1098,Mitsubishi,Pajero GLS,3.2L Diesel Turbo,180,diesel,3200.0,,0,45000.0,50000.0,189.0,189.0,441.0,441.0,10.5,10.5,7,7,Asia,Japan,Midrange
+1099-0,1099,Mitsubishi,Xpander Cross,1.5L MIVEC,170,petrol,1500.0,,0,20000.0,25000.0,105.0,105.0,141.0,141.0,12.0,12.0,7,7,Asia,Japan,Budget
+1100-0,1100,Mitsubishi,Eclipse Cross PHEV,2.4L PHEV,180,hybrid,2400.0,,0,35000.0,40000.0,188.0,188.0,199.0,199.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1101-0,1101,Mitsubishi,Outlander ES,2.5L 4-Cylinder,190,petrol,2500.0,,0,28000.0,30000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1102-0,1102,Mitsubishi,Montero GLX,2.4L Diesel Turbo,180,diesel,2400.0,,0,35000.0,40000.0,181.0,181.0,430.0,430.0,11.0,11.0,7,7,Asia,Japan,Midrange
+1103-0,1103,Mitsubishi,Triton GLX-R,2.4L Diesel Turbo,177,diesel,2400.0,,0,27000.0,35000.0,181.0,181.0,430.0,430.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1104-0,1104,Mitsubishi,ASX Dynamic,2.0L MIVEC,190,petrol,2000.0,,0,25000.0,28000.0,148.0,148.0,197.0,197.0,10.0,10.0,5,5,Asia,Japan,Midrange
+1105-0,1105,Mitsubishi,Mirage ES,1.2L MIVEC,170,petrol,1200.0,,0,15000.0,17000.0,78.0,78.0,100.0,100.0,12.5,12.5,5,5,Asia,Japan,Budget
+1106-0,1106,Mitsubishi,Outlander LE,2.5L 4-Cylinder,190,petrol,2500.0,,0,30000.0,35000.0,181.0,181.0,245.0,245.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1109-0,1109,Mitsubishi,Space Runner,1.8L MIVEC,185,petrol,1800.0,,0,20000.0,23000.0,140.0,140.0,170.0,170.0,10.5,10.5,5,5,Asia,Japan,Budget
+1110-0,1110,Mitsubishi,Toppo BJ,0.7L 3-Cylinder,130,petrol,660.0,,0,10000.0,12000.0,52.0,52.0,60.0,60.0,15.0,15.0,4,4,Asia,Japan,Budget
+1111-0,1111,Mitsubishi,Chariot,2.0L MIVEC,185,petrol,2000.0,,0,20000.0,23000.0,140.0,140.0,170.0,170.0,10.5,10.5,7,7,Asia,Japan,Budget
+1112-0,1112,Mitsubishi,Lancer SE Limited,2.0L MIVEC,200,petrol,2000.0,,0,20000.0,25000.0,148.0,148.0,197.0,197.0,10.0,10.0,5,5,Asia,Japan,Budget
+1113-0,1113,Mitsubishi,Pajero SWB (Short Wheel Base),3.2L Diesel Turbo,180,diesel,3200.0,,0,45000.0,50000.0,189.0,189.0,441.0,441.0,10.5,10.5,5,5,Asia,Japan,Midrange
+1114-0,1114,Mitsubishi,Delica Space Gear,2.4L Petrol,170,petrol,2400.0,,0,30000.0,35000.0,145.0,145.0,206.0,206.0,13.0,13.0,7,7,Asia,Japan,Midrange
+1115-0,1115,Mitsubishi,i (Kei Car),0.7L 3-Cylinder,130,petrol,660.0,,0,12000.0,15000.0,64.0,64.0,94.0,94.0,15.5,15.5,4,4,Asia,Japan,Budget
+1116-0,1116,Mitsubishi,Dion,2.0L 4-Cylinder,180,petrol,2000.0,,0,15000.0,18000.0,135.0,135.0,181.0,181.0,11.5,11.5,7,7,Asia,Japan,Budget
+1117-0,1117,Mitsubishi,Airtrek,2.4L 4-Cylinder,190,petrol,2400.0,,0,20000.0,25000.0,160.0,160.0,214.0,214.0,11.0,11.0,5,5,Asia,Japan,Budget
+1118-0,1118,Mitsubishi,eK Space,0.7L 3-Cylinder,130,petrol,660.0,,0,10000.0,12000.0,52.0,52.0,60.0,60.0,15.0,15.0,4,4,Asia,Japan,Budget
+1119-0,1119,Mitsubishi,eK X,0.7L 3-Cylinder,140,petrol,660.0,,0,12000.0,15000.0,64.0,64.0,94.0,94.0,13.5,13.5,4,4,Asia,Japan,Budget
+1120-0,1120,Mitsubishi,Colt CZC Convertible,1.5L Turbocharged,200,petrol,1500.0,,0,25000.0,30000.0,147.0,147.0,210.0,210.0,9.5,9.5,4,4,Asia,Japan,Midrange
+1121-0,1121,Mitsubishi,Galant Fortis,2.0L MIVEC,200,petrol,2000.0,,0,18000.0,22000.0,154.0,154.0,200.0,200.0,10.0,10.0,5,5,Asia,Japan,Budget
+1122-0,1122,Mitsubishi,Endeavor,3.8L v6,190,petrol,3800.0,,0,28000.0,35000.0,225.0,225.0,343.0,343.0,9.5,9.5,5,5,Asia,Japan,Midrange
+1123-0,1123,Mitsubishi,Grand Lancer,1.8L MIVEC,190,petrol,1800.0,,0,20000.0,25000.0,138.0,138.0,173.0,173.0,11.5,11.5,5,5,Asia,Japan,Budget
+1124-0,1124,Mitsubishi,Sigma,3.0L v6,220,petrol,3000.0,,0,35000.0,40000.0,210.0,210.0,270.0,270.0,8.5,8.5,5,5,Asia,Japan,Midrange
+1125-0,1125,Mitsubishi,Town Box,0.7L 3-Cylinder,120,petrol,660.0,,0,10000.0,12000.0,48.0,48.0,60.0,60.0,16.0,16.0,4,4,Asia,Japan,Budget
+1127-0,1127,Mazda,Mazda3,2.0L SkyActiv-G,200,petrol,2000.0,,0,22000.0,26000.0,155.0,155.0,213.0,213.0,8.9,8.9,5,5,Asia,Japan,Midrange
+1128-0,1128,Mazda,Mazda3 Hatchback,2.5L SkyActiv-G,210,petrol,2500.0,,0,24000.0,28000.0,186.0,186.0,252.0,252.0,8.3,8.3,5,5,Asia,Japan,Midrange
+1129-0,1129,Mazda,Mazda6,2.5L Turbocharged,240,petrol,2500.0,,0,27000.0,35000.0,250.0,250.0,420.0,420.0,6.4,6.4,5,5,Asia,Japan,Midrange
+1130-0,1130,Mazda,CX-3,2.0L SkyActiv-G,180,petrol,2000.0,,0,21000.0,25000.0,146.0,146.0,197.0,197.0,9.5,9.5,5,5,Asia,Japan,Budget
+1131-0,1131,Mazda,CX-30,2.5L SkyActiv-G,204,petrol,2500.0,,0,23000.0,28000.0,186.0,186.0,252.0,252.0,8.7,8.7,5,5,Asia,Japan,Midrange
+1132-0,1132,Mazda,CX-5,2.5L SkyActiv-G,200,petrol,2500.0,,0,26000.0,32000.0,187.0,187.0,252.0,252.0,8.8,8.8,5,5,Asia,Japan,Midrange
+1133-0,1133,Mazda,CX-50,2.5L Turbocharged,220,petrol,2500.0,,0,29000.0,36000.0,256.0,256.0,434.0,434.0,6.9,6.9,5,5,Asia,Japan,Midrange
+1134-0,1134,Mazda,CX-8,2.2L Diesel,200,diesel,2200.0,,0,36000.0,42000.0,187.0,187.0,450.0,450.0,9.2,9.2,7,7,Asia,Japan,Midrange
+1135-0,1135,Mazda,CX-9,2.5L Turbocharged,210,petrol,2500.0,,0,38000.0,45000.0,250.0,250.0,420.0,420.0,7.2,7.2,7,7,Asia,Japan,Midrange
+1136-0,1136,Mazda,CX-90,3.3L inline-6 Turbo,240,petrol,3300.0,,0,50000.0,60000.0,340.0,340.0,500.0,500.0,6.2,6.2,7,7,Asia,Japan,Premium
+1137-0,1137,Mazda,MX-5 Miata,2.0L SkyActiv-G,225,petrol,2000.0,,0,27000.0,33000.0,181.0,181.0,205.0,205.0,6.5,6.5,2,2,Asia,Japan,Midrange
+1138-0,1138,Mazda,MX-5 Miata RF,2.0L SkyActiv-G,225,petrol,2000.0,,0,33000.0,40000.0,181.0,181.0,205.0,205.0,6.5,6.5,2,2,Asia,Japan,Midrange
+1139-0,1139,Mazda,MX-30 Electric,Electric Motor,140,electric,,35.5,0,33000.0,37000.0,143.0,143.0,271.0,271.0,9.7,9.7,5,5,Asia,Japan,Midrange
+1140-0,1140,Mazda,CX-4,2.0L SkyActiv-G,190,petrol,2000.0,,0,22000.0,28000.0,158.0,158.0,202.0,202.0,9.6,9.6,5,5,Asia,Japan,Midrange
+1141-0,1141,Mazda,CX-7,2.3L Turbocharged,210,petrol,2300.0,,0,28000.0,33000.0,244.0,244.0,350.0,350.0,7.9,7.9,5,5,Asia,Japan,Midrange
+1142-0,1142,Mazda,Tribute,3.0L v6,190,petrol,3000.0,,0,24000.0,30000.0,200.0,200.0,270.0,270.0,9.0,9.0,5,5,Asia,Japan,Midrange
+1143-0,1143,Mazda,B-Series Pickup,2.5L Diesel,170,diesel,2500.0,,0,20000.0,25000.0,143.0,143.0,330.0,330.0,11.5,11.5,5,5,Asia,Japan,Budget
+1144-0,1144,Mazda,BT-50,3.2L Turbo Diesel,180,diesel,3200.0,,0,27000.0,35000.0,200.0,200.0,470.0,470.0,10.0,10.0,5,5,Asia,Japan,Midrange
+1145-0,1145,Mazda,RX-7,1.3L Rotary Twin-Turbo,250,petrol,1300.0,,0,30000.0,50000.0,276.0,276.0,314.0,314.0,5.5,5.5,4,4,Asia,Japan,Midrange
+1146-0,1146,Mazda,RX-3,1.2L Rotary,180,petrol,1200.0,,0,15000.0,20000.0,110.0,110.0,145.0,145.0,8.9,8.9,4,4,Asia,Japan,Budget
+1148-0,1148,Mazda,323F,1.6L inline-4,180,petrol,1600.0,,0,14000.0,18000.0,105.0,105.0,145.0,145.0,10.5,10.5,5,5,Asia,Japan,Budget
+1149-0,1149,Mazda,Familia Sedan,1.5L inline-4,175,petrol,1500.0,,0,12000.0,16000.0,100.0,100.0,135.0,135.0,11.0,11.0,5,5,Asia,Japan,Budget
+1150-0,1150,Mazda,Premacy,2.0L inline-4,190,petrol,2000.0,,0,18000.0,24000.0,138.0,138.0,180.0,180.0,9.8,9.8,7,7,Asia,Japan,Budget
+1151-0,1151,Mazda,Demio,1.5L SkyActiv-G,180,petrol,1500.0,,0,13000.0,18000.0,108.0,108.0,142.0,142.0,10.2,10.2,5,5,Asia,Japan,Budget
+1152-0,1152,Mazda,Millenia,2.3L Miller Cycle v6,215,petrol,2300.0,,0,25000.0,30000.0,210.0,210.0,280.0,280.0,8.2,8.2,5,5,Asia,Japan,Midrange
+1153-0,1153,Mazda,Eunos Cosmo,2.0L Twin-Rotor Turbo,240,petrol,2000.0,,0,40000.0,50000.0,280.0,280.0,300.0,300.0,6.0,6.0,4,4,Asia,Japan,Midrange
+1154-0,1154,Mazda,Atenza,2.5L SkyActiv-G,210,petrol,2500.0,,0,22000.0,28000.0,192.0,192.0,252.0,252.0,8.5,8.5,5,5,Asia,Japan,Midrange
+1155-0,1155,Mazda,Roadpacer AP,1.3L Rotary,170,petrol,1300.0,,0,20000.0,25000.0,130.0,130.0,165.0,165.0,11.5,11.5,5,5,Asia,Japan,Budget
+1156-0,1156,Mazda,626,2.0L inline-4,190,petrol,2000.0,,0,18000.0,22000.0,140.0,140.0,180.0,180.0,9.5,9.5,5,5,Asia,Japan,Budget
+1157-0,1157,Mazda,929,3.0L v6,220,petrol,3000.0,,0,25000.0,30000.0,205.0,205.0,270.0,270.0,8.0,8.0,5,5,Asia,Japan,Midrange
+1158-0,1158,Mazda,Luce,1.8L Rotary,180,petrol,1800.0,,0,15000.0,20000.0,135.0,135.0,170.0,170.0,10.5,10.5,5,5,Asia,Japan,Budget
+1159-0,1159,Mazda,Capella,1.6L inline-4,175,petrol,1600.0,,0,14000.0,18000.0,110.0,110.0,145.0,145.0,11.2,11.2,5,5,Asia,Japan,Budget
+1160-0,1160,Mazda,Carol,660cc inline-3,140,petrol,660.0,,0,9000.0,12000.0,63.0,63.0,90.0,90.0,15.5,15.5,4,4,Asia,Japan,Budget
+1161-0,1161,Mazda,Autozam AZ-1,657cc Turbocharged inline-3,140,petrol,657.0,,0,12000.0,18000.0,63.0,63.0,85.0,85.0,11.0,11.0,2,2,Asia,Japan,Budget
+1162-0,1162,Mazda,Spiano,660cc inline-3,130,petrol,660.0,,0,8000.0,10000.0,54.0,54.0,80.0,80.0,16.0,16.0,4,4,Asia,Japan,Budget
+1163-0,1163,Mazda,Verisa,1.5L inline-4,170,petrol,1500.0,,0,14000.0,18000.0,113.0,113.0,140.0,140.0,11.0,11.0,5,5,Asia,Japan,Budget
+1164-0,1164,Mazda,MX-6,2.5L v6,210,petrol,2500.0,,0,18000.0,24000.0,164.0,164.0,215.0,215.0,8.8,8.8,4,4,Asia,Japan,Budget
+1165-0,1165,Mazda,MPV,3.0L v6,185,petrol,3000.0,,0,25000.0,30000.0,200.0,200.0,265.0,265.0,9.5,9.5,7,7,Asia,Japan,Midrange
+1166-0,1166,Mazda,Proceed Marvie,2.6L inline-4,160,petrol,2600.0,,0,20000.0,25000.0,120.0,120.0,200.0,200.0,12.0,12.0,5,5,Asia,Japan,Budget
+1167-0,1167,Mazda,Sentia,3.0L v6,200,petrol,3000.0,,0,22000.0,28000.0,200.0,200.0,265.0,265.0,9.0,9.0,5,5,Asia,Japan,Midrange
+1168-0,1168,Mazda,Cronos,2.5L v6,190,petrol,2500.0,,0,18000.0,22000.0,160.0,160.0,210.0,210.0,8.5,8.5,5,5,Asia,Japan,Budget
+1169-0,1169,Mazda,Scrum,660cc inline-3,130,petrol,660.0,,0,9000.0,11000.0,63.0,63.0,85.0,85.0,15.0,15.0,4,4,Asia,Japan,Budget
+1170-0,1170,Mazda,Parkway,1.8L inline-4,160,petrol,1800.0,,0,20000.0,25000.0,115.0,115.0,155.0,155.0,12.5,12.5,5,5,Asia,Japan,Budget
+1171-0,1171,Mazda,Titan (Truck),3.0L inline-4,120,diesel,3000.0,,0,25000.0,30000.0,130.0,130.0,300.0,300.0,15.0,15.0,2,2,Asia,Japan,Midrange
+1172-0,1172,Mazda,CX-60,2.5L inline-4,200,petrol,2500.0,,0,40000.0,45000.0,187.0,187.0,250.0,250.0,8.5,8.5,5,5,Asia,Japan,Midrange
+1172-1,1172,Mazda,CX-60,2.5L inline-4,200,diesel,2500.0,,1,40000.0,45000.0,187.0,187.0,250.0,250.0,8.5,8.5,5,5,Asia,Japan,Midrange
+1173-0,1173,Mazda,CX-80,3.0L inline-6,210,petrol,3000.0,,0,45000.0,50000.0,250.0,250.0,400.0,400.0,7.5,7.5,7,7,Asia,Japan,Midrange
+1174-0,1174,Mazda,T1500,1.5L inline-4,120,petrol,1500.0,,0,15000.0,18000.0,75.0,75.0,105.0,105.0,18.0,18.0,2,2,Asia,Japan,Budget
+1175-0,1175,Mazda,Bongo Van,2.0L inline-4,160,petrol,2000.0,,0,18000.0,22000.0,100.0,100.0,140.0,140.0,14.0,14.0,3,3,Asia,Japan,Budget
+1175-1,1175,Mazda,Bongo Van,2.0L inline-4,160,diesel,2000.0,,1,18000.0,22000.0,100.0,100.0,140.0,140.0,14.0,14.0,3,3,Asia,Japan,Budget
+1176-0,1176,Mazda,Bongo Friendee,2.5L inline-4,160,petrol,2500.0,,0,20000.0,24000.0,115.0,115.0,160.0,160.0,12.5,12.5,7,7,Asia,Japan,Budget
+1176-1,1176,Mazda,Bongo Friendee,2.5L inline-4,160,diesel,2500.0,,1,20000.0,24000.0,115.0,115.0,160.0,160.0,12.5,12.5,7,7,Asia,Japan,Budget
+1177-0,1177,Mazda,Revue,1.3L inline-4,130,petrol,1300.0,,0,10000.0,12000.0,75.0,75.0,110.0,110.0,15.5,15.5,5,5,Asia,Japan,Budget
+1178-0,1178,Mazda,Proteg-,1.8L inline-4,185,petrol,1800.0,,0,15000.0,18000.0,125.0,125.0,170.0,170.0,9.0,9.0,5,5,Asia,Japan,Budget
+1179-0,1179,Mazda,Xedos 6,2.5L v6,215,petrol,2500.0,,0,25000.0,30000.0,170.0,170.0,230.0,230.0,8.5,8.5,5,5,Asia,Japan,Midrange
+1180-0,1180,Mazda,Xedos 9,3.0L v6,220,petrol,3000.0,,0,30000.0,35000.0,200.0,200.0,260.0,260.0,7.5,7.5,5,5,Asia,Japan,Midrange
+1181-0,1181,Mazda,121,1.3L inline-4,155,petrol,1300.0,,0,12000.0,15000.0,70.0,70.0,110.0,110.0,13.0,13.0,5,5,Asia,Japan,Budget
+1182-0,1182,Mazda,1200,1.2L inline-4,130,petrol,1200.0,,0,10000.0,12000.0,60.0,60.0,90.0,90.0,16.0,16.0,4,4,Asia,Japan,Budget
+1183-0,1183,Mazda,1500,1.5L inline-4,145,petrol,1500.0,,0,12000.0,15000.0,85.0,85.0,120.0,120.0,14.0,14.0,5,5,Asia,Japan,Budget
+1184-0,1184,Mazda,RX-2,1.3L inline-2 (Wankel),185,petrol,1308.0,,0,20000.0,25000.0,130.0,130.0,220.0,220.0,8.5,8.5,4,4,Asia,Japan,Budget
+1185-0,1185,Mazda,RX-5,1.6L inline-2 (Wankel),190,petrol,1588.0,,0,25000.0,30000.0,135.0,135.0,210.0,210.0,8.0,8.0,4,4,Asia,Japan,Midrange
+1186-0,1186,Mazda,RX-7 Spirit R,1.3L inline-2 (Wankel),250,petrol,1308.0,,0,35000.0,40000.0,280.0,280.0,290.0,290.0,5.5,5.5,2,2,Asia,Japan,Midrange
+1187-0,1187,Mazda,Cosmo Sport (110S),1.0L inline-2 (Wankel),170,petrol,1000.0,,0,30000.0,35000.0,110.0,110.0,150.0,150.0,10.0,10.0,2,2,Asia,Japan,Midrange
+1188-0,1188,Mazda,Eunos 500,2.0L inline-4,200,petrol,1998.0,,0,25000.0,28000.0,135.0,135.0,170.0,170.0,9.0,9.0,5,5,Asia,Japan,Midrange
+1189-0,1189,Mazda,Eunos Roadster,1.6L inline-4,180,petrol,1590.0,,0,15000.0,18000.0,116.0,116.0,140.0,140.0,9.5,9.5,2,2,Asia,Japan,Budget
+1190-0,1190,Mazda,Familia Astina,1.8L inline-4,200,petrol,1800.0,,0,20000.0,22000.0,135.0,135.0,170.0,170.0,8.5,8.5,5,5,Asia,Japan,Budget
+1191-0,1191,Mazda,Savanna RX-7,1.3L inline-2 (Wankel),230,petrol,1308.0,,0,28000.0,32000.0,165.0,165.0,230.0,230.0,7.5,7.5,2,2,Asia,Japan,Midrange
+1192-0,1192,Mazda,Capella Cargo,2.0L inline-4,180,petrol,2000.0,,0,18000.0,22000.0,115.0,115.0,160.0,160.0,12.0,12.0,4,4,Asia,Japan,Budget
+1193-0,1193,Mazda,818,1.6L inline-4,170,petrol,1600.0,,0,14000.0,18000.0,100.0,100.0,130.0,130.0,12.5,12.5,5,5,Asia,Japan,Budget
+1194-0,1194,Mazda,Sentia Hardtop Coupe,2.5L v6,210,petrol,2500.0,,0,30000.0,35000.0,160.0,160.0,220.0,220.0,8.0,8.0,4,4,Asia,Japan,Midrange
+1195-0,1195,Mazda,Biante,2.0L inline-4,185,petrol,2000.0,,0,22000.0,26000.0,150.0,150.0,200.0,200.0,10.0,10.0,7,7,Asia,Japan,Midrange
+1196-0,1196,Mazda,Premacy Hydrogen RE Hybrid,1.3L Wankel + Electric,180,hybrid,1308.0,,0,40000.0,45000.0,200.0,200.0,260.0,260.0,9.5,9.5,5,5,Asia,Japan,Midrange
+1197-0,1197,Mazda,Carol P360,0.36L inline-2,85,petrol,360.0,,0,8000.0,10000.0,26.0,26.0,45.0,45.0,35.0,35.0,4,4,Asia,Japan,Budget
+1198-0,1198,Mazda,T2000,2.0L inline-4,170,petrol,2000.0,,0,18000.0,20000.0,110.0,110.0,160.0,160.0,12.5,12.5,2,2,Asia,Japan,Budget
+1199-0,1199,Mazda,AZ-Offroad,1.3L inline-4,145,petrol,1298.0,,0,15000.0,18000.0,85.0,85.0,130.0,130.0,12.0,12.0,5,5,Asia,Japan,Budget
+1200-0,1200,Mazda,Scrum Wagon,0.66L inline-3,120,petrol,657.0,,0,10000.0,12000.0,64.0,64.0,95.0,95.0,15.5,15.5,4,4,Asia,Japan,Budget
+1201-0,1201,Mazda,Persona,1.5L inline-4,160,petrol,1497.0,,0,13000.0,16000.0,92.0,92.0,130.0,130.0,13.5,13.5,5,5,Asia,Japan,Budget
+1202-0,1202,Mazda,Astina,1.8L inline-4,190,petrol,1800.0,,0,20000.0,24000.0,140.0,140.0,160.0,160.0,8.5,8.5,5,5,Asia,Japan,Budget
+1203-0,1203,Mazda,Etude,1.6L inline-4,170,petrol,1598.0,,0,14000.0,16000.0,105.0,105.0,135.0,135.0,10.0,10.0,5,5,Asia,Japan,Budget
+1204-0,1204,Mazda,Porter,1.5L inline-4,130,petrol,1497.0,,0,12000.0,15000.0,95.0,95.0,130.0,130.0,14.0,14.0,2,2,Asia,Japan,Budget
+1205-0,1205,Mazda,MX-3,1.6L inline-4,190,petrol,1598.0,,0,18000.0,22000.0,130.0,130.0,140.0,140.0,8.5,8.5,4,4,Asia,Japan,Budget
+1206-0,1206,Mazda,MX-5 Superlight Concept,1.8L inline-4,200,petrol,1798.0,,0,30000.0,35000.0,143.0,143.0,160.0,160.0,7.5,7.5,2,2,Asia,Japan,Midrange
+1207-0,1207,Mazda,Premacy Hydrogen RE,1.3L Wankel + Electric,180,hybrid,1308.0,,0,40000.0,45000.0,200.0,200.0,260.0,260.0,9.5,9.5,5,5,Asia,Japan,Midrange
+1208-0,1208,Mazda,Bongo Truck,2.0L inline-4,130,petrol,1998.0,,0,15000.0,18000.0,120.0,120.0,150.0,150.0,15.0,15.0,2,2,Asia,Japan,Budget
+1209-0,1209,Mazda,Rotary Pickup,1.3L Wankel Rotary Engine,150,petrol,1308.0,,0,18000.0,22000.0,130.0,130.0,160.0,160.0,14.5,14.5,2,2,Asia,Japan,Budget
+1210-0,1210,Mazda,Luce Rotary Coupe,1.3L Wankel Rotary Engine,175,petrol,1308.0,,0,25000.0,30000.0,135.0,135.0,180.0,180.0,12.0,12.0,4,4,Asia,Japan,Midrange
+1211-0,1211,Mazda,Millenia S,2.5L v6,220,petrol,2500.0,,0,30000.0,35000.0,200.0,200.0,250.0,250.0,8.0,8.0,5,5,Asia,Japan,Midrange
+1212-0,1212,Mazda,787B (Race Car),2.6L Wankel Rotary Engine,320,petrol,2620.0,,0,5000000.0,7000000.0,700.0,700.0,500.0,500.0,3.5,3.5,1,1,Asia,Japan,Supercar
+1213-0,1213,Toyota,Crown Signia,2.5L Hybrid i4,180,hybrid,2487.0,,0,43590.0,48000.0,240.0,240.0,239.0,239.0,7.6,7.6,5,5,Asia,Japan,Midrange
+1214-0,1214,Toyota,4Runner (6th Gen),2.4L Turbo i4 (i-FORCE MAX Hybrid),180,hybrid,2393.0,,0,50000.0,50000.0,326.0,326.0,630.0,630.0,6.8,6.8,7,7,Asia,Japan,Midrange
+1215-0,1215,Toyota,Corolla Cross,2.0L Gas,190,petrol,1987.0,,0,25210.0,29135.0,-196.0,169.0,-210.0,190.0,8.0,8.0,5,5,Asia,Japan,Midrange
+1215-1,1215,Toyota,Corolla Cross,2.0L Hybrid,190,hybrid,1987.0,,1,25210.0,29135.0,-196.0,169.0,-210.0,190.0,8.0,8.0,5,5,Asia,Japan,Midrange
+1216-0,1216,Toyota,C-HR+ ,1.8L,180,hybrid,1987.0,,0,33000.0,33000.0,-198.0,140.0,-205.0,190.0,7.9,7.9,5,5,Asia,Japan,Midrange
+1216-1,1216,Toyota,C-HR+ ,2.0L Hybrid,180,hybrid,1798.0,,1,33000.0,33000.0,-198.0,140.0,-205.0,190.0,7.9,7.9,5,5,Asia,Japan,Midrange
+1217-0,1217,Toyota,RAV4 (6th Gen),2.5L Hybrid,200,hybrid,2487.0,,0,29000.0,43000.0,-302.0,219.0,-400.0,221.0,6.0,6.0,5,5,Asia,Japan,Midrange
+1217-1,1217,Toyota,RAV4 (6th Gen),Plug-in Hybrid,200,electric,2487.0,,1,29000.0,43000.0,-302.0,219.0,-400.0,221.0,6.0,6.0,5,5,Asia,Japan,Midrange
