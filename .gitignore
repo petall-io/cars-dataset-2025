@@ -27,3 +27,6 @@ Thumbs.db
 # Large data files (adjust as needed)
 data/raw/
 data/processed/
+
+# csvs
+*.csv
